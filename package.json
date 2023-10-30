@@ -16,8 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "npx prettier --write ./src/**/*.{js,jsx,ts,tsx}",
-    "build-tailwind": "npx tailwindcss -i ./src/index.css -o ./src/main.css --watch"
+    "prettier": "npx prettier --write ./src/**/*.{js,jsx}",
+    "build-tailwind": "npx tailwindcss -i ./src/index.css -o ./src/main.css --watch",
+    "lint": "npx eslint src/"
   },
   "eslintConfig": {
     "extends": [

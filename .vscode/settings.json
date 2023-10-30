@@ -1,0 +1,7 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.singleQuote": true
+}
