@@ -1,29 +1,29 @@
-import React from 'react';
-import NavbarLink from './NavbarLink';
+import React from "react";
+import NavbarLink from "./NavbarLink";
 
 const NavbarMainLinks = () => {
   return (
-    <ul className='w-full max-w-3xl m-auto list-none flex justify-center'>
+    <ul className="w-full max-w-3xl m-auto list-none flex justify-center">
       <li>
-        <NavbarLink name={'About'} link={'/'} />
+        <NavbarLink name={"About"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={'Academics'} link={'/'} />
+        <NavbarLink name={"Academics"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={'Admissions'} link={'/'} />
+        <NavbarLink name={"Admissions"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={'Athletics'} link={'/'} />
+        <NavbarLink name={"Athletics"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={'Campus Life'} link={'/'} />
+        <NavbarLink name={"Campus Life"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={'Community'} link={'/'} />
+        <NavbarLink name={"Community"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={'Research'} link={'/'} />
+        <NavbarLink name={"Research"} link={"/"} />
       </li>
     </ul>
   );
