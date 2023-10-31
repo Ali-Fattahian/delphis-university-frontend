@@ -1,5 +1,6 @@
 import React from 'react';
 import { MagnifyingGlassIcon, Bars3Icon } from '@heroicons/react/24/outline';
+import NavbarMainLinks from './NavbarMainLinks';
 
 const Navbar = () => {
   return (
@@ -25,71 +26,14 @@ const Navbar = () => {
               Tour
             </a>
           </li>
-          <li className='transition-all transition-duration-400 hover:bg-white py-2'>
-            <MagnifyingGlassIcon className='h-5 w-5 mx-1 stroke-slate-100 cursor-pointer hover:stroke-vggreen' />
+          <li className='transition-all transition-duration-400 hover:bg-white py-2 group'>
+            <MagnifyingGlassIcon className='h-5 w-5 stroke-slate-100 cursor-pointer group-hover:stroke-vggreen mx-2' />
           </li>
         </ul>
         <Bars3Icon className='stroke-vgblue h-5 w-5 mx-1 cursor-pointer opacity-90 hover:opacity-100 inline-block min-[720px]:hidden m-2' />
       </nav>
       <nav className='w-full px-4 py-3 bg-gradient-to-r hidden min-[720px]:block from-vgblue via-[#252874] to-blue-900'>
-        <ul className='w-full max-w-3xl m-auto list-none flex justify-center'>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              Academics
-            </a>
-          </li>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              Admissions
-            </a>
-          </li>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              Athletics
-            </a>
-          </li>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              Campus Life
-            </a>
-          </li>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              Community
-            </a>
-          </li>
-          <li>
-            <a
-              href='/'
-              className='pb-2 px-3 transition-all duration-400 hover:opacity-100 text-white opacity-90'
-            >
-              Research
-            </a>
-          </li>
-        </ul>
+        <NavbarMainLinks />
       </nav>
     </>
   );
