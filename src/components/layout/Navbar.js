@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <NavbarhamMenu hideHamMenu={hideHamMenu} />
       <nav className="w-full bg-vgyellow flex justify-between min-[720px]:flex-row items-center">
-        <h1 className="text-1xl/6 flex-2 pl-2 text-left font-sans leading-3 font-bold text-slate-800 z-10">
+        <h1 className="text-1xl/6 flex-2 pl-2 text-left font-sans leading-3 font-bold text-slate-800 z-10 p-3 hidden min-[720px]:inline-block">
           THE UNIVERSITY OF DELPHIS
         </h1>
         <ul className="w-full max-w-3xl m-auto list-none min-[720px]:flex flex-1 justify-end pr-4 hidden">
@@ -34,10 +34,15 @@ const Navbar = () => {
             <MagnifyingGlassIcon className="h-5 w-5 stroke-slate-100 cursor-pointer group-hover:stroke-vggreen mx-2" />
           </li>
         </ul>
-        <Bars3Icon
-          className="stroke-vgblue h-5 w-5 mx-1 cursor-pointer opacity-90 hover:opacity-100 inline-block min-[720px]:hidden m-2 z-10"
-          onClick={() => setHideHamMenu((prevState) => !prevState)}
-        />
+        <div className="z-10 fixed top-0 right-0 w-full bg-vgyellow flex justify-between min-[720px]:hidden">
+          <h1 className="text-1xl/6 flex-2 pl-2 text-left font-sans leading-3 font-bold text-slate-800 z-10 p-3">
+            THE UNIVERSITY OF DELPHIS
+          </h1>
+          <Bars3Icon
+            className="stroke-black h-5 w-5 mx-1 cursor-pointer opacity-90 hover:opacity-100 inline-block m-2"
+            onClick={() => setHideHamMenu((prevState) => !prevState)}
+          />
+        </div>
       </nav>
       <nav className="w-full px-4 py-3 bg-gradient-to-r hidden min-[720px]:block from-vgblue via-[#252874] to-blue-900">
         <NavbarMainLinks />

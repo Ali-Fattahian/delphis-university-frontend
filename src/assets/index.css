@@ -14,3 +14,7 @@
 .hide-navbar {
   right: -100%;
 }
+
+li {
+  overflow-y: hidden;
+}
