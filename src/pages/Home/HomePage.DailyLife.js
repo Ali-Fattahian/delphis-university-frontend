@@ -19,24 +19,28 @@ const HomePageDailyLife = () => {
           title="Student Life"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
         <CardNoBorder
           imageURL={imageURL}
           title="Safety & Support"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
         <CardNoBorder
           imageURL={imageURL}
           title="Diversity"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
         <CardNoBorder
           imageURL={imageURL}
           title="Student Housing"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
       </div>
       <div className="w-full flex text-center justify-center items-center mt-12">

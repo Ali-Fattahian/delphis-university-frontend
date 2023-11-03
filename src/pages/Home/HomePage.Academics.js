@@ -19,18 +19,21 @@ const HomePageAcademics = () => {
           title="Undergraduate"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
         <CardNoBorder
           imageURL={imageURL}
           title="Graduate"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
         <CardNoBorder
           imageURL={imageURL}
           title="UD Online"
           text="Research Project Advancing Tools To Remotely Monitor Water Quality"
           maxWidth={400}
+          link="/"
         />
       </div>
       <div className="w-full flex flex-col gap-3 text-center justify-center items-center min-[620px]:flex-row mt-12">

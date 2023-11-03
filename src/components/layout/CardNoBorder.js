@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardNoBorder = ({ maxWidth, imageURL, title, text }) => {
+const CardNoBorder = ({ maxWidth, imageURL, title, text, link }) => {
   return (
     <div
       className="flex flex-col gap-4 items-center m-auto"
@@ -11,7 +11,9 @@ const CardNoBorder = ({ maxWidth, imageURL, title, text }) => {
         src={imageURL}
         alt="Alternative text"
       />
-      <a className="text-vgyellow hover:underline cursor-pointer">{title}</a>
+      <a className="text-vgyellow hover:underline cursor-pointer" href={link}>
+        {title}
+      </a>
       <p className="text-sm text-slate-800">{text}</p>
     </div>
   );
