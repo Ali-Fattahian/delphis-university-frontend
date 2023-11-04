@@ -6,7 +6,7 @@ import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
 const HomePageCommunity = () => {
   const [show, setShow] = useState(0);
   return (
-    <div className="p-6 bg-slate-200">
+    <div className="p-6 bg-slate-100">
       <div className="my-10 flex-row flex gap-10 justify-center">
         <div className="flex flex-col group">
           <h1

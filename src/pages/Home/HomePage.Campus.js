@@ -1,4 +1,5 @@
 import React from "react";
+import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
 
 const imageURL = require("../../assets/images/university.jpeg");
 
@@ -24,18 +25,8 @@ const HomePageCampus = () => {
               electronic typesetting, remaining essentially unchanged.
             </p>
             <div className="p-6 flex flex-col gap-4 justify-center items-center max-w-[500px] m-auto">
-              <a
-                href="/"
-                className="px-4 py-3 bg-transparent text-white text-sm font-semibold border-[1px]  transition-colors duration-300 hover:bg-[#ffffff14] min-[270px]:min-w-[200px]"
-              >
-                SCHEDULE A TOUR
-              </a>
-              <a
-                href="/"
-                className="px-4 py-3 bg-transparent text-white text-sm font-semibold border-[1px]  transition-colors duration-300 hover:bg-[#ffffff14] min-[270px]:min-w-[200px]"
-              >
-                OUR HOMETOWN
-              </a>
+              <LinkButtonTransparent name="SCHEDULE A TOUR" link="/" />
+              <LinkButtonTransparent name="OUR HOMETOWN" link="/" />
             </div>
           </div>
         </div>

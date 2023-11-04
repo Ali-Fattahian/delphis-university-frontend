@@ -6,7 +6,7 @@ const imageURL = require("../../assets/images/pexels-ivan-samkov-5676678.jpeg");
 
 const HomePageDailyLife = () => {
   return (
-    <div className="flex flex-col gap-6 mt-10 bg-slate-200 p-6">
+    <div className="flex flex-col gap-6 mt-10 bg-slate-100 p-6">
       <h1 className="text-4xl cursor-pointer overflow-y-hidden text-center">
         LIFE AT UD
       </h1>
