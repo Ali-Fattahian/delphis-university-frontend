@@ -20,18 +20,21 @@ const HomePageAcademics = () => {
             text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
             link: "/",
             imageURL: imageURL,
+            key: 1,
           },
           {
             title: "Undergraduate",
             text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
             link: "/",
             imageURL: imageURL,
+            key: 2,
           },
           {
             title: "UD Online",
             text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
             link: "/",
             imageURL: imageURL,
+            key: 3,
           },
         ]}
       />

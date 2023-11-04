@@ -6,6 +6,7 @@ const CardNoBorderContainer = ({ cardsArr }) => {
     <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-6 justify-center">
       {cardsArr.map((card) => (
         <CardNoBorder
+          key={card.key}
           imageURL={card.imageURL}
           title={card.title}
           text={card.text}

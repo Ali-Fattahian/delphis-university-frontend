@@ -20,18 +20,21 @@ const HomePageDailyLife = () => {
             text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
             link: "/",
             imageURL: imageURL,
+            key: 1,
           },
           {
             title: "Diversity",
             text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
             link: "/",
             imageURL: imageURL,
+            key: 2,
           },
           {
             title: "Student Housing",
             text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
             link: "/",
             imageURL: imageURL,
+            key: 3,
           },
         ]}
       />
