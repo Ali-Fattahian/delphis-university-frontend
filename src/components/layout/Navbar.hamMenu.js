@@ -25,10 +25,18 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
             Tour
           </a>
         </li>
+        <li>
+          <a
+            href="/"
+            className="transition-all text-white font-bold duration-300 text-sm p-4"
+          >
+            About
+          </a>
+        </li>
       </ul>
       <ul className="flex flex-col gap-4 p-3 bg-gradient-to-t from-vgblue via-[#252874] to-blue-900">
         <li>
-          <NavbarHamMenuMainNavLink name="About" link="/" />
+          <NavbarHamMenuMainNavLink name="Faculty" link="/faculty" />
         </li>
         <li>
           <NavbarHamMenuMainNavLink name="Academics" link="/" />

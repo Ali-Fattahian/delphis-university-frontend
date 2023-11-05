@@ -5,6 +5,7 @@ import ResearchResourcesPage from "./pages/Research/ResearchResourcesPage";
 import ResearchCenterPage from "./pages/Research/ResearchCenterPage";
 import CommunityPage from "./pages/CommunityPage";
 import ApplyPage from "./pages/ApplyPage";
+import FacultyPage from "./pages/Faculty/FacultyPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route element={<ResearchCenterPage />} path="/research-center" />
         <Route element={<CommunityPage />} path="/community" />
         <Route element={<ApplyPage />} path="/apply" />
+        <Route element={<FacultyPage />} path="/faculty" />
       </Routes>
     </Router>
   );

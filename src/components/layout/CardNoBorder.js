@@ -6,11 +6,7 @@ const CardNoBorder = ({ maxWidth, imageURL, title, text, link }) => {
       className="flex flex-col gap-4 items-center m-auto"
       style={{ maxWidth: maxWidth + "px" }}
     >
-      <img
-        className="object-cover aspect-square"
-        src={imageURL}
-        alt="Alternative text"
-      />
+      <img className="object-cover aspect-square" src={imageURL} alt={title} />
       <a
         className="text-vgyellow hover:underline cursor-pointer w-full"
         href={link}

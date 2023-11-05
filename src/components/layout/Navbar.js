@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul className="w-full max-w-3xl m-auto list-none min-[720px]:flex flex-1 justify-end pr-4 hidden">
           <li className="transition-all duration-300 hover:bg-white">
             <a
-              href="/"
+              href="/apply"
               className="py-5 px-3 align-sub transition-all duration-300 hover:text-vggreen text-white text-sm"
             >
               Apply
@@ -28,6 +28,14 @@ const Navbar = () => {
               className="py-5 px-3 transition-all align-sub duration-300 hover:text-vggreen text-white text-sm"
             >
               Tour
+            </a>
+          </li>
+          <li className="transition-all duration-300 hover:bg-white">
+            <a
+              href="/"
+              className="py-5 px-3 transition-all align-sub duration-300 hover:text-vggreen text-white text-sm"
+            >
+              About
             </a>
           </li>
           <li className="transition-all duration-300 hover:bg-white py-2 group">

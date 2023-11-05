@@ -5,13 +5,13 @@ const NavbarMainLinks = () => {
   return (
     <ul className="w-full max-w-3xl m-auto list-none flex justify-center">
       <li>
-        <NavbarLink name={"About"} link={"/"} />
+        <NavbarLink name={"Faculty"} link={"/faculty"} />
       </li>
       <li>
         <NavbarLink name={"Academics"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={"Admissions"} link={"/"} />
+        <NavbarLink name={"Admissions"} link={"/apply"} />
       </li>
       <li>
         <NavbarLink name={"Athletics"} link={"/"} />
