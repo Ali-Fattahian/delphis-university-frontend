@@ -11,7 +11,7 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
       <ul className="flex flex-col gap-4 p-3 bg-gradient-to-t from-[#ffc816] via-[#e3dc1d] to-vgyellow">
         <li>
           <a
-            href="/"
+            href="/apply"
             className="transition-all text-white font-bold duration-300 text-sm p-4"
           >
             Apply

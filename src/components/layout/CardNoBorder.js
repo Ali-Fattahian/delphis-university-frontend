@@ -11,7 +11,10 @@ const CardNoBorder = ({ maxWidth, imageURL, title, text, link }) => {
         src={imageURL}
         alt="Alternative text"
       />
-      <a className="text-vgyellow hover:underline cursor-pointer" href={link}>
+      <a
+        className="text-vgyellow hover:underline cursor-pointer w-full"
+        href={link}
+      >
         {title}
       </a>
       <p className="text-sm text-slate-800">{text}</p>
