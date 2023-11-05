@@ -22,6 +22,7 @@ const ResearchResourcesPage = () => {
       <ImageNextToParagraphMoreInfo
         title="Resources for Faculty"
         text="The Office for Research & Economic Development has the important role of creating and sustaining a strong research environment at The University of Alabama. The research environment is comprised of critical components including culture, facilitation, communication, trust, transparency, infrastructure, and partnerships. ORED provides resources for our faculty to further investigate research interests in a collaborative environment."
+        reverse={true}
         imageLink={imageURL}
         bgColor="vgblue"
         textColor="white"
