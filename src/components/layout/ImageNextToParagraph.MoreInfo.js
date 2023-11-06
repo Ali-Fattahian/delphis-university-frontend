@@ -29,9 +29,9 @@ const ImageNextToParagraphMoreInfo = ({
           )}
         </div>
         <div className="flex flex-col gap-6">
-          <div className="hidden sm:flex sm:flex-col sm:gap-4">
+          <div className="hidden sm:flex sm:flex-col sm:gap-6">
             <h1
-              className={`text-5xl font-bold text-${textColor} overflow-hidden`}
+              className={`text-5xl font-bold text-${textColor} overflow-hidden text-center`}
             >
               {title}
             </h1>

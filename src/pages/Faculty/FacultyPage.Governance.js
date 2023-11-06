@@ -23,7 +23,7 @@ const FacultyPageGovernance = () => {
         classroom and the workplace at UA, or lend your voice by getting
         involved in UD's faculty and staff professional organizations.
       </p>
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-4">
         <div className="flex flex-col">
           <LinkButtonWithIcon
             color="vggreen"

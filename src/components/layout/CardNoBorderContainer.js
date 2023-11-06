@@ -3,7 +3,7 @@ import CardNoBorder from "./CardNoBorder";
 
 const CardNoBorderContainer = ({ cardsArr }) => {
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-6 justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-6 justify-center">
       {cardsArr.map((card) => (
         <CardNoBorder
           key={card.key}

@@ -25,7 +25,7 @@ const FacultyPageServices = () => {
         UD offers many support services to benefit faculty and staff and create
         a positive, enriching work environment.
       </p>
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-4">
         <div className="flex flex-col">
           <LinkButtonWithIcon
             color="vggreen"

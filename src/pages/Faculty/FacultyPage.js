@@ -44,7 +44,7 @@ const FacultyPage = () => {
         <img src={imageURL} alt="Faculty & Staff" />
         <div className="absolute w-full h-full top-0 left-0 bg-[#00000038]"></div>
         <div className="w-full absolute left-0 bottom-0 flex flex-col gap-6 p-6 sm:w-3/4">
-          <h1 className="text-neutral-300 font-bold text-4xl sm:text-5xl">
+          <h1 className="text-neutral-300 font-bold text-4xl sm:text-5xl overflow-hidden">
             FACULTY AND STAFF
           </h1>
           <p className="text-neutral-300 font-bold">
@@ -73,7 +73,7 @@ const FacultyPage = () => {
           committed to providing a safe environment for all members of our
           community.
         </p>
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4 justify-center">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-4 justify-center">
           <LinkButtonWithIcon
             color="vggreen"
             name="University Police"
