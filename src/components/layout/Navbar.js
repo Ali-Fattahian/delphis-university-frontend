@@ -24,7 +24,7 @@ const Navbar = () => {
           </li>
           <li className="transition-all duration-300 hover:bg-white">
             <a
-              href="/"
+              href="/tour"
               className="py-5 px-3 transition-all align-sub duration-300 hover:text-vggreen text-white text-sm"
             >
               Tour

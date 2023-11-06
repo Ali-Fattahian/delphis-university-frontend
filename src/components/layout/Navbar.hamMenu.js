@@ -19,7 +19,7 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
         </li>
         <li>
           <a
-            href="/"
+            href="/tour"
             className="transition-all text-white font-bold duration-300 text-sm p-4"
           >
             Tour
