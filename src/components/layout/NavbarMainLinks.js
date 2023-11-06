@@ -20,7 +20,7 @@ const NavbarMainLinks = () => {
         <NavbarLink name={"Campus Life"} link={"/"} />
       </li>
       <li>
-        <NavbarLink name={"Community"} link={"/"} />
+        <NavbarLink name={"Community"} link={"/community"} />
       </li>
       <li>
         <NavbarLink name={"Research"} link={"/"} />

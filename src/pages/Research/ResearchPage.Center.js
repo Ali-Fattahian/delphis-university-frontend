@@ -1,19 +1,16 @@
 import React from "react";
 import ImageNextToParagraph from "../../components/layout/ImageNextToParagraph.MoreInfo";
 import ArrowRightIcon from "@heroicons/react/24/outline/ArrowRightIcon";
-import Navbar from "../../components/layout/Navbar";
 import LinkButton from "../../components/utilities/LinkButton";
 import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
 import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
-import Footer from "../../components/layout/Footer";
 
 const imageURL = require("../../assets/images/pexels-suzy-hazelwood-1887609.jpeg");
 const imageURL2 = require("../../assets/images/pexels-christina-morillo-1181534.jpeg");
 
-const ResearchCenterPage = () => {
+const ResearchPageCenter = () => {
   return (
     <>
-      <Navbar />
       <ImageNextToParagraph
         imageLink={imageURL}
         bgColor="white"
@@ -42,8 +39,8 @@ const ResearchCenterPage = () => {
       <ImageNextToParagraph
         classes={{ marginTop: "0" }}
         imageLink={imageURL2}
-        bgColor="vgblue"
-        textColor="white"
+        bgColor="vgskyblue"
+        textColor="black"
         title="ALABAMA ANALYTICAL RESEARCH CENTER"
         text={`AARC supports collaborative, multidisciplinary research involving instruments for electron, ion, and x-ray imaging, diffraction, and spectroscopy. This center works with researchers from UA and other universities, regional institutions, and stakeholders to accelerate discovery in a variety of fields.
         AARC's strength resides in its ability to facilitate transformative advancements through training and direct research assistance.`}
@@ -101,9 +98,8 @@ const ResearchCenterPage = () => {
         }
         classes={{ marginTop: "0" }}
       />
-      <Footer />
     </>
   );
 };
 
-export default ResearchCenterPage;
+export default ResearchPageCenter;
