@@ -8,22 +8,22 @@ const NavbarMainLinks = () => {
         <NavbarLink name={"Faculty"} link={"/faculty"} />
       </li>
       <li>
-        <NavbarLink name={"Academics"} link={"/"} />
+        <NavbarLink name={"Academics"} link={"/academics"} />
       </li>
       <li>
         <NavbarLink name={"Admissions"} link={"/admissions"} />
       </li>
       <li>
-        <NavbarLink name={"Athletics"} link={"/"} />
+        <NavbarLink name={"Athletics"} link={"/athletics"} />
       </li>
       <li>
-        <NavbarLink name={"Campus Life"} link={"/"} />
+        <NavbarLink name={"Campus Life"} link={"/campus-life"} />
       </li>
       <li>
         <NavbarLink name={"Community"} link={"/community"} />
       </li>
       <li>
-        <NavbarLink name={"Research"} link={"/"} />
+        <NavbarLink name={"Research"} link={"/research"} />
       </li>
     </ul>
   );

@@ -27,7 +27,7 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
         </li>
         <li>
           <a
-            href="/"
+            href="/about"
             className="transition-all text-white font-bold duration-300 text-sm p-4"
           >
             About
@@ -39,16 +39,16 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
           <NavbarHamMenuMainNavLink name="Faculty" link="/faculty" />
         </li>
         <li>
-          <NavbarHamMenuMainNavLink name="Academics" link="/" />
+          <NavbarHamMenuMainNavLink name="Academics" link="/academics" />
         </li>
         <li>
           <NavbarHamMenuMainNavLink name="Admissions" link="/admissions" />
         </li>
         <li>
-          <NavbarHamMenuMainNavLink name="Athletics" link="/" />
+          <NavbarHamMenuMainNavLink name="Athletics" link="/athletics" />
         </li>
         <li>
-          <NavbarHamMenuMainNavLink name="Campus Life" link="/" />
+          <NavbarHamMenuMainNavLink name="Campus Life" link="/campus-life" />
         </li>
         <li>
           <NavbarHamMenuMainNavLink name="Community" link="/community" />
