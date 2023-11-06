@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/layout/Navbar";
-import CardNoBorderContainer from "../components/layout/CardNoBorderContainer";
+import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
 import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
 import Footer from "../components/layout/Footer";
@@ -59,16 +59,14 @@ const ApplyPage = () => {
         alt="Apply now"
         className="object-cover translate-y-9 min-[720px]:translate-y-0 max-h-[800px] w-full"
       />
-      <div className="p-6 mt-10 text-left">
-        <h1 className="text-3xl sm:text-5xl mb-6 text-center overflow-hidden">
-          MAKE THE WORLD PROUD
-        </h1>
-        <p className="text-center mb-6">
-          UA establishes partnerships that combine academic and community-based
-          knowledge to improve the quality of life for all.
-        </p>
-        <CardNoBorderContainer cardsArr={cardsArr} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={cardsArr}
+        bgColor={"white"}
+        title={"MAKE THE WORLD PROUD"}
+        text={
+          "UA establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
+        }
+      />
       <ImageNextToParagraphMoreInfo
         classes={{ marginTop: "0" }}
         imageLink={imageURL2}
@@ -87,15 +85,12 @@ const ApplyPage = () => {
           />
         }
       />
-      <div className="p-6 mt-10 text-left">
-        <h1 className="text-3xl sm:text-5xl mb-6 text-center overflow-hidden">
-          SCHOLARSHIPS & FINANCIAL AID
-        </h1>
-        <p className="text-center mb-6">
-          Financial resources for incoming and current students.
-        </p>
-        <CardNoBorderContainer cardsArr={cardsArr2} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={cardsArr2}
+        bgColor={"white"}
+        title={"SCHOLARSHIPS & FINANCIAL AID"}
+        text={"Financial resources for incoming and current students."}
+      />
       <Footer />
     </>
   );

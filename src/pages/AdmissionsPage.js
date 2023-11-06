@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
-import CardNoBorderContainer from "../components/layout/CardNoBorderContainer";
 import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
+import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
 import LinkButton from "../components/utilities/LinkButton";
 import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
@@ -92,16 +92,14 @@ const AdmissionsPage = () => {
           </p>
         </div>
       </div>
-      <div className="bg-white p-10 flex flex-col justify-center gap-6">
-        <h1 className="text-3xl sm:text-5xl text-center overflow-hidden">
-          Undergraduate Admissions
-        </h1>
-        <p className="text center">
-          The highest-achieving students are drawn to UA for its transformative
-          opportunities — their impact limited only by your ambition.
-        </p>
-        <CardNoBorderContainer cardsArr={undergraduates} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={undergraduates}
+        bgColor={"white"}
+        title={"Undergraduate Admissions"}
+        text={
+          "The highest-achieving students are drawn to UA for its transformative opportunities — their impact limited only by your ambition."
+        }
+      />
       <ImageNextToParagraphMoreInfo
         reverse={false}
         bgColor="vgblue"
@@ -119,16 +117,14 @@ const AdmissionsPage = () => {
           </div>
         }
       />
-      <div className="bg-white p-10 flex flex-col justify-center gap-6">
-        <h1 className="text-3xl sm:text-5xl text-center overflow-hidden">
-          Graduate Admissions
-        </h1>
-        <p className="text-center">
-          Choose from over 150 graduate programs to launch your professional and
-          academic career to the highest levels of achievement.
-        </p>
-        <CardNoBorderContainer cardsArr={graduates} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={graduates}
+        bgColor={"white"}
+        title={"Graduate Admissions"}
+        text={
+          "Choose from over 150 graduate programs to launch your professional and academic career to the highest levels of achievement."
+        }
+      />
       <ImageNextToParagraphMoreInfo
         reverse={true}
         bgColor="vggreen"

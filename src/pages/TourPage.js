@@ -5,7 +5,7 @@ import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagr
 import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
 import Card from "../components/layout/Card";
 import LinkButton from "../components/utilities/LinkButton";
-import CardNoBorderContainer from "../components/layout/CardNoBorderContainer";
+import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 
 const imageURLTour = require("../assets/images/Tour.jpeg");
 const imageURL1 = require("../assets/images/Events.jpeg");
@@ -111,13 +111,14 @@ const TourPage = () => {
           classes="max-w-[400px] min-w-[200px] text-center self-center"
         />
       </div>
-      <div className="bg-white p-10 flex flex-col justify-center gap-6">
-        <h1 className="text-3xl sm:text-5xl text-center overflow-hidden">
-          EVENTS ON CAMPUS
-        </h1>
-
-        <CardNoBorderContainer cardsArr={homeTown} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={homeTown}
+        bgColor={"white"}
+        title={"SWEET HOME TUSCALOOSA"}
+        text={
+          "UA is located in Tuscaloosa, Alabama – a vibrant, multicultural community a few hours from several major cities. Our exciting downtown and small-city atmosphere make our home one of the best places to live in the Southeastern United States."
+        }
+      />
       <Footer />
     </>
   );

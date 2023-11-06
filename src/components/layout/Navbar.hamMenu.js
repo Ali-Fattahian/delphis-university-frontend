@@ -54,7 +54,7 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
           <NavbarHamMenuMainNavLink name="Community" link="/community" />
         </li>
         <li>
-          <NavbarHamMenuMainNavLink name="Research" link="research-resources" />
+          <NavbarHamMenuMainNavLink name="Research" link="research" />
         </li>
       </ul>
     </div>

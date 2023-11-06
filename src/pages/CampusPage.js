@@ -1,7 +1,7 @@
 import React from "react";
 
 const CampusPage = () => {
-  return <div>CampusPage</div>;
+  return <></>;
 };
 
 export default CampusPage;

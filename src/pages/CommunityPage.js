@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/layout/Navbar";
 import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
 import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
-import CardNoBorderContainer from "../components/layout/CardNoBorderContainer";
+import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 import Footer from "../components/layout/Footer";
 
 const imageURL = require("../assets/images/community-news.jpeg");
@@ -105,16 +105,14 @@ const CommunityPage = () => {
           />
         }
       />
-      <div className="p-6 mt-4">
-        <h1 className="text-3xl sm:text-5xl mb-6 text-center overflow-hidden">
-          ENGAGED SCHOLARSHIP
-        </h1>
-        <p className="text-center mb-6">
-          UA establishes partnerships that combine academic and community-based
-          knowledge to improve the quality of life for all.
-        </p>
-        <CardNoBorderContainer cardsArr={cardsArr} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={cardsArr}
+        bgColor={"white"}
+        title={"ENGAGED SCHOLARSHIP"}
+        text={
+          "UA establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
+        }
+      />
       <ImageNextToParagraphMoreInfo
         bgColor="vggreen"
         textColor="white"
@@ -141,16 +139,14 @@ const CommunityPage = () => {
           </div>
         }
       />
-      <div className="p-6 mt-4">
-        <h1 className="text-3xl sm:text-5xl mb-6 text-center overflow-hidden">
-          COMMUNITY EDUCATION
-        </h1>
-        <p className="text-center mb-6">
-          Our faculty, staff and students are committed to making a positive
-          impact on Alabama's children and the future of our state and region.
-        </p>
-        <CardNoBorderContainer cardsArr={cardsArr2} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={cardsArr2}
+        bgColor={"white"}
+        title={"COMMUNITY EDUCATION"}
+        text={
+          "Our faculty, staff and students are committed to making a positive impact on Alabama's children and the future of our state and region."
+        }
+      />
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/layout/Navbar";
-import CardNoBorderContainer from "../../components/layout/CardNoBorderContainer";
+import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
 import FacultyPageServices from "./FacultyPage.Services";
 import FacultyPageGovernance from "./FacultyPage.Governance";
 import LinkButtonWithIcon from "../../components/utilities/LinkButtonWithIcon";
@@ -53,15 +53,12 @@ const FacultyPage = () => {
           </p>
         </div>
       </div>
-      <div className="p-6 mt-10 text-left">
-        <h1 className="text-3xl sm:text-5xl mb-6 text-center overflow-hidden">
-          EMPLOYEE RESOURCES
-        </h1>
-        <p className="text-center mb-6">
-          Commonly used employee tools and guides.
-        </p>
-        <CardNoBorderContainer cardsArr={cardsArr} />
-      </div>
+      <CardsNoBorderContainer
+        cardsArr={cardsArr}
+        bgColor={"white"}
+        title={"EMPLOYEE RESOURCES"}
+        text={"Commonly used employee tools and guides."}
+      />
       <FacultyPageServices />
       <FacultyPageGovernance />
       <div className="p-6 my-10">
