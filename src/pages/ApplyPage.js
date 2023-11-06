@@ -57,7 +57,7 @@ const ApplyPage = () => {
       <img
         src={imageURL}
         alt="Apply now"
-        className="object-cover translate-y-9 min-[720px]:translate-y-0"
+        className="object-cover translate-y-9 min-[720px]:translate-y-0 max-h-[800px] w-full"
       />
       <div className="p-6 mt-10 text-left">
         <h1 className="text-3xl sm:text-5xl mb-6 text-center overflow-hidden">

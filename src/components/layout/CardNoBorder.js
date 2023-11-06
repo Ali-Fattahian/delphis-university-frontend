@@ -13,7 +13,7 @@ const CardNoBorder = ({ maxWidth, imageURL, title, text, link }) => {
       >
         {title}
       </a>
-      <p className="text-sm text-slate-800">{text}</p>
+      <p className="text-sm text-slate-800 w-full">{text}</p>
     </div>
   );
 };
