@@ -80,7 +80,7 @@ const CommunityPage = () => {
             COMMUNITY ENGAGEMENT
           </h1>
           <p className="text-white text-xs sm:text-sm md:text-base md:font-semibold">
-            The University of Alabama’s community engagement efforts reflect its
+            The University of Alabama's community engagement efforts reflect its
             core mission to improve the quality of life for the citizens of
             Alabama and beyond through innovative programs in teaching, research
             and service.
@@ -119,14 +119,14 @@ const CommunityPage = () => {
         reverse={false}
         classes={{ marginTop: "0" }}
         title="OMMUNITY-ENGAGED LEARNING"
-        text={`THigh-impact teaching introduces field-based learning to give students direct experience with issues they are studying in the classroom. Students are provided opportunities to apply what they have learned in real-world settings and reflect critically on their service experiences.`}
+        text={`High-impact teaching introduces field-based learning to give students direct experience with issues they are studying in the classroom. Students are provided opportunities to apply what they have learned in real-world settings and reflect critically on their service experiences.`}
         subTitle={`Engaged learning encourages diverse perspectives and student investment in their own education.`}
         imageLink={imageURL2}
         buttonComponent={
           <div className="w-full">
             <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
               <LinkButtonTransparent
-                name="center for service & Leadership"
+                name="Center for service & Leadership"
                 link="/"
                 width={"100%"}
               />
