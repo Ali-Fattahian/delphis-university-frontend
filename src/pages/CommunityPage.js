@@ -5,6 +5,7 @@ import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent
 import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 import Footer from "../components/layout/Footer";
 import useDocumentTitle from "../hooks/useDocumentTitle";
+import TextOnImage from "../components/layout/TextOnImage";
 
 const imageURL = require("../assets/images/community-news.jpeg");
 const imageURL2 = require("../assets/images/pexels-ivan-samkov-5676678.jpeg");
@@ -71,25 +72,14 @@ const CommunityPage = () => {
   return (
     <>
       <Navbar />
-      <div className="relative">
-        <img
-          src={imageURL}
-          alt="Community Engagement"
-          className="w-full object-cover"
-        />
-        <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-b from-[#0000] to-[#0000006a]"></div>
-        <div className="absolute bottom-0 left-0 flex flex-col gap-4 p-4 w-full md:w-3/4">
-          <h1 className="text-1xl min-[335px]:text-2xl font-semibold text-white overflow-hidden sm:text-4xl md:text-5xl text">
-            COMMUNITY ENGAGEMENT
-          </h1>
-          <p className="text-white text-xs sm:text-sm md:text-base md:font-semibold">
-            The University of Alabama's community engagement efforts reflect its
+      <TextOnImage
+        title="COMMUNITY ENGAGEMENT"
+        text={`The University of Alabama's community engagement efforts reflect its
             core mission to improve the quality of life for the citizens of
             Alabama and beyond through innovative programs in teaching, research
-            and service.
-          </p>
-        </div>
-      </div>
+            and service.`}
+        imageURL={imageURL}
+      />
       <ImageNextToParagraphMoreInfo
         bgColor="vgblue"
         textColor="white"

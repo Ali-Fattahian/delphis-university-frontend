@@ -7,6 +7,7 @@ import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent
 import LinkButton from "../components/utilities/LinkButton";
 import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
 import useDocumentTitle from "../hooks/useDocumentTitle";
+import TextOnImage from "../components/layout/TextOnImage";
 
 const imageURL = require("../assets/images/Future.jpeg");
 
@@ -82,19 +83,12 @@ const AdmissionsPage = () => {
   return (
     <>
       <Navbar />
-      <div className="relative w-full">
-        <img src={imageURL} alt="Admissions" />
-        <div className="absolute w-full h-full top-0 left-0 bg-[#00000038]"></div>
-        <div className="w-full absolute left-0 bottom-0 flex flex-col gap-6 p-6 sm:w-3/4">
-          <h1 className="text-white font-bold text-4xl sm:text-5xl overflow-hidden">
-            Admissions
-          </h1>
-          <p className="text-white font-bold">
-            Expand Your Boundaries. Explore Your Passion. Build Your Dream.
-            Become a Legend.
-          </p>
-        </div>
-      </div>
+      <TextOnImage
+        title="Admissions"
+        text={`Expand Your Boundaries. Explore Your Passion. Build Your Dream.
+            Become a Legend.`}
+        imageURL={imageURL}
+      />
       <CardsNoBorderContainer
         cardsArr={undergraduates}
         bgColor={"white"}

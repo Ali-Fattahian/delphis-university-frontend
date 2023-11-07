@@ -9,6 +9,7 @@ import BellAlertIcon from "@heroicons/react/24/outline/BellAlertIcon";
 import BuildingOffice2Icon from "@heroicons/react/24/outline/BuildingOffice2Icon";
 import Footer from "../../components/layout/Footer";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
+import TextOnImage from "../../components/layout/TextOnImage";
 
 const imageURL = require("../../assets/images/apply.jpeg");
 const imageURL2 = require("../../assets/images/pexels-suzy-hazelwood-1887609.jpeg");
@@ -43,19 +44,12 @@ const FacultyPage = () => {
   return (
     <>
       <Navbar />
-      <div className="relative w-full">
-        <img src={imageURL} alt="Faculty & Staff" />
-        <div className="absolute w-full h-full top-0 left-0 bg-[#00000038]"></div>
-        <div className="w-full absolute left-0 bottom-0 flex flex-col gap-6 p-6 sm:w-3/4">
-          <h1 className="text-neutral-300 font-bold text-4xl sm:text-5xl overflow-hidden">
-            FACULTY AND STAFF
-          </h1>
-          <p className="text-neutral-300 font-bold">
-            Resources and information for navigating your career at the
-            Capstone.
-          </p>
-        </div>
-      </div>
+      <TextOnImage
+        title="FACULTY AND STAFF"
+        text={`            Resources and information for navigating your career at the
+            Capstone.`}
+        imageURL={imageURL}
+      />
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"white"}

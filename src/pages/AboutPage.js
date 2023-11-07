@@ -5,6 +5,7 @@ import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer"
 import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
 import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
 import useDocumentTitle from "../hooks/useDocumentTitle";
+import TextOnImage from "../components/layout/TextOnImage";
 
 const AboutPage = () => {
   const imageURL = require("../assets/images/Events.jpeg");
@@ -45,24 +46,13 @@ const AboutPage = () => {
   return (
     <>
       <Navbar />
-      <div className="relative">
-        <img
-          src={imageURL}
-          alt="Community Engagement"
-          className="w-full object-cover"
-        />
-        <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-b from-[#0000] to-[#0000006a]"></div>
-        <div className="absolute bottom-0 left-0 flex flex-col gap-4 p-4 w-full md:w-3/4">
-          <h1 className="text-1xl min-[335px]:text-2xl font-semibold text-white overflow-hidden sm:text-4xl md:text-5xl text">
-            ABOUT UA
-          </h1>
-          <p className="text-white text-xs sm:text-sm md:text-base md:font-semibold">
-            Founded in 1831 as the state's flagship university, The University
+      <TextOnImage
+        title="ABOUT UD"
+        text={`Founded in 1831 as the state's flagship university, The University
             of Alabama has always focused on being the best. This is Where
-            Legends Are Made.
-          </p>
-        </div>
-      </div>
+            Legends Are Made.`}
+        imageURL={imageURL}
+      />
       <CardsNoBorderContainer
         title="ABOUT THE UNIVERSITY"
         text="We are dedicated to excellence in teaching, research and service. We provide a robust campus environment where our students can reach their greatest potential while learning from the best and brightest faculty and making a positive difference in the community, the state and the world.        "
