@@ -8,11 +8,14 @@ import ShieldExclamationIcon from "@heroicons/react/24/outline/ShieldExclamation
 import BellAlertIcon from "@heroicons/react/24/outline/BellAlertIcon";
 import BuildingOffice2Icon from "@heroicons/react/24/outline/BuildingOffice2Icon";
 import Footer from "../../components/layout/Footer";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 const imageURL = require("../../assets/images/apply.jpeg");
 const imageURL2 = require("../../assets/images/pexels-suzy-hazelwood-1887609.jpeg");
 
 const FacultyPage = () => {
+  useDocumentTitle("Faculty & Staff");
+
   const cardsArr = [
     {
       key: 1,

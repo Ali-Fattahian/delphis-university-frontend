@@ -4,6 +4,7 @@ import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagr
 import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
 import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 import Footer from "../components/layout/Footer";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const imageURL = require("../assets/images/community-news.jpeg");
 const imageURL2 = require("../assets/images/pexels-ivan-samkov-5676678.jpeg");
@@ -11,6 +12,8 @@ const imageURL3 = require("../assets/images/pexels-christina-morillo-1181534.jpe
 const imageURL4 = require("../assets/images/pexels-pavel-danilyuk-7942550.jpeg");
 
 const CommunityPage = () => {
+  useDocumentTitle("Community");
+
   const cardsArr = [
     {
       key: 1,

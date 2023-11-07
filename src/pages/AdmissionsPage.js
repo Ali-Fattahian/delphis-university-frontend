@@ -6,6 +6,7 @@ import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer"
 import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
 import LinkButton from "../components/utilities/LinkButton";
 import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const imageURL = require("../assets/images/Future.jpeg");
 
@@ -14,6 +15,8 @@ const imageURL2 = require("../assets/images/Hometown.jpeg");
 const imageURL3 = require("../assets/images/pexels-artem-podrez-5715850.jpeg");
 
 const AdmissionsPage = () => {
+  useDocumentTitle("Admissions");
+
   const undergraduates = [
     {
       key: 1,

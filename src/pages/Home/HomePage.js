@@ -6,8 +6,11 @@ import HomePageDailyLife from "./HomePage.DailyLife";
 import HomePageApply from "./HomePage.Apply";
 import Footer from "../../components/layout/Footer";
 import HomePageCampus from "./HomePage.Campus";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 const HomePage = () => {
+  useDocumentTitle("Home");
+
   return (
     <div>
       <HomePageHeader />

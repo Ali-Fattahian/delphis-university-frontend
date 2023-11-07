@@ -4,11 +4,14 @@ import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer"
 import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
 import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
 import Footer from "../components/layout/Footer";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const imageURL = require("../assets/images/university.jpeg");
 const imageURL2 = require("../assets/images/pexels-pavel-danilyuk-7942550.jpeg");
 
 const ApplyPage = () => {
+  useDocumentTitle("Apply");
+
   const cardsArr = [
     {
       key: 1,

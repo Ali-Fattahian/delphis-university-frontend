@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const imageURL = require("../assets/images/Login.jpeg");
 
 const LoginPage = () => {
+  useDocumentTitle("Login");
+
   const [forgotPasswordOpen, setForgotPasswordOpen] = useState(false);
 
   return (

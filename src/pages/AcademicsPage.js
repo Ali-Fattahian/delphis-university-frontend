@@ -1,7 +1,10 @@
 import React from "react";
 import Navbar from "../components/layout/Navbar";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const AcademicsPage = () => {
+  useDocumentTitle("Academics");
+
   const imageURL = require("../assets/images/Hometown.jpeg");
 
   return (
