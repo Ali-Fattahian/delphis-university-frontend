@@ -620,6 +620,10 @@ video {
   z-index: 5;
 }
 
+.z-\[9\] {
+  z-index: 9;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -1331,6 +1335,10 @@ video {
   background-color: #00000038;
 }
 
+.bg-\[\#00000050\] {
+  background-color: #00000050;
+}
+
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -1670,8 +1678,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.bg-\[\#00000096\] {
+  background-color: #00000096;
 }
 
 .bg-gradient-to-l {
@@ -1684,12 +1692,6 @@ video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.from-\[\#0000\] {
-  --tw-gradient-from: #0000 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-\[\#ffc816\] {
@@ -1712,10 +1714,6 @@ video {
 .via-\[\#e3dc1d\] {
   --tw-gradient-to: rgb(227 220 29 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #e3dc1d var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.to-\[\#0000006a\] {
-  --tw-gradient-to: #0000006a var(--tw-gradient-to-position);
 }
 
 .to-\[\#3e617a\] {
@@ -2475,13 +2473,6 @@ li {
   }
 }
 
-@media (min-width: 335px) {
-  .min-\[335px\]\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
 @media (min-width: 400px) {
   .min-\[400px\]\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2551,19 +2542,9 @@ li {
     gap: 1.5rem;
   }
 
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }
 
@@ -2596,10 +2577,6 @@ li {
 }
 
 @media (min-width: 768px) {
-  .md\:w-3\/4 {
-    width: 75%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2610,20 +2587,6 @@ li {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .md\:font-semibold {
-    font-weight: 600;
   }
 }
 

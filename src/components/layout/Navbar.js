@@ -2,13 +2,21 @@ import React, { useState } from "react";
 import { MagnifyingGlassIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import NavbarMainLinks from "./NavbarMainLinks";
 import NavbarhamMenu from "./Navbar.hamMenu";
+import Overlay from "../Overlay";
 
 const Navbar = () => {
   const [hideHamMenu, setHideHamMenu] = useState(true);
+  const [overlayVisible, setOverlayVisible] = useState(false);
+
+  const setOverlayClicked = () => {
+    setOverlayVisible(false);
+    setHideHamMenu(true);
+  };
 
   return (
     <>
       <NavbarhamMenu hideHamMenu={hideHamMenu} />
+      {overlayVisible && <Overlay setOverlayClicked={setOverlayClicked} />}
       <nav className="w-full bg-vgyellow flex justify-between min-[720px]:flex-row items-center">
         <h1 className="text-1xl/6 flex-2 pl-2 text-left font-sans leading-3 font-bold text-slate-800 z-10 p-3 hidden min-[720px]:inline-block">
           THE UNIVERSITY OF DELPHIS
@@ -48,7 +56,10 @@ const Navbar = () => {
           </h1>
           <Bars3Icon
             className="stroke-black h-5 w-5 mx-1 cursor-pointer opacity-90 hover:opacity-100 inline-block m-2"
-            onClick={() => setHideHamMenu((prevState) => !prevState)}
+            onClick={() => {
+              setHideHamMenu((prevState) => !prevState);
+              setOverlayVisible((prevState) => !prevState);
+            }}
           />
         </div>
       </nav>

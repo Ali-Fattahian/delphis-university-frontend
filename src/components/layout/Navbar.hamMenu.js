@@ -4,7 +4,7 @@ import NavbarHamMenuMainNavLink from "./Navbar.HamMenu.MainNavLink";
 const NavbarhamMenu = ({ hideHamMenu }) => {
   return (
     <div
-      className={`h-vh h-screen flex min-[720px]:hidden flex-row-reverse fixed z-[5] right-0 top-0 transition-all ease-in-out duration-500 bg-vgyellow pt-9 ${
+      className={`h-vh h-screen z-[9] flex min-[720px]:hidden flex-row-reverse fixed right-0 top-0 transition-all ease-in-out duration-500 bg-vgyellow pt-9 ${
         hideHamMenu && "hide-navbar"
       }`}
     >
