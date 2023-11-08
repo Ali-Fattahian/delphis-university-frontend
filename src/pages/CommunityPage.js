@@ -8,7 +8,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 import TextOnImage from "../components/layout/TextOnImage";
 
 const imageURL = require("../assets/images/community-news.jpeg");
-const imageURL2 = require("../assets/images/pexels-ivan-samkov-5676678.jpeg");
+const imageURL2 = require("../assets/images/academics - graduates.jpeg");
 const imageURL3 = require("../assets/images/pexels-christina-morillo-1181534.jpeg");
 const imageURL4 = require("../assets/images/pexels-pavel-danilyuk-7942550.jpeg");
 

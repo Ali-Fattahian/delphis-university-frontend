@@ -9,11 +9,18 @@ import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import TextOnImage from "../components/layout/TextOnImage";
 
-const imageURL = require("../assets/images/Future.jpeg");
-
-const imageURL1 = require("../assets/images/apply.jpeg");
-const imageURL2 = require("../assets/images/Hometown.jpeg");
-const imageURL3 = require("../assets/images/pexels-artem-podrez-5715850.jpeg");
+const admissionsImage = require("../assets/images/admissions.jpeg");
+const applyImage = require("../assets/images/admissions - apply.jpeg");
+const requestInfoImage = require("../assets/images/admissions - request information.jpeg");
+const scheduleVisitImage = require("../assets/images/admissions - schedule visit.jpeg");
+const internationalAdmissionsImage = require("../assets/images/admissions - international.jpeg");
+const recruiterImage = require("../assets/images/admissions - recruiter.jpeg");
+const graduateAdmissionsImage = require("../assets/images/admissions - graduate.jpeg");
+const internationalGradsImage = require("../assets/images/admissions - international graduates.jpeg");
+const gradsProgramsImage = require("../assets/images/admissions - graduate programs.jpeg");
+const financialAidImage = require("../assets/images/admissions - financial aid .jpeg");
+const transferImage = require("../assets/images/admissions - transfer.jpeg");
+const distanceImage = require("../assets/images/admissions - distance education.jpeg");
 
 const AdmissionsPage = () => {
   useDocumentTitle("Admissions");
@@ -23,35 +30,35 @@ const AdmissionsPage = () => {
       key: 1,
       title: "Apply Now",
       text: "Apply for admission.",
-      imageURL: imageURL1,
+      imageURL: applyImage,
       link: "/",
     },
     {
       key: 2,
       title: "Request Information",
       text: "Contact admissions or request printed materials.",
-      imageURL: imageURL1,
+      imageURL: requestInfoImage,
       link: "/",
     },
     {
       key: 3,
       title: "Schedule a Visit",
       text: "Guided tours of campus options.",
-      imageURL: imageURL1,
+      imageURL: scheduleVisitImage,
       link: "/",
     },
     {
       key: 4,
       title: "International Admissions",
       text: "Connect with a regional recruiter in your area.",
-      imageURL: imageURL1,
+      imageURL: internationalAdmissionsImage,
       link: "/",
     },
     {
       key: 5,
       title: "Find Your Recruiter",
       text: "Admissions for international students who are entering freshmen.",
-      imageURL: imageURL1,
+      imageURL: recruiterImage,
       link: "/",
     },
   ];
@@ -61,21 +68,21 @@ const AdmissionsPage = () => {
       key: 1,
       title: "Graduate Admissions",
       text: "Learn admissions requirements and apply for graduate school.",
-      imageURL: imageURL3,
+      imageURL: graduateAdmissionsImage,
       link: "/",
     },
     {
       key: 2,
       title: "International Graduate Admissions",
       text: "Admissions for international students who wish to continue their graduate education.",
-      imageURL: imageURL3,
+      imageURL: internationalGradsImage,
       link: "/",
     },
     {
       key: 3,
       title: "Graduate Programs",
-      text: "Explore more than 150 master's, educational specialist and doctoral degree programs.",
-      imageURL: imageURL3,
+      text: "Explore the master's, educational specialist and doctoral degree programs.",
+      imageURL: gradsProgramsImage,
       link: "/",
     },
   ];
@@ -87,14 +94,14 @@ const AdmissionsPage = () => {
         title="Admissions"
         text={`Expand Your Boundaries. Explore Your Passion. Build Your Dream.
             Become a Legend.`}
-        imageURL={imageURL}
+        imageURL={admissionsImage}
       />
       <CardsNoBorderContainer
         cardsArr={undergraduates}
         bgColor={"white"}
         title={"Undergraduate Admissions"}
         text={
-          "The highest-achieving students are drawn to UA for its transformative opportunities — their impact limited only by your ambition."
+          "The highest-achieving students are drawn to Delphis university for its transformative opportunities — their impact limited only by your ambition."
         }
       />
       <ImageNextToParagraphMoreInfo
@@ -102,10 +109,8 @@ const AdmissionsPage = () => {
         bgColor="vgblue"
         classes={{ marginTop: "0" }}
         textColor="white"
-        imageLink={imageURL2}
-        text={
-          "Find the information and assistance you need to finance the cost of an education at The University of Alabama.The financial aid staff is dedicated to making the financial aid process as straightforward as possible whether you are applying for grants, loans, work study or student employment."
-        }
+        imageLink={financialAidImage}
+        text={`Delphis is committed to being financially accessible to students from all backgrounds and from around the world. All financial aid is need-based to ensure that talented students can afford a Delphis education, regardless of their economic resources.`}
         title="FINANCIAL AID & SCHOLARSHIPS"
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex flex-col gap-4 m-auto">
@@ -119,7 +124,7 @@ const AdmissionsPage = () => {
         bgColor={"white"}
         title={"Graduate Admissions"}
         text={
-          "Choose from over 150 graduate programs to launch your professional and academic career to the highest levels of achievement."
+          "Choose from graduate programs to launch your professional and academic career to the highest levels of achievement."
         }
       />
       <ImageNextToParagraphMoreInfo
@@ -127,11 +132,11 @@ const AdmissionsPage = () => {
         bgColor="vggreen"
         textColor="white"
         classes={{ marginTop: "0" }}
-        imageLink={imageURL2}
+        imageLink={transferImage}
         text={
-          "We welcome transfer students to UA from two-year and four-year institutions. Here are the resources you need to make the process work for you.          "
+          "We welcome transfer students to Delphis from two-year and four-year institutions. Here are the resources you need to make the process work for you.          "
         }
-        title="TRANSFERRING TO UD"
+        title="TRANSFERRING TO Delphis University"
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex flex-col gap-4 m-auto">
             <LinkButton
@@ -153,7 +158,7 @@ const AdmissionsPage = () => {
         </h1>
         <p className="text-center">
           Resources to help determine your budget as you prepare to attend The
-          University of Alabama in the coming academic year.
+          University of Delphis in the coming academic year.
         </p>
         <div className="w-full max-w-[400px] justify-center items-center flex flex-col gap-4 m-auto">
           <LinkButtonAlt
@@ -173,14 +178,17 @@ const AdmissionsPage = () => {
         bgColor="vgskyblue"
         textColor="white"
         classes={{ marginTop: "0" }}
-        imageLink={imageURL2}
-        text={
-          "Start your career or chart a new path with one of the top schools in the country through The University of Alabama Online. Complete courses around your own schedule from any location. From our prestigious faculty to our extensive alumni network, a degree from The University of Alabama carries a distinguished worldwide reputation.          "
-        }
+        imageLink={distanceImage}
+        text={`Delphis University is committed to improving the world today and for future generations through outstanding education. Delphis Online brings access to our professors, programs and courses to a range of people around the world, including career changers, life-long learners, educators, and high school and college students.
+          `}
         title="DISTANCE EDUCATION"
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex gap-4 m-auto">
-            <LinkButtonTransparent width="100%" name="UD Online" link="/" />
+            <LinkButtonTransparent
+              width="100%"
+              name="Delphis Online"
+              link="/"
+            />
           </div>
         }
       />

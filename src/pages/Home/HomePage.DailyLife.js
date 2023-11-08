@@ -2,7 +2,7 @@ import React from "react";
 import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
 import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
 
-const imageURL = require("../../assets/images/pexels-ivan-samkov-5676678.jpeg");
+const imageURL = require("../../assets/images/academics - graduates.jpeg");
 
 const HomePageDailyLife = () => {
   const cardsArr = [
