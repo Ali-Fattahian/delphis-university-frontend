@@ -1748,6 +1748,10 @@ video {
   stroke: #f1f5f9;
 }
 
+.stroke-slate-50 {
+  stroke: #f8fafc;
+}
+
 .object-cover {
   object-fit: cover;
 }
@@ -2406,6 +2410,10 @@ li {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:stroke-slate-100:hover {
+  stroke: #f1f5f9;
+}
+
 .hover\:text-vgblue:hover {
   --tw-text-opacity: 1;
   color: rgb(2 56 87 / var(--tw-text-opacity));
@@ -2419,6 +2427,11 @@ li {
 .hover\:text-vgred:hover {
   --tw-text-opacity: 1;
   color: rgb(116 56 55 / var(--tw-text-opacity));
+}
+
+.hover\:text-slate-100:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
