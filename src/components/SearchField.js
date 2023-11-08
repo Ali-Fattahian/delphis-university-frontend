@@ -1,6 +1,21 @@
 import React from "react";
+// import staticContent from "../staticContent";
 
 const SearchField = () => {
+  // const staticContent = JS(); // Load static content
+  // const searchResultsFrontend = [];
+
+  // for (let i = 0; i < staticContent.length; i++) {
+  //   if (
+  //     staticContent[i].text.includes("Search") ||
+  //     staticContent[i].title.includes("Search")
+  //   ) {
+  //     searchResultsFrontend.push(staticContent[i].page);
+  //   }
+  // }
+
+  // console.log(searchResultsFrontend);
+
   return (
     <div className="w-full fixed top-20 left-0 z-20 px-2">
       <div className="w-full max-w-[500px] m-auto flex">
