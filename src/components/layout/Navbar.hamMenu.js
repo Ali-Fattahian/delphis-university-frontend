@@ -1,6 +1,5 @@
 import React from "react";
 import NavbarHamMenuMainNavLink from "./Navbar.HamMenu.MainNavLink";
-import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 
 const NavbarhamMenu = ({ hideHamMenu }) => {
   return (
@@ -33,11 +32,6 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
           >
             About
           </a>
-        </li>
-        <li className="text-center">
-          <button className="text-white hover:text-slate-100 cursor-pointer">
-            <MagnifyingGlassIcon className="h-5 w-5 cursor-pointer" />
-          </button>
         </li>
       </ul>
       <ul className="flex flex-col gap-4 p-3 bg-gradient-to-t from-vgblue via-[#252874] to-blue-900">
