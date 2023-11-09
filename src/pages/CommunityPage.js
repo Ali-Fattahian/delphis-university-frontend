@@ -7,10 +7,17 @@ import Footer from "../components/layout/Footer";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import TextOnImage from "../components/layout/TextOnImage";
 
-const imageURL = require("../assets/images/community-news.jpeg");
-const imageURL2 = require("../assets/images/academics - graduates.jpeg");
-const imageURL3 = require("../assets/images/pexels-christina-morillo-1181534.jpeg");
-const imageURL4 = require("../assets/images/pexels-pavel-danilyuk-7942550.jpeg");
+const communityEngagementImage = require("../assets/images/community - community egagement.jpeg");
+const communityEngagementAtUniImage = require("../assets/images/community - engagement at uni.jpeg");
+const communityLearningImage = require("../assets/images/community - engaged learning.jpeg");
+
+const councilImage = require("../assets/images/community - council.jpeg");
+const researchImage = require("../assets/images/community - research.jpeg");
+const facultyImage = require("../assets/images/community - faculty engagement.jpeg");
+
+const earlyCollegeImage = require("../assets/images/community - early college.jpeg");
+const honorsActionImage = require("../assets/images/community - honors action.jpeg");
+const parentTeacherImage = require("../assets/images/community - parent teacher.jpeg");
 
 const CommunityPage = () => {
   useDocumentTitle("Community");
@@ -18,54 +25,42 @@ const CommunityPage = () => {
   const cardsArr = [
     {
       key: 1,
-      imageURL: imageURL3,
+      imageURL: councilImage,
       title: "Council on Community Based Partnerships",
       text: `All academic disciplines are represented on a Council comprised of students, faculty, and community members`,
     },
     {
       key: 2,
-      imageURL: imageURL3,
-      title: "Council on Community Based Partnerships",
-      text: `All academic disciplines are represented on a Council comprised of students, faculty, and community members`,
+      imageURL: researchImage,
+      title: "Research and Publications",
+      text: `Support for students and faculty involved in community-engaged scholarship`,
     },
     {
       key: 3,
-      imageURL: imageURL3,
-      title: "Council on Community Based Partnerships",
-      text: `All academic disciplines are represented on a Council comprised of students, faculty, and community members`,
+      imageURL: facultyImage,
+      title: "New Faculty Community Engagement Tour",
+      text: `Annual tour of West Alabama to connect faculty and students with community members`,
     },
   ];
 
   const cardsArr2 = [
     {
-      key: 4,
-      imageURL: imageURL4,
+      key: 1,
+      imageURL: earlyCollegeImage,
       title: "UA Early College",
       text: `Earn up to 30 hours of college credit during high school`,
     },
     {
-      key: 5,
-      imageURL: imageURL4,
-      title: "UA Early College",
-      text: `Earn up to 30 hours of college credit during high school`,
+      key: 2,
+      imageURL: honorsActionImage,
+      title: "Honors Action",
+      text: `Incoming Honors College freshmen participate in service-learning programs`,
     },
     {
-      key: 6,
-      imageURL: imageURL4,
-      title: "UA Early College",
-      text: `Earn up to 30 hours of college credit during high school`,
-    },
-    {
-      key: 7,
-      imageURL: imageURL4,
-      title: "UA Early College",
-      text: `Earn up to 30 hours of college credit during high school`,
-    },
-    {
-      key: 8,
-      imageURL: imageURL4,
-      title: "UA Early College",
-      text: `Earn up to 30 hours of college credit during high school`,
+      key: 3,
+      imageURL: parentTeacherImage,
+      title: "Parent Teacher Leadership Academy",
+      text: `Develops parents and teachers as leaders within their school communities`,
     },
   ];
 
@@ -73,24 +68,21 @@ const CommunityPage = () => {
     <>
       <Navbar />
       <TextOnImage
-        title="COMMUNITY ENGAGEMENT"
-        text={`The University of Alabama's community engagement efforts reflect its
-            core mission to improve the quality of life for the citizens of
-            Alabama and beyond through innovative programs in teaching, research
-            and service.`}
-        imageURL={imageURL}
+        title="Community Engagement"
+        text={`Delphis students, faculty and staff challenge and support each other within a respectful and diverse campus community.`}
+        imageURL={communityEngagementImage}
       />
       <ImageNextToParagraphMoreInfo
         bgColor="vgblue"
         textColor="white"
         reverse={false}
         classes={{ marginTop: "0" }}
-        title="COMMUNITY ENGAGEMENT AT UD"
+        title="Community Engagement at Delphis"
         text={`The Division of Community Affairs helps the University fulfill its mission to advance the intellectual and social condition of the people of Alabama through innovative programs that connect teaching, research and service in ways that improve the quality of life for individuals and communities.
         Since 2008, The University of Alabama has held the Carnegie Foundation's Elective Classification for Community Engagement, a distinction for higher education institutions that are committed to community engagement and whose work represents best practices in the field.
         `}
-        subTitle={`UA prepares students to become productive, civic-minded citizens who serve their communities both now and in the future.`}
-        imageLink={imageURL}
+        subTitle={`Delphis prepares students to become productive, civic-minded citizens who serve their communities both now and in the future.`}
+        imageLink={communityEngagementAtUniImage}
         buttonComponent={
           <LinkButtonTransparent
             name="Diversity of Community Affairs"
@@ -101,9 +93,9 @@ const CommunityPage = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"white"}
-        title={"ENGAGED SCHOLARSHIP"}
+        title={"Engagement Scholarship"}
         text={
-          "UA establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
+          "The university of Delphis establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
         }
       />
       <ImageNextToParagraphMoreInfo
@@ -111,10 +103,10 @@ const CommunityPage = () => {
         textColor="white"
         reverse={false}
         classes={{ marginTop: "0" }}
-        title="OMMUNITY-ENGAGED LEARNING"
+        title="Community-Engaged Learning"
         text={`High-impact teaching introduces field-based learning to give students direct experience with issues they are studying in the classroom. Students are provided opportunities to apply what they have learned in real-world settings and reflect critically on their service experiences.`}
         subTitle={`Engaged learning encourages diverse perspectives and student investment in their own education.`}
-        imageLink={imageURL2}
+        imageLink={communityLearningImage}
         buttonComponent={
           <div className="w-full">
             <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
@@ -135,9 +127,9 @@ const CommunityPage = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr2}
         bgColor={"white"}
-        title={"COMMUNITY EDUCATION"}
+        title={"Community Education"}
         text={
-          "Our faculty, staff and students are committed to making a positive impact on Alabama's children and the future of our state and region."
+          "Our faculty, staff and students are committed to making a positive impact on the local children and the future of our state and region."
         }
       />
       <Footer />
