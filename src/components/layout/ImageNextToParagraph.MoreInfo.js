@@ -18,9 +18,9 @@ const ImageNextToParagraphMoreInfo = ({
         className="w-full m-auto max-w-[1000px] flex flex-col
            md:flex-row gap-4"
       >
-        <div className="flex flex-col sm:hidden">
+        <div className="flex flex-col sm:hidden text-center">
           <h1
-            className={`text-4xl overflow-hidden text-center font-bold text-${textColor} mb-6`}
+            className={`text-4xl overflow-hidden font-bold text-${textColor} mb-6`}
           >
             {title}
           </h1>
@@ -29,7 +29,7 @@ const ImageNextToParagraphMoreInfo = ({
           )}
         </div>
         <div className="flex flex-col gap-6">
-          <div className="hidden sm:flex sm:flex-col sm:gap-6">
+          <div className="hidden sm:flex sm:flex-col sm:gap-6 text-center">
             <h1
               className={`text-5xl font-bold text-${textColor} overflow-hidden text-center`}
             >

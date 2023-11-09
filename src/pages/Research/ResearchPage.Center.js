@@ -5,17 +5,21 @@ import LinkButton from "../../components/utilities/LinkButton";
 import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
 import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
 
-const imageURL = require("../../assets/images/pexels-suzy-hazelwood-1887609.jpeg");
-const imageURL2 = require("../../assets/images/pexels-christina-morillo-1181534.jpeg");
+const researchInstitutesImage = require("../../assets/images/research - institutes.jpeg");
+const researchAnalyticalImage = require("../../assets/images/research - analytical research.jpeg");
+const researchCyberImage = require("../../assets/images/research - cyber.jpeg");
+const researchHealthImage = require("../../assets/images/research - health.jpeg");
+const researchTransportationImage = require("../../assets/images/research - transportation.jpeg");
+const researchWaterImage = require("../../assets/images/research - water institute.jpeg");
 
 const ResearchPageCenter = () => {
   return (
     <>
       <ImageNextToParagraph
-        imageLink={imageURL}
+        imageLink={researchInstitutesImage}
         bgColor="white"
         title="Research & Institute"
-        text="The University of Alabama is leveraging its strengths to address some of the most pressing challenges facing society and improve quality of life for those in Alabama, the southeast and around the globe."
+        text="The University of Delphis is leveraging its strengths to address some of the most pressing challenges facing society and improve quality of life of people around the globe."
         reverse={true}
         buttonComponent={
           <div className="flex flex-col gap-4">
@@ -38,11 +42,11 @@ const ResearchPageCenter = () => {
       />
       <ImageNextToParagraph
         classes={{ marginTop: "0" }}
-        imageLink={imageURL2}
+        imageLink={researchAnalyticalImage}
         bgColor="vgskyblue"
         textColor="black"
-        title="ALABAMA ANALYTICAL RESEARCH CENTER"
-        text={`AARC supports collaborative, multidisciplinary research involving instruments for electron, ion, and x-ray imaging, diffraction, and spectroscopy. This center works with researchers from UA and other universities, regional institutions, and stakeholders to accelerate discovery in a variety of fields.
+        title="Delphis Analytical Research Center"
+        text={`DARC supports collaborative, multidisciplinary research involving instruments for electron, ion, and x-ray imaging, diffraction, and spectroscopy. This center works with researchers from Delphis and other universities, regional institutions, and stakeholders to accelerate discovery in a variety of fields.
         AARC's strength resides in its ability to facilitate transformative advancements through training and direct research assistance.`}
         reverse={false}
         buttonComponent={
@@ -51,48 +55,44 @@ const ResearchPageCenter = () => {
       />
       <ImageNextToParagraph
         bgColor="white"
-        text="ACI advances the understanding of cyber issues and develops and implements a comprehensive cyber research and education program, creating a more secure, stable, and advanced digital future. ACI collaborates extensively with other UA institutes to provide expertise related to its main foci. The institute focuses extensively in
-            Artificial Intelligence and Machine Learning
-            Critical Infrastructure Protection
-            Cybercrime
-            Cyber Infrastructure
-            Cyber Security
-            "
-        title="ALABAMA CYBER INITIATIVE"
+        title="Delphis Cyber Initiative"
+        text="DCI advances the understanding of cyber issues and develops and implements a comprehensive cyber research and education program, creating a more secure, stable, and advanced digital future. DCI collaborates extensively with other institutes to provide expertise related to its main foci."
         textColor="black"
-        imageLink={imageURL2}
+        imageLink={researchCyberImage}
         reverse={true}
         classes={{ marginTop: "0" }}
       />
       <ImageNextToParagraph
         bgColor="vggreen"
-        text="ALRI serves as a focal point for interdisciplinary biopsychosocial research that investigates the human condition at all levels to improve lives across the world. The institute collaborates with UA centers, other institutions, health care corporations, governmental agencies, and community-based organizations. ALRI pursues five research themes:
-        Rural Health and Health Disparities
-        Neuroscience
-        Biomedical Sciences
-        Environmental Sciences and Health
-        Implementation Science
-            "
-        title="ALABAMA LIFE RESEARCH INSTITUTE"
+        title="Delphis Life Research Institute"
+        text="DLRI serves as a focal point for interdisciplinary biopsychosocial research that investigates the human condition at all levels to improve lives across the world. The institute collaborates with other institutions, health care corporations, governmental agencies, and community-based organizations."
         textColor="white"
-        imageLink={imageURL2}
+        imageLink={researchHealthImage}
         reverse={false}
         buttonComponent={<LinkButtonTransparent name="Learn More" link="/" />}
         classes={{ marginTop: "0" }}
       />
       <ImageNextToParagraph
-        bgColor="vgred"
-        text="ALRI serves as a focal point for interdisciplinary biopsychosocial research that investigates the human condition at all levels to improve lives across the world. The institute collaborates with UA centers, other institutions, health care corporations, governmental agencies, and community-based organizations. ALRI pursues five research themes:
-        Rural Health and Health Disparities
-        Neuroscience
-        Biomedical Sciences
-        Environmental Sciences and Health
-        Implementation Science
-            "
-        title="ALABAMA LIFE RESEARCH INSTITUTE"
-        textColor="white"
-        imageLink={imageURL}
+        bgColor="white"
+        title="Delphis Transportation Institute"
+        text="DTI facilitates and provides world-class leadership for interdisciplinary research, promoting transportation infrastructure, innovation, and advancements that impact the nation."
+        subTitle={`Automated, Connected, Electric, Shared & Safe Mobility`}
+        textColor="black"
+        imageLink={researchTransportationImage}
         reverse={true}
+        buttonComponent={
+          <LinkButton name="Learn More" link="/" classes="text-center" />
+        }
+        classes={{ marginTop: "0" }}
+      />
+      <ImageNextToParagraph
+        bgColor="vgred"
+        title="Delphis Water Institute"
+        text="DWI supports a water-secure world by training the next generation of scientists. Additionally, the Global Water Security Center, part of AWI, investigates science applications that enable analysis of environmental (in)security regarding water, food, energy, and health nexus, providing decision-makers with reliable water intelligence. The institute partners with the National Oceanic and Atmospheric Administration's (NOAA) National Water Center and the U.S. Geological Survey (USGS) Hydrologic Instrumentation Facility, both making a home on the UA campus, which makes Tuscaloosa the epicenter for water research and operations in the nation."
+        subTitle={`Automated, Connected, Electric, Shared & Safe Mobility`}
+        textColor="white"
+        imageLink={researchWaterImage}
+        reverse={false}
         buttonComponent={
           <LinkButtonAlt name="Learn More" link="/" classes="text-center" />
         }

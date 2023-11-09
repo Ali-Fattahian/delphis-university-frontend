@@ -111,7 +111,7 @@ const AdmissionsPage = () => {
         textColor="white"
         imageLink={financialAidImage}
         text={`Delphis is committed to being financially accessible to students from all backgrounds and from around the world. All financial aid is need-based to ensure that talented students can afford a Delphis education, regardless of their economic resources.`}
-        title="FINANCIAL AID & SCHOLARSHIPS"
+        title="Financial aid & Scholarships"
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex flex-col gap-4 m-auto">
             <LinkButtonTransparent width="100%" name="Financial aid" link="/" />
@@ -136,7 +136,7 @@ const AdmissionsPage = () => {
         text={
           "We welcome transfer students to Delphis from two-year and four-year institutions. Here are the resources you need to make the process work for you.          "
         }
-        title="TRANSFERRING TO Delphis University"
+        title="Transferring to Delphis University"
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex flex-col gap-4 m-auto">
             <LinkButton
@@ -154,7 +154,7 @@ const AdmissionsPage = () => {
       />
       <div className="bg-white p-10 flex flex-col justify-center gap-6">
         <h1 className="text-3xl sm:text-5xl text-center overflow-hidden">
-          COST OF ATTENDANCE
+          Cost of Attendance
         </h1>
         <p className="text-center">
           Resources to help determine your budget as you prepare to attend The
@@ -181,7 +181,7 @@ const AdmissionsPage = () => {
         imageLink={distanceImage}
         text={`Delphis University is committed to improving the world today and for future generations through outstanding education. Delphis Online brings access to our professors, programs and courses to a range of people around the world, including career changers, life-long learners, educators, and high school and college students.
           `}
-        title="DISTANCE EDUCATION"
+        title="Distance Education"
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex gap-4 m-auto">
             <LinkButtonTransparent

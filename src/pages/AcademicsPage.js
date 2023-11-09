@@ -72,7 +72,7 @@ const AcademicsPage = () => {
       <CardsNoBorderContainer
         cardsArr={programs}
         bgColor={"white"}
-        title={"PROGRAMS OF STUDY"}
+        title={"Programs of Study"}
         text={
           "Delphis's academics are boosted by its inherent culture and ecosystem of innovation. You name it, if it's cutting-edge, the University's faculty—and students—have their hands in it."
         }
