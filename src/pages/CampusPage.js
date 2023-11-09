@@ -12,10 +12,19 @@ import LinkButton from "../components/utilities/LinkButton";
 const CampusPage = () => {
   useDocumentTitle("Campus");
 
-  const imageURL = require("../assets/images/apply.jpeg");
-  const imageURL2 = require("../assets/images/Hometown.jpeg");
-  const imageURL3 = require("../assets/images/Login.jpeg");
-  const imageURL4 = require("../assets/images/community-news.jpeg");
+  const healthImage = require("../assets/images/campus - health.jpeg");
+  const supportImage = require("../assets/images/campus - support.jpeg");
+  const securityImage = require("../assets/images/campus - security.jpeg");
+  const rideImage = require("../assets/images/campus - ride.jpeg");
+  const diningImage = require("../assets/images/campus - dining.jpeg");
+  const diversityImage = require("../assets/images/campus - diversity.jpeg");
+  const ArtImage = require("../assets/images/campus - art.jpeg");
+  const commencementImage = require("../assets/images/campus - commencement.jpeg");
+  const getOnBoardImage = require("../assets/images/campus - get on board.jpeg");
+  const weeksOfWelcomeImage = require("../assets/images/campus - weeks of welcome.jpeg");
+  const ourCampusImage = require("../assets/images/campus - our campus.jpeg");
+  const involvementImage = require("../assets/images/campus - involvement.jpeg");
+  const campusLifeImage = require("../assets/images/campus - campus life.jpeg");
 
   const cardsArr = [
     {
@@ -23,21 +32,21 @@ const CampusPage = () => {
       title: "Health & Wellbeing",
       text: `Learn how UA promotes a healthy campus environment to enhance student well-being.`,
       link: "/",
-      imageURL: imageURL2,
+      imageURL: healthImage,
     },
     {
       key: 2,
       title: "Safety & Support",
       text: `The safety and well-being of our students is one of our highest priorities.`,
       link: "/",
-      imageURL: imageURL3,
+      imageURL: supportImage,
     },
     {
       key: 3,
       title: "University Police",
       text: `UAPD works to provide a safe and secure environment for the UA community.`,
       link: "/",
-      imageURL: imageURL4,
+      imageURL: securityImage,
     },
   ];
 
@@ -47,21 +56,21 @@ const CampusPage = () => {
       title: "Dining",
       text: `See UA's wide variety of on-campus options for nutritious and delicious food.`,
       link: "/",
-      imageURL: imageURL2,
+      imageURL: diningImage,
     },
     {
       key: 2,
       title: "Crimson Ride",
       text: `Enjoy the convenience of timely and comprehensive on-campus public transportation.`,
       link: "/",
-      imageURL: imageURL3,
+      imageURL: rideImage,
     },
     {
       key: 3,
-      title: "University Police",
+      title: "Diversity",
       text: `Learn more about yourself as you learn with and through others.`,
       link: "/",
-      imageURL: imageURL4,
+      imageURL: diversityImage,
     },
   ];
 
@@ -71,21 +80,21 @@ const CampusPage = () => {
       title: "Commencement",
       text: `Graduation ceremonies and information.`,
       link: "/",
-      imageURL: imageURL4,
+      imageURL: commencementImage,
     },
     {
       key: 2,
       title: "Get on board day",
-      text: `Learn about the 600+ student organizations at UA.`,
+      text: `Learn about the student organizations at the university of Delphis.`,
       link: "/",
-      imageURL: imageURL,
+      imageURL: getOnBoardImage,
     },
     {
       key: 3,
       title: "Weeks of Welcome",
       text: `Programs for first-year and transfer students new to the Capstone.`,
       link: "/",
-      imageURL: imageURL3,
+      imageURL: weeksOfWelcomeImage,
     },
   ];
 
@@ -93,21 +102,21 @@ const CampusPage = () => {
     <>
       <Navbar />
       <TextOnImage
-        title="CAMPUS LIFE"
-        text={`Morning run on the Riverwalk. Lunch with friends at the Student Center. Late-night study session at Gorgas. UA is simply unmatched in the quality of student life. Live your best life here.`}
-        imageURL={imageURL}
+        title="Campus Life"
+        text={`With exceptional dining options and residential halls, a bounty of social, cultural and academic activities, sporting venues, an easy-to-traverse campus with shuttle service and a myriad of parking options, the University of Miami is home away from home, a place where students who live on or commute to campus can stretch their comfort zones and expand their horizons.`}
+        imageURL={campusLifeImage}
       />
       <CardsNoBorderContainer
-        title="LIFE AT UA"
-        text={`UA offers a complete educational, cultural and social experience. Whatever your interests, you’ll find a group, an organization, an activity or a program that appeals to you.`}
+        title="Life At Delphis"
+        text={`The University of Delphis offers a complete educational, cultural and social experience. Whatever your interests, you'll find a group, an organization, an activity or a program that appeals to you.`}
         cardsArr={cardsArr2}
       />
       <ImageNextToParagraphMoreInfo
-        title="ACTIVITIES & INVOLVEMENT"
-        text={`UA students are from many backgrounds with differing interests and passions. We want to make sure you have the information, resources and support you need to succeed here and for a lifetime. Whether your interests are intellectual, social, recreational, cultural, multicultural or spiritual in nature, there is a place for you at UA.`}
+        title="Activities & Involvement"
+        text={`Delphis University students are from many backgrounds with differing interests and passions. We want to make sure you have the information, resources and support you need to succeed here and for a lifetime. Whether your interests are intellectual, social, recreational, cultural, multicultural or spiritual in nature, there is a place for you here.`}
         textColor="white"
         bgColor="vgblue"
-        imageLink={imageURL2}
+        imageLink={involvementImage}
         reverse={true}
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex gap-4 m-auto">
@@ -120,16 +129,16 @@ const CampusPage = () => {
         }
       />
       <CardsNoBorderContainer
-        title="HEALTH & SAFETY"
-        text={`Your safety and well-being are one of our highest priorities. UA invests significant resources in activities and initiatives designed to increase both your security on our campus and your ability to make responsible decisions that enhance your well-being.`}
+        title="Health & Safety"
+        text={`Your safety and well-being are one of our highest priorities.The university of Delphis invests significant resources in activities and initiatives designed to increase both your security on our campus and your ability to make responsible decisions that enhance your well-being.`}
         cardsArr={cardsArr}
       />
       <ImageNextToParagraphMoreInfo
-        title="ARTS & CULTURE"
+        title="Arts & Culture"
         text={`Enrich your life! Take advantage of a robust and varied schedule of musical, dance and theatre performances, art galleries and exhibitions, museums, lectures and readings by writers, poets and experts on every topic imaginable.`}
         textColor="white"
         bgColor="vggreen"
-        imageLink={imageURL4}
+        imageLink={ArtImage}
         reverse={false}
         buttonComponent={
           <div className="w-full">
@@ -150,11 +159,11 @@ const CampusPage = () => {
         cardsArr={cardsArr3}
       />
       <ImageNextToParagraphMoreInfo
-        title="our Campus"
-        text={`Year after year, the UA campus ranks among the very best in the nation. From tulips and cherry blossoms in the spring to cascades of golden leaves in the fall, you’re surrounded by dramatic intersections of classic architecture and modern advancement.`}
+        title="Our Campus"
+        text={`Year after year, the university of Delphis's campus ranks among the very best in the world. From tulips and cherry blossoms in the spring to cascades of golden leaves in the fall, you're surrounded by dramatic intersections of classic architecture and modern advancement.`}
         textColor="white"
         bgColor="vgred"
-        imageLink={imageURL}
+        imageLink={ourCampusImage}
         reverse={true}
         buttonComponent={
           <div className="w-full">

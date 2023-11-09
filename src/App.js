@@ -22,7 +22,7 @@ function App() {
         <Route element={<ResearchPage />} path="/research" />
         <Route element={<CommunityPage />} path="/community" />
         <Route element={<ApplyPage />} path="/apply" />
-        <Route element={<FacultyPage />} path="/faculty" />
+        <Route element={<FacultyPage />} path="/faculty-staff" />
         <Route element={<LoginPage />} path="/login" />
         <Route element={<AdmissionsPage />} path="/admissions" />
         <Route element={<AthleticsPage />} path="/athletics" />

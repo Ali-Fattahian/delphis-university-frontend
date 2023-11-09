@@ -5,7 +5,7 @@ const NavbarMainLinks = () => {
   return (
     <ul className="w-full max-w-3xl m-auto list-none flex justify-center">
       <li>
-        <NavbarLink name={"Faculty"} link={"/faculty"} />
+        <NavbarLink name={"Faculty & Staff"} link={"/faculty-staff"} />
       </li>
       <li>
         <NavbarLink name={"Academics"} link={"/academics"} />

@@ -36,7 +36,10 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
       </ul>
       <ul className="flex flex-col gap-4 p-3 bg-gradient-to-t from-vgblue via-[#252874] to-blue-900">
         <li>
-          <NavbarHamMenuMainNavLink name="Faculty" link="/faculty" />
+          <NavbarHamMenuMainNavLink
+            name="Faculty & Staff"
+            link="/faculty-staff"
+          />
         </li>
         <li>
           <NavbarHamMenuMainNavLink name="Academics" link="/academics" />

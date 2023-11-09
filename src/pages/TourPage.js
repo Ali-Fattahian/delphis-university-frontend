@@ -10,7 +10,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const imageURLTour = require("../assets/images/Tour.jpeg");
 const imageURL1 = require("../assets/images/Events.jpeg");
-const imageURL2 = require("../assets/images/Eat.jpeg");
+const imageURL2 = require("../assets/images/Events.jpeg");
 const imageURL3 = require("../assets/images/Hometown.jpeg");
 
 const TourPage = () => {
