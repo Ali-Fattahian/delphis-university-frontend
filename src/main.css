@@ -750,6 +750,14 @@ video {
   max-height: 800px;
 }
 
+.max-h-\[500px\] {
+  max-height: 500px;
+}
+
+.max-h-\[92vh\] {
+  max-height: 92vh;
+}
+
 .w-1\/4 {
   width: 25%;
 }
@@ -1763,6 +1771,10 @@ video {
 
 .object-cover {
   object-fit: cover;
+}
+
+.object-scale-down {
+  object-fit: scale-down;
 }
 
 .p-10 {

@@ -44,7 +44,11 @@ const ImageNextToParagraphMoreInfo = ({
               reverse ? "sm:flex-row-reverse" : "sm:flex-row"
             } justify-center items-center gap-6`}
           >
-            <img src={imageLink} alt={title} className="flex-[0_0_50%]" />
+            <img
+              src={imageLink}
+              alt={title}
+              className="flex-[0_0_50%] max-h-[500px] object-scale-down"
+            />
             <div className="flex flex-col gap-6">
               <p className={`text-${textColor}`}>{text}</p>
               {buttonComponent && buttonComponent}
