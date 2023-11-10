@@ -48,9 +48,6 @@ const NavbarhamMenu = ({ hideHamMenu }) => {
           <NavbarHamMenuMainNavLink name="Admissions" link="/admissions" />
         </li>
         <li>
-          <NavbarHamMenuMainNavLink name="Athletics" link="/athletics" />
-        </li>
-        <li>
           <NavbarHamMenuMainNavLink name="Campus Life" link="/campus-life" />
         </li>
         <li>

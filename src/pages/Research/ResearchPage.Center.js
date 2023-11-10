@@ -88,7 +88,7 @@ const ResearchPageCenter = () => {
       <ImageNextToParagraph
         bgColor="vgred"
         title="Delphis Water Institute"
-        text="DWI supports a water-secure world by training the next generation of scientists. Additionally, the Global Water Security Center, part of AWI, investigates science applications that enable analysis of environmental (in)security regarding water, food, energy, and health nexus, providing decision-makers with reliable water intelligence. The institute partners with the National Oceanic and Atmospheric Administration's (NOAA) National Water Center and the U.S. Geological Survey (USGS) Hydrologic Instrumentation Facility, both making a home on the UA campus, which makes Tuscaloosa the epicenter for water research and operations in the nation."
+        text="DWI supports a water-secure world by training the next generation of scientists. Additionally, the Global Water Security Center, part of AWI, investigates science applications that enable analysis of environmental (in)security regarding water, food, energy, and health nexus, providing decision-makers with reliable water intelligence. The institute partners with the National Oceanic and Atmospheric Administration's (NOAA) National Water Center and the U.S. Geological Survey (USGS) Hydrologic Instrumentation Facility, both making a home on the Delphis University campus, which makes Tuscaloosa the epicenter for water research and operations in the nation."
         subTitle={`Automated, Connected, Electric, Shared & Safe Mobility`}
         textColor="white"
         imageLink={researchWaterImage}

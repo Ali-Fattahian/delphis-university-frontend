@@ -30,7 +30,7 @@ const CampusPage = () => {
     {
       key: 1,
       title: "Health & Wellbeing",
-      text: `Learn how UA promotes a healthy campus environment to enhance student well-being.`,
+      text: `Learn how The University of Delphis promotes a healthy campus environment to enhance student well-being.`,
       link: "/",
       imageURL: healthImage,
     },
@@ -44,7 +44,7 @@ const CampusPage = () => {
     {
       key: 3,
       title: "University Police",
-      text: `UAPD works to provide a safe and secure environment for the UA community.`,
+      text: `UAPD works to provide a safe and secure environment for the Delphis University community.`,
       link: "/",
       imageURL: securityImage,
     },

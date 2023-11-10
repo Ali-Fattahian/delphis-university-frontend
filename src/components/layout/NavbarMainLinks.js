@@ -14,9 +14,6 @@ const NavbarMainLinks = () => {
         <NavbarLink name={"Admissions"} link={"/admissions"} />
       </li>
       <li>
-        <NavbarLink name={"Athletics"} link={"/athletics"} />
-      </li>
-      <li>
         <NavbarLink name={"Campus Life"} link={"/campus-life"} />
       </li>
       <li>

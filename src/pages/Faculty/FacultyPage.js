@@ -36,7 +36,7 @@ const FacultyPage = () => {
       key: 3,
       imageURL: policiesImage,
       title: "Handbooks and Policies",
-      text: "Information for faculty and staff on UA policies and employee procedures.",
+      text: "Information for faculty and staff on Delphis University policies and employee procedures.",
     },
   ];
 
@@ -66,9 +66,9 @@ const FacultyPage = () => {
           Campus Safety
         </h1>
         <p className="text-center mb-6">
-          Safety on campus and in the workplace is a priority, and UA is
-          committed to providing a safe environment for all members of our
-          community.
+          Safety on campus and in the workplace is a priority, and Delphis
+          University is committed to providing a safe environment for all
+          members of our community.
         </p>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-4 justify-center max-w-[1600px] m-auto">
           <ExtraInfoButton

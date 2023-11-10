@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../layout/Card";
 
-const imageURL = require("../../assets/images/pexels-roxanne-minnish-4514045.jpeg");
+const imageURL = require("../../assets/images/Events.jpeg");
 
 const HomePageCommunityEvents = () => {
   return (

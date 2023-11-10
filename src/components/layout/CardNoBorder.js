@@ -3,10 +3,14 @@ import React from "react";
 const CardNoBorder = ({ maxWidth, imageURL, title, text, link }) => {
   return (
     <div
-      className="flex flex-col gap-4 items-center m-auto"
+      className="flex flex-col gap-4 items-center m-auto group"
       style={{ maxWidth: maxWidth + "px" }}
     >
-      <img className="object-cover aspect-square" src={imageURL} alt={title} />
+      <img
+        className="object-cover aspect-square transition-transform duration-300 group-hover:scale-105"
+        src={imageURL}
+        alt={title}
+      />
       <a
         className="text-vgyellow hover:underline cursor-pointer w-full"
         href={link}

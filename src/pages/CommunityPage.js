@@ -47,7 +47,7 @@ const CommunityPage = () => {
     {
       key: 1,
       imageURL: earlyCollegeImage,
-      title: "UA Early College",
+      title: "Delphis Early College",
       text: `Earn up to 30 hours of college credit during high school`,
     },
     {

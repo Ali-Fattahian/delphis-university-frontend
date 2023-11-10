@@ -2,29 +2,33 @@ import React from "react";
 import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
 import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
 
-const imageURL = require("../../assets/images/academics - graduates.jpeg");
+const supportImage = require("../../assets/images/homepage - support.jpeg");
+const diversityImage = require("../../assets/images/homepage - diversity.jpeg");
+const housingImage = require("../../assets/images/homepage - housing.jpeg");
 
 const HomePageDailyLife = () => {
   const cardsArr = [
     {
       title: "Safety & Support",
-      text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
+      text: `Our robust network of security and support professionals work
+       to ensure a safe campus for all.`,
       link: "/",
-      imageURL: imageURL,
+      imageURL: supportImage,
       key: 1,
     },
     {
       title: "Diversity",
-      text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
+      text: `The University of Delphis strives to create an accepting and 
+      inclusive campus community.`,
       link: "/",
-      imageURL: imageURL,
+      imageURL: diversityImage,
       key: 2,
     },
     {
       title: "Student Housing",
-      text: "Research Project Advancing Tools To Remotely Monitor Water Quality",
+      text: `Residential living puts you at the heart of campus life, where you will interact with a diverse community of people.`,
       link: "/",
-      imageURL: imageURL,
+      imageURL: housingImage,
       key: 3,
     },
   ];
@@ -34,10 +38,10 @@ const HomePageDailyLife = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"slate-100"}
-        title={"LIFE AT UD"}
-        text={
-          "Research Project Advancing Tools To Remotely Monitor Water Quality"
-        }
+        title={"Life at Delphis University"}
+        text={`Our community is drawn together by purpose. More than 600 student
+         organizations elevate campus culture in academics, service,
+          arts and recreation.`}
       />
       <div className="w-full flex text-center justify-center items-center pb-4 bg-slate-100">
         <LinkButtonAlt
