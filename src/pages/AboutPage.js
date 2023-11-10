@@ -12,7 +12,7 @@ const AboutPage = () => {
   const imageURL2 = require("../assets/images/Future.jpeg");
   const imageURL3 = require("../assets/images/Tour.jpeg");
   const imageURL4 = require("../assets/images/pexels-suzy-hazelwood-1887609.jpeg");
-  const imageURL5 = require("../assets/images/university.jpeg");
+  const imageURL5 = require("../assets/images/apply - university.jpeg");
 
   useDocumentTitle("About");
 

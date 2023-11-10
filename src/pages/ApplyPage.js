@@ -6,8 +6,14 @@ import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagr
 import Footer from "../components/layout/Footer";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
-const imageURL = require("../assets/images/university.jpeg");
-const imageURL2 = require("../assets/images/pexels-pavel-danilyuk-7942550.jpeg");
+const universityImage = require("../assets/images/apply - university.jpeg");
+const undergraduatesImage = require("../assets/images/apply - undergraduates.jpeg");
+const graduatesImage = require("../assets/images/apply - graduates.jpeg");
+const lawSchoolImage = require("../assets/images/apply - law school.jpeg");
+const housingImage = require("../assets/images/apply - housing.jpeg");
+const financialAidImage = require("../assets/images/apply - financial aid.jpeg");
+const freshMenImage = require("../assets/images/apply - freshmen.jpeg");
+const scholarSchipsImage = require("../assets/images/apply - scholarships.jpeg");
 
 const ApplyPage = () => {
   useDocumentTitle("Apply");
@@ -15,19 +21,19 @@ const ApplyPage = () => {
   const cardsArr = [
     {
       key: 1,
-      imageURL: imageURL2,
+      imageURL: undergraduatesImage,
       title: "Apply for undergraduate admission",
       text: "Application for all undergraduate students - domestic, international and transfer",
     },
     {
       key: 2,
-      imageURL: imageURL2,
+      imageURL: graduatesImage,
       title: "Apply for graduate admission",
       text: "Application for all graduate students - domestic and international - pursuing advanced degrees",
     },
     {
       key: 3,
-      imageURL: imageURL2,
+      imageURL: lawSchoolImage,
       title: "Apply for law school admission",
       text: "Application for all students - domestic and international - pursuing professional degrees in law",
     },
@@ -36,19 +42,19 @@ const ApplyPage = () => {
   const cardsArr2 = [
     {
       key: 1,
-      imageURL: imageURL2,
+      imageURL: financialAidImage,
       title: "Apply for financial aid",
       text: "Learn more about opportunities to finance your education",
     },
     {
       key: 2,
-      imageURL: imageURL2,
+      imageURL: freshMenImage,
       title: "Scholarships for freshmen and transfer students",
       text: "Scholarship opportunities for incoming freshmen and transfer students",
     },
     {
       key: 3,
-      imageURL: imageURL2,
+      imageURL: scholarSchipsImage,
       title: "Schorlarships for current students",
       text: "Scholarship application for students currently attending UD",
     },
@@ -58,9 +64,9 @@ const ApplyPage = () => {
     <>
       <Navbar />
       <img
-        src={imageURL}
+        src={universityImage}
         alt="Apply now"
-        className="object-cover translate-y-9 min-[720px]:translate-y-0 max-h-[800px] w-full"
+        className="object-cover translate-y-9 min-[720px]:translate-y-0 max-h-[92vh] w-full"
       />
       <CardsNoBorderContainer
         cardsArr={cardsArr}
@@ -72,7 +78,7 @@ const ApplyPage = () => {
       />
       <ImageNextToParagraphMoreInfo
         classes={{ marginTop: "0" }}
-        imageLink={imageURL2}
+        imageLink={housingImage}
         bgColor="vgblue"
         textColor="white"
         title="HOUSING"

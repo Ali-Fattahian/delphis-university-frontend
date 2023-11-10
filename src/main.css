@@ -2528,6 +2528,28 @@ li {
   opacity: 1;
 }
 
+.hover\:after\:bg-white:hover::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:after\:text-vgred:hover::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(116 56 55 / var(--tw-text-opacity));
+}
+
+.hover\:after\:content-\[\]:hover::after {
+  --tw-content: ;
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'Aaa\'\]:hover::after {
+  --tw-content: 'Aaa';
+  content: var(--tw-content);
+}
+
 .group:hover .group-hover\:scale-100 {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
