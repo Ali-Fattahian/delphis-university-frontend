@@ -8,11 +8,13 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 import TextOnImage from "../components/layout/TextOnImage";
 
 const AboutPage = () => {
-  const imageURL = require("../assets/images/Events.jpeg");
-  const imageURL2 = require("../assets/images/Future.jpeg");
-  const imageURL3 = require("../assets/images/Tour.jpeg");
-  const imageURL4 = require("../assets/images/pexels-suzy-hazelwood-1887609.jpeg");
-  const imageURL5 = require("../assets/images/apply - university.jpeg");
+  const headerImage = require("../assets/images/about - header.jpeg");
+  const historyImage = require("../assets/images/about- history.jpeg");
+  const exploreImage = require("../assets/images/about - explore.jpeg");
+  const administrationImage = require("../assets/images/about - administration.jpeg");
+  const policiesImage = require("../assets/images/about - policies.jpeg");
+  const missionsImage = require("../assets/images/about - missions.jpeg");
+  const eventsImage = require("../assets/images/about - events.jpeg");
 
   useDocumentTitle("About");
 
@@ -21,25 +23,25 @@ const AboutPage = () => {
       key: 1,
       title: "Administration",
       text: `The University's leadership and structure`,
-      imageURL: imageURL2,
+      imageURL: administrationImage,
     },
     {
       key: 2,
       title: "History",
       text: `Key events in the University's history`,
-      imageURL: imageURL3,
+      imageURL: historyImage,
     },
     {
       key: 3,
       title: "Missions & Objectives",
       text: `Teaching, research and service`,
-      imageURL: imageURL4,
+      imageURL: missionsImage,
     },
     {
       key: 4,
       title: "Policies",
       text: `Ensuring UA's mission.`,
-      imageURL: imageURL2,
+      imageURL: policiesImage,
     },
   ];
 
@@ -51,7 +53,7 @@ const AboutPage = () => {
         text={`Founded in 1831 as the state's flagship university, The University
             of Alabama has always focused on being the best. This is Where
             Legends Are Made.`}
-        imageURL={imageURL}
+        imageURL={headerImage}
       />
       <CardsNoBorderContainer
         title="ABOUT THE UNIVERSITY"
@@ -61,7 +63,7 @@ const AboutPage = () => {
         cardsArr={cardsArr}
       />
       <ImageNextToParagraphMoreInfo
-        imageLink={imageURL5}
+        imageLink={exploreImage}
         title="EXPLORE UA"
         text={`Our beautiful, 1,200-acre campus has everything you need to be successful during your college years. Be energized through leading-edge research initiatives and state-of-the-art labs. Be inspired by professors who are experts in their fields of study. Be active in campus life through one of more than 600 student organizations. Be involved in a wide range of volunteer opportunities and internships. Connect with what's important to you.`}
         bgColor="vgblue"
@@ -70,7 +72,7 @@ const AboutPage = () => {
         classes={{ marginTop: 0 }}
       />
       <ImageNextToParagraphMoreInfo
-        imageLink={imageURL3}
+        imageLink={eventsImage}
         title="NEWS AND EVENTS"
         text={`Find out what our students, faculty, staff and alumni are doing to make a positive difference on our campus, in our community and state, and around the world.`}
         bgColor="vggreen"

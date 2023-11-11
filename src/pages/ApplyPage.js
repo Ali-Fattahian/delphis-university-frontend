@@ -6,7 +6,7 @@ import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagr
 import Footer from "../components/layout/Footer";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
-const universityImage = require("../assets/images/apply - university.jpeg");
+const applyImage = require("../assets/images/apply - header.jpeg");
 const undergraduatesImage = require("../assets/images/apply - undergraduates.jpeg");
 const graduatesImage = require("../assets/images/apply - graduates.jpeg");
 const lawSchoolImage = require("../assets/images/apply - law school.jpeg");
@@ -64,24 +64,25 @@ const ApplyPage = () => {
     <>
       <Navbar />
       <img
-        src={universityImage}
+        src={applyImage}
         alt="Apply now"
         className="object-cover translate-y-9 min-[720px]:translate-y-0 max-h-[92vh] w-full"
       />
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"white"}
-        title={"MAKE THE WORLD PROUD"}
+        title={"Make The World Proud"}
         text={
           "UA establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
         }
+        classes="mt-8 min-[720px]:mt-0"
       />
       <ImageNextToParagraphMoreInfo
         classes={{ marginTop: "0" }}
         imageLink={housingImage}
         bgColor="vgblue"
         textColor="white"
-        title="HOUSING"
+        title="Housing"
         text={`Residential living puts you at the heart of campus life, where you will interact with a diverse community of people.
 
         With up to 8,400 residents on campus in 34 residence halls, we are dedicated to propelling residents to a successful transition to life on campus with the aid of our 236 resident advisors as well as our 19 graduate community directors.`}
@@ -97,7 +98,7 @@ const ApplyPage = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr2}
         bgColor={"white"}
-        title={"SCHOLARSHIPS & FINANCIAL AID"}
+        title={"Scholarships & Financial Aid"}
         text={"Financial resources for incoming and current students."}
       />
       <Footer />

@@ -8,10 +8,10 @@ import LinkButton from "../components/utilities/LinkButton";
 import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
-const imageURLTour = require("../assets/images/Tour.jpeg");
-const imageURL1 = require("../assets/images/Events.jpeg");
-const imageURL2 = require("../assets/images/Events.jpeg");
-const imageURL3 = require("../assets/images/Hometown.jpeg");
+const tourImage = require("../assets/images/Tour - header.jpeg");
+const eventsImage = require("../assets/images/Tour - events.jpeg");
+const eatingImage = require("../assets/images/Tour - eating.jpeg");
+const hometownImage = require("../assets/images/Tour - hometown.jpeg");
 
 const TourPage = () => {
   useDocumentTitle("Tour");
@@ -54,21 +54,21 @@ const TourPage = () => {
       key: 1,
       title: "Events",
       text: "There are always new and exciting ways to experience Tuscaloosa while you are here.",
-      imageURL: imageURL1,
+      imageURL: eventsImage,
       link: "/",
     },
     {
       key: 2,
       title: "Eat",
       text: "Tuscaloosa is home to some of the best restaurants in the Southeast.",
-      imageURL: imageURL2,
+      imageURL: eatingImage,
       link: "/",
     },
     {
       key: 3,
       title: "Hometown",
       text: "Tuscaloosa is so much more than a college town.",
-      imageURL: imageURL3,
+      imageURL: hometownImage,
       link: "/",
     },
   ];
@@ -77,7 +77,7 @@ const TourPage = () => {
     <>
       <Navbar />
       <ImageNextToParagraphMoreInfo
-        imageLink={imageURLTour}
+        imageLink={tourImage}
         text={`The best way to find your place at The University of Alabama is to visit campus. Our student-guided campus tour gives you and your family a first-hand campus experience. Learn about UD's history as you discover today's many opportunities the University offers through stellar academics, research possibilities and exciting student life. We currently offer both walking-only tours of campus and a combination bus/walking tour. All campus tours include an Undergraduate Admissions Information session and descriptions of each tour are provided on the registration page.SCHEDULE`}
         title="Tour UD"
         textColor="black"
