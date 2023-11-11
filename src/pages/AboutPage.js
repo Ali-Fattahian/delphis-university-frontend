@@ -40,7 +40,7 @@ const AboutPage = () => {
     {
       key: 4,
       title: "Policies",
-      text: `Ensuring UA's mission.`,
+      text: `Ensuring The UD's mission.`,
       imageURL: policiesImage,
     },
   ];
@@ -49,23 +49,34 @@ const AboutPage = () => {
     <>
       <Navbar />
       <TextOnImage
-        title="ABOUT UD"
-        text={`Founded in 1831 as the state's flagship university, The University
-            of Alabama has always focused on being the best. This is Where
-            Legends Are Made.`}
+        title="The Facts"
+        text={`The University of Delphis is a large research university with
+         a wide array of programs, departments, schools, centers,
+          museums, and many affiliated organizations.`}
         imageURL={headerImage}
       />
       <CardsNoBorderContainer
-        title="ABOUT THE UNIVERSITY"
-        text="We are dedicated to excellence in teaching, research and service. We provide a robust campus environment where our students can reach their greatest potential while learning from the best and brightest faculty and making a positive difference in the community, the state and the world.        "
+        title="About The University"
+        text={`We are dedicated to excellence in teaching, research and service.
+         We provide a robust campus environment where our students can reach
+          their greatest potential while learning from the best and brightest
+           faculty and making a positive difference in the community, 
+           the state and the world.`}
         bgColor="white"
         textColor="black"
         cardsArr={cardsArr}
       />
       <ImageNextToParagraphMoreInfo
         imageLink={exploreImage}
-        title="EXPLORE UA"
-        text={`Our beautiful, 1,200-acre campus has everything you need to be successful during your college years. Be energized through leading-edge research initiatives and state-of-the-art labs. Be inspired by professors who are experts in their fields of study. Be active in campus life through one of more than 600 student organizations. Be involved in a wide range of volunteer opportunities and internships. Connect with what's important to you.`}
+        title="Explore The UD"
+        text={`Our beautiful, 1,200-acre campus has everything you need
+         to be successful during your college years. Be energized through
+          leading-edge research initiatives and state-of-the-art labs.
+           Be inspired by professors who are experts in their fields of study.
+            Be active in campus life through one of more than 600 student 
+            organizations. Be involved in a wide range of volunteer
+             opportunities and internships. Connect with what's important
+              to you.`}
         bgColor="vgblue"
         textColor="white"
         reverse={true}
@@ -73,8 +84,10 @@ const AboutPage = () => {
       />
       <ImageNextToParagraphMoreInfo
         imageLink={eventsImage}
-        title="NEWS AND EVENTS"
-        text={`Find out what our students, faculty, staff and alumni are doing to make a positive difference on our campus, in our community and state, and around the world.`}
+        title="News & Events"
+        text={`Find out what our students, faculty, staff and alumni are
+         doing to make a positive difference on our campus,
+          in our community and state, and around the world.`}
         bgColor="vggreen"
         textColor="white"
         reverse={false}
@@ -82,7 +95,11 @@ const AboutPage = () => {
         buttonComponent={
           <div className="w-full">
             <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
-              <LinkButtonTransparent name="UD News" link="/" width={"100%"} />
+              <LinkButtonTransparent
+                name="The University News"
+                link="/"
+                width={"100%"}
+              />
               <LinkButtonTransparent
                 name="Campus Events Calender"
                 link="/"

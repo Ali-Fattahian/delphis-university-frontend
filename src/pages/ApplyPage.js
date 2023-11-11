@@ -56,7 +56,7 @@ const ApplyPage = () => {
       key: 3,
       imageURL: scholarSchipsImage,
       title: "Schorlarships for current students",
-      text: "Scholarship application for students currently attending UD",
+      text: "Scholarship application for students currently attending The University of Delphis",
     },
   ];
 
@@ -71,9 +71,9 @@ const ApplyPage = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"white"}
-        title={"Make The World Proud"}
+        title={"Shape The Future"}
         text={
-          "UA establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
+          "The University of Delphis establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
         }
         classes="mt-8 min-[720px]:mt-0"
       />
