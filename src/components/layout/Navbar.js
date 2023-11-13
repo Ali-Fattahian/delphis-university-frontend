@@ -23,7 +23,7 @@ const Navbar = () => {
       {overlayVisible && <Overlay setOverlayClicked={setOverlayClicked} />}
       <nav className="w-full bg-vgyellow flex justify-between min-[720px]:flex-row items-center">
         <h1 className="text-1xl/6 flex-2 pl-2 text-left font-sans leading-3 font-bold text-slate-800 z-10 hidden min-[720px]:inline-block">
-          THE UNIVERSITY OF DELPHIS
+          <a href="/">THE UNIVERSITY OF DELPHIS</a>
         </h1>
         <ul className="w-full max-w-3xl m-auto list-none min-[720px]:flex flex-1 justify-end pr-4 hidden">
           <li className="transition-all duration-300 hover:bg-white">

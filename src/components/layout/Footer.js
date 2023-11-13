@@ -4,7 +4,7 @@ const imageURL = require("../../assets/images/Logo.jpg");
 
 const Footer = () => {
   return (
-    <div className="border-t-4 border-vgyellow bg-">
+    <div className="border-t-4 border-vgyellow">
       <div className="grid grid-cols-1 min-[400px]:grid-cols-2 sm:grid-cols-4 gap-4 p-4">
         <div className="flex flex-col gap-1">
           <h3 className="text-vgyellow font-semibold">COLLEGES AND SCHOOLS</h3>

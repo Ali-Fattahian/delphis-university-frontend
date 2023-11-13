@@ -5,31 +5,39 @@ import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContain
 const supportImage = require("../../assets/images/homepage - support.jpeg");
 const diversityImage = require("../../assets/images/homepage - diversity.jpeg");
 const housingImage = require("../../assets/images/homepage - housing.jpeg");
+const lifeImage = require("../../assets/images/homepage - student life.jpeg");
 
 const HomePageDailyLife = () => {
   const cardsArr = [
     {
+      title: "Student Life",
+      text: `The Division of Student Life provides programs and support services that make our student experience one of the best in the world.`,
+      link: "/student-life",
+      imageURL: lifeImage,
+      key: 1,
+    },
+    {
       title: "Safety & Support",
       text: `Our robust network of security and support professionals work
        to ensure a safe campus for all.`,
-      link: "/",
+      link: "/safety-support",
       imageURL: supportImage,
-      key: 1,
+      key: 2,
     },
     {
       title: "Diversity",
       text: `The University of Delphis strives to create an accepting and 
       inclusive campus community.`,
-      link: "/",
+      link: "/diversity",
       imageURL: diversityImage,
-      key: 2,
+      key: 3,
     },
     {
       title: "Student Housing",
       text: `Residential living puts you at the heart of campus life, where you will interact with a diverse community of people.`,
-      link: "/",
+      link: "/student-housing",
       imageURL: housingImage,
-      key: 3,
+      key: 4,
     },
   ];
 

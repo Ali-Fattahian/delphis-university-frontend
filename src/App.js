@@ -11,7 +11,11 @@ import ResearchPage from "./pages/Research/ResearchPage";
 import AcademicsPage from "./pages/AcademicsPage";
 import CampusPage from "./pages/CampusPage";
 import AboutPage from "./pages/AboutPage";
-import SearchResultsPage from "./pages/SearchResultsPage";
+// import SearchResultsPage from "./pages/SearchResultsPage";
+import StudentLifePage from "./pages/StudentLifePage";
+import DiversityPage from "./pages/DiversityPage";
+import SafetySupportPage from "./pages/SafetySupportPage";
+import StudentHousingPage from "./pages/StudentHousingPage";
 
 function App() {
   return (
@@ -28,7 +32,11 @@ function App() {
         <Route element={<CampusPage />} path="/campus-life" />
         <Route element={<TourPage />} path="/tour" />
         <Route element={<AboutPage />} path="/about" />
-        <Route element={<SearchResultsPage />} path="/search-results" />
+        {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}
+        <Route element={<StudentLifePage />} path="/student-life" />
+        <Route element={<DiversityPage />} path="/diversity" />
+        <Route element={<SafetySupportPage />} path="/safety-support" />
+        <Route element={<StudentHousingPage />} path="/student-housing" />
       </Routes>
     </Router>
   );
