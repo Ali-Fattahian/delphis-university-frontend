@@ -16,6 +16,7 @@ import StudentLifePage from "./pages/StudentLifePage";
 import DiversityPage from "./pages/DiversityPage";
 import SafetySupportPage from "./pages/SafetySupportPage";
 import StudentHousingPage from "./pages/StudentHousingPage";
+import AcademicCatalogPage from "./pages/AcademicCatalog/AcademicCatalogPage";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route element={<AdmissionsPage />} path="/admissions" />
         <Route element={<AcademicsPage />} path="/academics" />
         <Route element={<CampusPage />} path="/campus-life" />
+        <Route element={<AcademicCatalogPage />} path="/academic-catalog" />
         <Route element={<TourPage />} path="/tour" />
         <Route element={<AboutPage />} path="/about" />
         {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}

@@ -69,7 +69,7 @@ const CampusPage = () => {
       key: 3,
       title: "Diversity",
       text: `Learn more about yourself as you learn with and through others.`,
-      link: "/",
+      link: "/diversity",
       imageURL: diversityImage,
     },
   ];

@@ -10,6 +10,20 @@ module.exports = {
         vgyellow: "#ecc64b",
         vggreen: "#607a4f",
       },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 100 },
+        },
+        fadeOut: {
+          "100%": { opacity: 100 },
+          "0%": { opacity: 0 },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.4s ease-in-out forwards",
+        fadeOut: "fadeOut 0.4s ease-in-out forwards",
+      },
     },
   },
   plugins: [],

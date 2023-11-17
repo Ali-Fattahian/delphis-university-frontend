@@ -55,7 +55,7 @@ const HomePageDailyLife = () => {
         <LinkButtonAlt
           name="EXPLORE CAMPUS LIFE"
           classes="w-[279px]"
-          link="/"
+          link="/campus-life"
         />
       </div>
     </>
