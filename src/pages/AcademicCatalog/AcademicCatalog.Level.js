@@ -1,6 +1,6 @@
 import React from "react";
 
-const AcademicCatalogLevel = ({ setAcademicLevel }) => {
+const AcademicCatalogLevel = ({ setAcademicLevel, academicLevel }) => {
   return (
     <div className="w-full bg-neutral-100 text-neutral-600 flex flex-col px-0 mt-4">
       <p className="text-semibold text-neutral-800 px-4 border-l-vgred border-l-2 py-2">

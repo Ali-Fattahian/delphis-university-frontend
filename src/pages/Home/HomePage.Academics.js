@@ -14,7 +14,7 @@ const HomePageAcademics = () => {
         drive change and excel in virtually any industry — whether you go on 
         to teach and do research at a university, take a role in government,
          start a private enterprise, or embark on a professional career.`,
-      link: "/",
+      link: "/academic-catalog?academic-level=graduates&degree-type=major",
       imageURL: graduatesImage,
       key: 1,
     },
@@ -23,7 +23,7 @@ const HomePageAcademics = () => {
       text: `Leave your mark on the world and start studying for an
        undergraduate degree from a university that educates, equips
         and encourages you to forge a better future.`,
-      link: "/",
+      link: "/academic-catalog?academic-level=undergraduates&degree-type=major",
       imageURL: undergraduatesImage,
       key: 2,
     },

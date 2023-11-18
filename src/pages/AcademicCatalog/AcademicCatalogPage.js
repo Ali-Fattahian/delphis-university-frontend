@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
 import ChevronDownIcon from "@heroicons/react/24/outline/ChevronDownIcon";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 import AcademicCatalogLevel from "./AcademicCatalog.Level";
@@ -68,9 +67,12 @@ const AcademicCatalogPage = () => {
 
   const [programs, setPrograms] = useState(defaultPrograms);
 
-  const defaultInterests = useParams("interests");
-  const defaultAcademicLevel = useParams("academic-level");
-  const defaultDegreeType = useParams("degree-type");
+  const search = window.location.search;
+  const params = new URLSearchParams(search);
+
+  const defaultInterests = params.get("interests");
+  const defaultAcademicLevel = params.get("academic-level");
+  const defaultDegreeType = params.get("degree-type");
 
   const [interests, setInterests] = useState(
     defaultInterests ? defaultInterests : null
@@ -81,8 +83,6 @@ const AcademicCatalogPage = () => {
   const [degreeType, setDegreeType] = useState(
     defaultDegreeType ? defaultDegreeType : null
   );
-
-  console.log(defaultAcademicLevel, defaultDegreeType, defaultInterests);
 
   return (
     <>
@@ -107,7 +107,10 @@ const AcademicCatalogPage = () => {
                       <ArrowPathIcon width={16} height={16} />
                       <p className="text-sm">Reset</p>
                     </div>
-                    <AcademicCatalogLevel setAcademicLevel={setAcademicLevel} />
+                    <AcademicCatalogLevel
+                      setAcademicLevel={setAcademicLevel}
+                      academicLevel={academicLevel}
+                    />
                     <AcademicCatalogDegree defaultDegreeType={setDegreeType} />
                     <AcademicCatalogInterests setInterests={setInterests} />
                   </div>
