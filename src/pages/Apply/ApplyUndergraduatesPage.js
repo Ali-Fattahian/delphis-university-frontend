@@ -1,4 +1,5 @@
 import React from "react";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import ImageNextToParagraphMoreInfo from "../../components/layout/ImageNextToParagraph.MoreInfo";
@@ -11,6 +12,8 @@ const transferImage = require("../../assets/images/apply undergraduates - transf
 const extraImage = require("../../assets/images/apply undergraduates - extra.jpeg");
 
 const ApplyUndergraduatesPage = () => {
+  useDocumentTitle("The Undergraduates Apply");
+
   return (
     <>
       <Navbar />
