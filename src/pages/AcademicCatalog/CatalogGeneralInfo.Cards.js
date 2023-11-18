@@ -37,7 +37,7 @@ const CatalogGeneralInfoCards = () => {
         </p>
         <div className="flex flex-col gap-2">
           <a
-            href="/"
+            href="/apply-undergraduates"
             className="text-xs font-semibold hover:underline underline-offset-2 text-vgblue"
           >
             Undergraduate

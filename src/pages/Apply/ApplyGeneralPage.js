@@ -1,21 +1,21 @@
 import React from "react";
-import Navbar from "../components/layout/Navbar";
-import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
-import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
-import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
-import Footer from "../components/layout/Footer";
-import useDocumentTitle from "../hooks/useDocumentTitle";
+import Navbar from "../../components/layout/Navbar";
+import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
+import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
+import ImageNextToParagraphMoreInfo from "../../components/layout/ImageNextToParagraph.MoreInfo";
+import Footer from "../../components/layout/Footer";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
-const applyImage = require("../assets/images/apply - header.jpeg");
-const undergraduatesImage = require("../assets/images/apply - undergraduates.jpeg");
-const graduatesImage = require("../assets/images/apply - graduates.jpeg");
-const lawSchoolImage = require("../assets/images/apply - law school.jpeg");
-const housingImage = require("../assets/images/apply - housing.jpeg");
-const financialAidImage = require("../assets/images/apply - financial aid.jpeg");
-const freshMenImage = require("../assets/images/apply - freshmen.jpeg");
-const scholarSchipsImage = require("../assets/images/apply - scholarships.jpeg");
+const applyImage = require("../../assets/images/apply - header.jpeg");
+const undergraduatesImage = require("../../assets/images/apply - undergraduates.jpeg");
+const graduatesImage = require("../../assets/images/apply - graduates.jpeg");
+const lawSchoolImage = require("../../assets/images/apply - law school.jpeg");
+const housingImage = require("../../assets/images/apply - housing.jpeg");
+const financialAidImage = require("../../assets/images/apply - financial aid.jpeg");
+const freshMenImage = require("../../assets/images/apply - freshmen.jpeg");
+const scholarSchipsImage = require("../../assets/images/apply - scholarships.jpeg");
 
-const ApplyPage = () => {
+const ApplyGeneralPage = () => {
   useDocumentTitle("Apply");
 
   const cardsArr = [
@@ -106,4 +106,4 @@ const ApplyPage = () => {
   );
 };
 
-export default ApplyPage;
+export default ApplyGeneralPage;

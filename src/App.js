@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage";
 import "./App.css";
 import CommunityPage from "./pages/CommunityPage";
-import ApplyPage from "./pages/ApplyPage";
 import FacultyPage from "./pages/Faculty/FacultyPage";
 import LoginPage from "./pages/LoginPage";
 import TourPage from "./pages/TourPage";
@@ -18,6 +17,9 @@ import SafetySupportPage from "./pages/SafetySupportPage";
 import StudentHousingPage from "./pages/StudentHousingPage";
 import AcademicCatalogPage from "./pages/AcademicCatalog/AcademicCatalogPage";
 import CatalogGeneralInfoPage from "./pages/AcademicCatalog/CatalogGeneralInfoPage";
+import ApplyGeneralPage from "./pages/Apply/ApplyGeneralPage";
+import ApplyUndergraduatesPage from "./pages/Apply/ApplyUndergraduatesPage";
+import ApplyGraduatesPage from "./pages/Apply/ApplyGraduatesPage";
 
 function App() {
   return (
@@ -26,7 +28,12 @@ function App() {
         <Route element={<HomePage />} path="/" />
         <Route element={<ResearchPage />} path="/research" />
         <Route element={<CommunityPage />} path="/community" />
-        <Route element={<ApplyPage />} path="/apply" />
+        <Route element={<ApplyGeneralPage />} path="/apply" />
+        <Route
+          element={<ApplyUndergraduatesPage />}
+          path="/apply-undergraduates"
+        />
+        <Route element={<ApplyGraduatesPage />} path="/apply-graduates" />
         <Route element={<FacultyPage />} path="/faculty-staff" />
         <Route element={<LoginPage />} path="/login" />
         <Route element={<AdmissionsPage />} path="/admissions" />
