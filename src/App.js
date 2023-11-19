@@ -20,6 +20,8 @@ import CatalogGeneralInfoPage from "./pages/AcademicCatalog/CatalogGeneralInfoPa
 import ApplyGeneralPage from "./pages/Apply/ApplyGeneralPage";
 import ApplyUndergraduatesPage from "./pages/Apply/ApplyUndergraduatesPage";
 import ApplyGraduatesPage from "./pages/Apply/ApplyGraduatesPage";
+import ApplyNowPage from "./pages/Apply/ApplyNowPage";
+import RegisterPage from "./pages/RegisterPage";
 
 function App() {
   return (
@@ -34,8 +36,10 @@ function App() {
           path="/apply-undergraduates"
         />
         <Route element={<ApplyGraduatesPage />} path="/apply-graduates" />
+        <Route element={<ApplyNowPage />} path="/apply-now" />
         <Route element={<FacultyPage />} path="/faculty-staff" />
         <Route element={<LoginPage />} path="/login" />
+        <Route element={<RegisterPage />} path="/register" />
         <Route element={<AdmissionsPage />} path="/admissions" />
         <Route element={<AcademicsPage />} path="/academics" />
         <Route element={<CampusPage />} path="/campus-life" />

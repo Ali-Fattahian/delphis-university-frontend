@@ -6,7 +6,7 @@ const imageURL = require("../assets/images/Login.jpeg");
 const LoginPage = () => {
   useDocumentTitle("Login");
 
-  const [forgotPasswordOpen, setForgotPasswordOpen] = useState(false);
+  const [forgotPasswordOpen, setForgotPasswordOpen] = useState(true);
 
   return (
     <>
@@ -38,6 +38,7 @@ const LoginPage = () => {
                 className="block w-full text-slate-800 px-3 py-1 text-sm font-bold outline-none focus-within:bg-slate-100 rounded-sm"
                 type="text"
                 id="username"
+                required
               />
             </div>
             <div className="w-full">
@@ -52,6 +53,7 @@ const LoginPage = () => {
                 type="password"
                 id="password"
                 autoComplete="true"
+                required
               />
             </div>
             <fieldset className="w-full flex flex-col gap-3">

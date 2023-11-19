@@ -11,10 +11,18 @@
   overflow-x: hidden;
 }
 
-.hide-navbar {
-  right: -100%;
+h1 {
+  overflow-y: hidden;
 }
 
 li {
   overflow-y: hidden;
+}
+
+.hide-navbar {
+  right: -100%;
+}
+
+.carving-text-shadow {
+  text-shadow: 1px 1px 4px #000000;
 }
