@@ -16,7 +16,10 @@ const HomePageHeader = () => {
             <h1 className="text-neutral-300 text-5xl overflow-y-hidden [text-shadow:_0_1px_0_rgb(0_0_0_/_100%)]">
               Make The World <span className="text-vgyellow">Proud</span>
             </h1>
-            <LinkButton name="What our students say" link="/" />
+            <LinkButton
+              name="What our students say"
+              link="/student-endorsement"
+            />
           </div>
         </div>
       </div>

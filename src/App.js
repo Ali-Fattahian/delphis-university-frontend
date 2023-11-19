@@ -22,6 +22,7 @@ import ApplyUndergraduatesPage from "./pages/Apply/ApplyUndergraduatesPage";
 import ApplyGraduatesPage from "./pages/Apply/ApplyGraduatesPage";
 import ApplyNowPage from "./pages/Apply/ApplyNowPage";
 import RegisterPage from "./pages/RegisterPage";
+import StudentEndorsementsPage from "./pages/StudentEndorsementsPage";
 
 function App() {
   return (
@@ -52,6 +53,10 @@ function App() {
         <Route element={<DiversityPage />} path="/diversity" />
         <Route element={<SafetySupportPage />} path="/safety-support" />
         <Route element={<StudentHousingPage />} path="/student-housing" />
+        <Route
+          element={<StudentEndorsementsPage />}
+          path="/student-endorsement"
+        />
       </Routes>
     </Router>
   );
