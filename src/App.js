@@ -23,6 +23,8 @@ import ApplyGraduatesPage from "./pages/Apply/ApplyGraduatesPage";
 import ApplyNowPage from "./pages/Apply/ApplyNowPage";
 import RegisterPage from "./pages/RegisterPage";
 import StudentEndorsementsPage from "./pages/StudentEndorsementsPage";
+import AcademicCalenderPage from "./pages/Calender/AcademicCalenderPage";
+import EventsCalenderPage from "./pages/Calender/EventsCalenderPage";
 
 function App() {
   return (
@@ -46,6 +48,8 @@ function App() {
         <Route element={<CampusPage />} path="/campus-life" />
         <Route element={<AcademicCatalogPage />} path="/academic-catalog" />
         <Route element={<CatalogGeneralInfoPage />} path="/general-catalog" />
+        <Route element={<AcademicCalenderPage />} path="/academic-calender" />
+        <Route element={<EventsCalenderPage />} path="/events-calender" />
         <Route element={<TourPage />} path="/tour" />
         <Route element={<AboutPage />} path="/about" />
         {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}
