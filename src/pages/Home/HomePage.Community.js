@@ -31,9 +31,12 @@ const HomePageCommunity = () => {
       {show === 0 && <HomePageCommunityNews />}
       {show === 1 && <HomePageCommunityEvents />}
 
-      <div className="w-full flex flex-col gap-3 text-center justify-center items-center min-[620px]:flex-row mt-12">
-        <LinkButtonAlt name="NEWS CENTER" classes="w-[279px]" link="/" />
-        <LinkButtonAlt name="CALENDER" link="/" classes="w-[279px]" />
+      <div className="w-full flex gap-3 text-center justify-center items-center min-[620px]:flex-row mt-12">
+        <LinkButtonAlt
+          name="CALENDER"
+          link="/events-calender"
+          classes="w-[279px]"
+        />
       </div>
     </div>
   );

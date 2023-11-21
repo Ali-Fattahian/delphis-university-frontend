@@ -8,7 +8,7 @@ import TourPage from "./pages/TourPage";
 import AdmissionsPage from "./pages/AdmissionsPage";
 import ResearchPage from "./pages/Research/ResearchPage";
 import AcademicsPage from "./pages/AcademicsPage";
-import CampusPage from "./pages/CampusPage";
+import CampusPage from "./pages/Campus/CampusPage";
 import AboutPage from "./pages/AboutPage";
 // import SearchResultsPage from "./pages/SearchResultsPage";
 import StudentLifePage from "./pages/StudentLifePage";
@@ -25,6 +25,7 @@ import RegisterPage from "./pages/RegisterPage";
 import StudentEndorsementsPage from "./pages/StudentEndorsementsPage";
 import AcademicCalenderPage from "./pages/Calender/AcademicCalenderPage";
 import EventsCalenderPage from "./pages/Calender/EventsCalenderPage";
+import CampusVisitPage from "./pages/Campus/CampusVisitPage";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route element={<AcademicCalenderPage />} path="/academic-calender" />
         <Route element={<EventsCalenderPage />} path="/events-calender" />
         <Route element={<TourPage />} path="/tour" />
+        <Route element={<CampusVisitPage />} path="/campus-visit" />
         <Route element={<AboutPage />} path="/about" />
         {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}
         <Route element={<StudentLifePage />} path="/student-life" />

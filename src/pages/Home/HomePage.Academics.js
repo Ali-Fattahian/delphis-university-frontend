@@ -43,9 +43,13 @@ const HomePageAcademics = () => {
         <LinkButtonAlt
           name="Find Courses and Programs"
           classes="w-[279px]"
-          link="/"
+          link="/general-catalog"
         />
-        <LinkButtonAlt name="Academic Calender" link="/" classes="w-[279px]" />
+        <LinkButtonAlt
+          name="Academic Calender"
+          link="/academic-calender"
+          classes="w-[279px]"
+        />
       </div>
     </>
   );

@@ -1,30 +1,30 @@
 import React from "react";
-import useDocumentTitle from "../hooks/useDocumentTitle";
-import Navbar from "../components/layout/Navbar";
-import Footer from "../components/layout/Footer";
-import TextOnImage from "../components/layout/TextOnImage";
-import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
-import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
-import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
-import LinkButtonAlt from "../components/utilities/LinkButtonAlt";
-import LinkButton from "../components/utilities/LinkButton";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
+import Navbar from "../../components/layout/Navbar";
+import Footer from "../../components/layout/Footer";
+import TextOnImage from "../../components/layout/TextOnImage";
+import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
+import ImageNextToParagraphMoreInfo from "../../components/layout/ImageNextToParagraph.MoreInfo";
+import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
+import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
+import LinkButton from "../../components/utilities/LinkButton";
 
 const CampusPage = () => {
   useDocumentTitle("Campus");
 
-  const healthImage = require("../assets/images/campus - health.jpeg");
-  const supportImage = require("../assets/images/campus - support.jpeg");
-  const securityImage = require("../assets/images/campus - security.jpeg");
-  const rideImage = require("../assets/images/campus - ride.jpeg");
-  const diningImage = require("../assets/images/campus - dining.jpeg");
-  const diversityImage = require("../assets/images/campus - diversity.jpeg");
-  const ArtImage = require("../assets/images/campus - art.jpeg");
-  const commencementImage = require("../assets/images/campus - commencement.jpeg");
-  const getOnBoardImage = require("../assets/images/campus - get on board.jpeg");
-  const weeksOfWelcomeImage = require("../assets/images/campus - weeks of welcome.jpeg");
-  const ourCampusImage = require("../assets/images/campus - our campus.jpeg");
-  const involvementImage = require("../assets/images/campus - involvement.jpeg");
-  const campusLifeImage = require("../assets/images/campus - campus life.jpeg");
+  const healthImage = require("../../assets/images/campus - health.jpeg");
+  const supportImage = require("../../assets/images/campus - support.jpeg");
+  const securityImage = require("../../assets/images/campus - security.jpeg");
+  const rideImage = require("../../assets/images/campus - ride.jpeg");
+  const diningImage = require("../../assets/images/campus - dining.jpeg");
+  const diversityImage = require("../../assets/images/campus - diversity.jpeg");
+  const ArtImage = require("../../assets/images/campus - art.jpeg");
+  const commencementImage = require("../../assets/images/campus - commencement.jpeg");
+  const getOnBoardImage = require("../../assets/images/campus - get on board.jpeg");
+  const weeksOfWelcomeImage = require("../../assets/images/campus - weeks of welcome.jpeg");
+  const ourCampusImage = require("../../assets/images/campus - our campus.jpeg");
+  const involvementImage = require("../../assets/images/campus - involvement.jpeg");
+  const campusLifeImage = require("../../assets/images/campus - campus life.jpeg");
 
   const cardsArr = [
     {
