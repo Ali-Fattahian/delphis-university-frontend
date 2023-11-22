@@ -26,6 +26,7 @@ import StudentEndorsementsPage from "./pages/StudentEndorsementsPage";
 import AcademicCalenderPage from "./pages/Calender/AcademicCalenderPage";
 import EventsCalenderPage from "./pages/Calender/EventsCalenderPage";
 import CampusVisitPage from "./pages/Campus/CampusVisitPage";
+import CalenderDetailsPage from "./pages/Calender/CalenderDetailsPage";
 
 function App() {
   return (
@@ -51,6 +52,10 @@ function App() {
         <Route element={<CatalogGeneralInfoPage />} path="/general-catalog" />
         <Route element={<AcademicCalenderPage />} path="/academic-calender" />
         <Route element={<EventsCalenderPage />} path="/events-calender" />
+        <Route
+          element={<CalenderDetailsPage />}
+          path="/event-calender/:eventId"
+        />
         <Route element={<TourPage />} path="/tour" />
         <Route element={<CampusVisitPage />} path="/campus-visit" />
         <Route element={<AboutPage />} path="/about" />
