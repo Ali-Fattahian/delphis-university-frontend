@@ -2,7 +2,7 @@ import ComputerDesktopIcon from "@heroicons/react/24/outline/ComputerDesktopIcon
 import MapPinIcon from "@heroicons/react/24/outline/MapPinIcon";
 import React from "react";
 
-const EventsCalenderPageCard = ({
+const EventsCalendarPageCard = ({
   imageURL,
   title,
   tags,
@@ -58,4 +58,4 @@ const EventsCalenderPageCard = ({
   );
 };
 
-export default EventsCalenderPageCard;
+export default EventsCalendarPageCard;

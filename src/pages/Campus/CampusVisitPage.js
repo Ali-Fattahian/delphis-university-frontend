@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
-import CampusVisitPageCalender from "./CampusVisitPage.Calender";
+import CampusVisitPageCalendar from "./CampusVisitPage.Calendar";
 import useDocument from "../../hooks/useDocumentTitle";
 
 const headerImage = require("../../assets/images/campus visit - header.jpeg");
@@ -35,7 +35,7 @@ const CampusVisitPage = () => {
             View the calendar below to select a date and register for your
             campus tour.
           </p>
-          <CampusVisitPageCalender />
+          <CampusVisitPageCalendar />
         </div>
       </div>
       <Footer />

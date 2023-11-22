@@ -101,7 +101,7 @@ const AboutPage = () => {
                 width={"100%"}
               />
               <LinkButtonTransparent
-                name="Campus Events Calender"
+                name="Campus Events Calendar"
                 link="/"
                 width={"100%"}
               />

@@ -121,7 +121,7 @@ const TourPage = () => {
           ))}
         </div>
         <LinkButton
-          name="Calender"
+          name="Calendar"
           link="/"
           classes="max-w-[400px] min-w-[200px] text-center self-center"
         />

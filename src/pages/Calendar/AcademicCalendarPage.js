@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
-import AcademicCalenderCard from "./AcademicCalenderCard";
+import AcademicCalendarCard from "./AcademicCalendarCard";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
-import AcademicCalenderPageTable from "./AcademicCalenderPage.Table";
+import AcademicCalendarPageTable from "./AcademicCalendarPage.Table";
 
-const AcademicCalenderPage = () => {
-  useDocumentTitle("Academic Calender");
+const AcademicCalendarPage = () => {
+  useDocumentTitle("Academic Calendar");
 
   const [activeDate, setActiveDate] = useState(1);
   const [semesterType, setSemesterType] = useState(1);
@@ -237,12 +237,12 @@ const AcademicCalenderPage = () => {
       <div className="mt-[36px] min-[720px]:mt-0 w-full bg-neutral-100">
         <div className="w-full bg-neutral-200 p-3 border-b-[1px] border-neutral-50">
           <h1 className="text-neutral-800 text-2xl font-light">
-            Academic Calender
+            Academic Calendar
           </h1>
         </div>
         <div className="w-full max-w-[800px] m-auto px-4 py-6 border-b-[1px] border-neutral-400">
           {dates.map((date) => (
-            <AcademicCalenderCard
+            <AcademicCalendarCard
               name={date.name}
               key={date.key}
               active={date.key === activeDate}
@@ -252,7 +252,7 @@ const AcademicCalenderPage = () => {
         </div>
         <div className="w-full max-w-[800px] m-auto px-4 py-6 border-b-[1px] border-neutral-400">
           {semesters.map((semester) => (
-            <AcademicCalenderCard
+            <AcademicCalendarCard
               name={semester.name}
               key={semester.key}
               active={semester.key === semesterType}
@@ -262,7 +262,7 @@ const AcademicCalenderPage = () => {
         </div>
         <div className="w-full max-w-[800px] m-auto px-4 py-6 border-b-[1px] border-neutral-400">
           {events.map((event) => (
-            <AcademicCalenderCard
+            <AcademicCalendarCard
               name={event.name}
               key={event.key}
               active={event.key === eventType}
@@ -271,7 +271,7 @@ const AcademicCalenderPage = () => {
           ))}
         </div>
         <div className="w-full max-w-[800px] m-auto px-6 py-2">
-          <AcademicCalenderPageTable info={tableDates} />
+          <AcademicCalendarPageTable info={tableDates} />
         </div>
       </div>
       <Footer />
@@ -279,4 +279,4 @@ const AcademicCalenderPage = () => {
   );
 };
 
-export default AcademicCalenderPage;
+export default AcademicCalendarPage;

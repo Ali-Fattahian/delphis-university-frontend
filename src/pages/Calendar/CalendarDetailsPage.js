@@ -26,7 +26,7 @@ const eventDetails = {
   department: "Academic Dates & Deadlines",
 };
 
-const CalenderDetailsPage = () => {
+const CalendarDetailsPage = () => {
   useDocumentTitle("Event Detail Title");
 
   return (
@@ -139,4 +139,4 @@ const CalenderDetailsPage = () => {
   );
 };
 
-export default CalenderDetailsPage;
+export default CalendarDetailsPage;

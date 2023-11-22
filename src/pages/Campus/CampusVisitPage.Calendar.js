@@ -5,12 +5,12 @@ import {
   months,
   events,
   eventsDescription,
-} from "../../components/utilities/calender";
+} from "../../components/utilities/calendar";
 import cn from "../../components/utilities/cn";
 import ChevronLeftIcon from "@heroicons/react/24/outline/ChevronLeftIcon";
 import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
 
-const CampusVisitPageCalender = () => {
+const CampusVisitPageCalendar = () => {
   const days = ["S", "M", "T", "W", "T", "F", "S"];
   const currentDate = dayjs();
   const [today, setToday] = useState(currentDate);
@@ -135,4 +135,4 @@ const CampusVisitPageCalender = () => {
   );
 };
 
-export default CampusVisitPageCalender;
+export default CampusVisitPageCalendar;

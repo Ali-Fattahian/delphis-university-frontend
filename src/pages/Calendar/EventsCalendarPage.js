@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
-import EventsCalenderPageCard from "./EventsCalenderPage.Card";
+import EventsCalendarPageCard from "./EventsCalendarPage.Card";
 
-const EventsCalenderPage = () => {
-  useDocumentTitle("Events Calender");
+const EventsCalendarPage = () => {
+  useDocumentTitle("Events Calendar");
   const [show, setShow] = useState(0);
   const image = require("../../assets/images/Tour - eating.jpeg");
 
@@ -83,7 +83,7 @@ const EventsCalenderPage = () => {
                 className="text-1xl cursor-pointer overflow-y-hidden"
                 onClick={() => setShow(2)}
               >
-                Academic Calender
+                Academic Calendar
               </h3>
               <div className="transition-all duration-300 w-full h-[1px] bg-vgblue scale-0 group-hover:scale-100"></div>
             </div>
@@ -100,7 +100,7 @@ const EventsCalenderPage = () => {
           {show === 0 && (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center w-full max-w-[800px] mx-auto my-6">
               {events.map((event) => (
-                <EventsCalenderPageCard
+                <EventsCalendarPageCard
                   key={event.key}
                   imageURL={event.imageURL}
                   title={event.title}
@@ -117,7 +117,7 @@ const EventsCalenderPage = () => {
           {show === 1 && (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center w-full max-w-[800px] mx-auto my-6">
               {events.map((event) => (
-                <EventsCalenderPageCard
+                <EventsCalendarPageCard
                   key={event.key}
                   imageURL={event.imageURL}
                   title={event.title}
@@ -134,7 +134,7 @@ const EventsCalenderPage = () => {
           {show === 2 && (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center w-full max-w-[800px] mx-auto my-6">
               {events.map((event) => (
-                <EventsCalenderPageCard
+                <EventsCalendarPageCard
                   key={event.key}
                   imageURL={event.imageURL}
                   title={event.title}
@@ -151,7 +151,7 @@ const EventsCalenderPage = () => {
           {show === 3 && (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center w-full max-w-[800px] mx-auto my-6">
               {events.map((event) => (
-                <EventsCalenderPageCard
+                <EventsCalendarPageCard
                   key={event.key}
                   imageURL={event.imageURL}
                   title={event.title}
@@ -172,4 +172,4 @@ const EventsCalenderPage = () => {
   );
 };
 
-export default EventsCalenderPage;
+export default EventsCalendarPage;

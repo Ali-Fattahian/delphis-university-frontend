@@ -33,8 +33,8 @@ const HomePageCommunity = () => {
 
       <div className="w-full flex gap-3 text-center justify-center items-center min-[620px]:flex-row mt-12">
         <LinkButtonAlt
-          name="CALENDER"
-          link="/events-calender"
+          name="CALENDAR"
+          link="/events-calendar"
           classes="w-[279px]"
         />
       </div>

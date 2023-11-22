@@ -1,6 +1,6 @@
 import React from "react";
 
-const AcademicCalenderPageTable = ({ info }) => {
+const AcademicCalendarPageTable = ({ info }) => {
   return (
     <>
       {info.map((date) => (
@@ -35,4 +35,4 @@ const AcademicCalenderPageTable = ({ info }) => {
   );
 };
 
-export default AcademicCalenderPageTable;
+export default AcademicCalendarPageTable;

@@ -23,10 +23,10 @@ import ApplyGraduatesPage from "./pages/Apply/ApplyGraduatesPage";
 import ApplyNowPage from "./pages/Apply/ApplyNowPage";
 import RegisterPage from "./pages/RegisterPage";
 import StudentEndorsementsPage from "./pages/StudentEndorsementsPage";
-import AcademicCalenderPage from "./pages/Calender/AcademicCalenderPage";
-import EventsCalenderPage from "./pages/Calender/EventsCalenderPage";
+import AcademicCalendarPage from "./pages/Calendar/AcademicCalendarPage";
+import EventsCalendarPage from "./pages/Calendar/EventsCalendarPage";
 import CampusVisitPage from "./pages/Campus/CampusVisitPage";
-import CalenderDetailsPage from "./pages/Calender/CalenderDetailsPage";
+import CalendarDetailsPage from "./pages/Calendar/CalendarDetailsPage";
 
 function App() {
   return (
@@ -50,11 +50,11 @@ function App() {
         <Route element={<CampusPage />} path="/campus-life" />
         <Route element={<AcademicCatalogPage />} path="/academic-catalog" />
         <Route element={<CatalogGeneralInfoPage />} path="/general-catalog" />
-        <Route element={<AcademicCalenderPage />} path="/academic-calender" />
-        <Route element={<EventsCalenderPage />} path="/events-calender" />
+        <Route element={<AcademicCalendarPage />} path="/academic-calendar" />
+        <Route element={<EventsCalendarPage />} path="/events-calendar" />
         <Route
-          element={<CalenderDetailsPage />}
-          path="/event-calender/:eventId"
+          element={<CalendarDetailsPage />}
+          path="/event-calendar/:eventId"
         />
         <Route element={<TourPage />} path="/tour" />
         <Route element={<CampusVisitPage />} path="/campus-visit" />

@@ -1,6 +1,6 @@
 import React from "react";
 
-const AcademicCalenderCard = ({ active, name, onClick }) => {
+const AcademicCalendarCard = ({ active, name, onClick }) => {
   return (
     <button
       onClick={onClick}
@@ -15,4 +15,4 @@ const AcademicCalenderCard = ({ active, name, onClick }) => {
   );
 };
 
-export default AcademicCalenderCard;
+export default AcademicCalendarCard;

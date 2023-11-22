@@ -46,8 +46,8 @@ const HomePageAcademics = () => {
           link="/general-catalog"
         />
         <LinkButtonAlt
-          name="Academic Calender"
-          link="/academic-calender"
+          name="Academic Calendar"
+          link="/academic-calendar"
           classes="w-[279px]"
         />
       </div>
