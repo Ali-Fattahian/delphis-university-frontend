@@ -26,8 +26,11 @@ const HomePageCampus = () => {
               street fairs, there is something for everyone.
             </p>
             <div className="p-6 flex flex-col gap-4 justify-center items-center max-w-[500px] m-auto">
-              <LinkButtonTransparent name="Schedule a Tour" link="/" />
-              <LinkButtonTransparent name="Our Hometown" link="/" />
+              <LinkButtonTransparent
+                name="Schedule a Tour"
+                link="/campus-visit"
+              />
+              <LinkButtonTransparent name="Our Hometown" link="/delphis-city" />
             </div>
           </div>
         </div>

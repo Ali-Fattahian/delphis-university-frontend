@@ -27,6 +27,7 @@ import AcademicCalendarPage from "./pages/Calendar/AcademicCalendarPage";
 import EventsCalendarPage from "./pages/Calendar/EventsCalendarPage";
 import CampusVisitPage from "./pages/Campus/CampusVisitPage";
 import CalendarDetailsPage from "./pages/Calendar/CalendarDetailsPage";
+import DelphisCityPage from "./pages/DelphisCityPage";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
         />
         <Route element={<TourPage />} path="/tour" />
         <Route element={<CampusVisitPage />} path="/campus-visit" />
+        <Route element={<DelphisCityPage />} path="/delphis-city" />
         <Route element={<AboutPage />} path="/about" />
         {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}
         <Route element={<StudentLifePage />} path="/student-life" />
