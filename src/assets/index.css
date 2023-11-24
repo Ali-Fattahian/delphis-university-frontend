@@ -26,3 +26,7 @@ li {
 .carving-text-shadow {
   text-shadow: 1px 1px 4px #000000;
 }
+
+#spring-housing td {
+  padding: 4px;
+}

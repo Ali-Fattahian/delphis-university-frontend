@@ -17,7 +17,7 @@ const HomePageApply = () => {
         </h1>
         <LinkButton
           name="Apply"
-          link="/"
+          link="/apply"
           classes="min-w-[100px] max-w-[300px] text-center w-1/4"
         />
       </div>

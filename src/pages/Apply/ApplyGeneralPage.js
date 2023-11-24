@@ -9,7 +9,6 @@ import useDocumentTitle from "../../hooks/useDocumentTitle";
 const applyImage = require("../../assets/images/apply - header.jpeg");
 const undergraduatesImage = require("../../assets/images/apply - undergraduates.jpeg");
 const graduatesImage = require("../../assets/images/apply - graduates.jpeg");
-const lawSchoolImage = require("../../assets/images/apply - law school.jpeg");
 const housingImage = require("../../assets/images/apply - housing.jpeg");
 const financialAidImage = require("../../assets/images/apply - financial aid.jpeg");
 const freshMenImage = require("../../assets/images/apply - freshmen.jpeg");
@@ -24,18 +23,14 @@ const ApplyGeneralPage = () => {
       imageURL: undergraduatesImage,
       title: "Apply for undergraduate admission",
       text: "Application for all undergraduate students - domestic, international and transfer",
+      link: "/apply-undergraduates",
     },
     {
       key: 2,
       imageURL: graduatesImage,
       title: "Apply for graduate admission",
       text: "Application for all graduate students - domestic and international - pursuing advanced degrees",
-    },
-    {
-      key: 3,
-      imageURL: lawSchoolImage,
-      title: "Apply for law school admission",
-      text: "Application for all students - domestic and international - pursuing professional degrees in law",
+      link: "/apply-graduates",
     },
   ];
 

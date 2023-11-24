@@ -42,7 +42,7 @@ const DelphisCityPage = () => {
         title="Recreation"
         subTitle={`Wide open spaces. Wide open possibilities.`}
         text={`When it's time to unwind from the hustle of the day, Delphis provides UD students the spaces to relax, explore and have fun. The area offers a wide range of outdoor spaces with natural beauty. Anglers, climbers, hikers and beach-goers will find themselves at some of the world's premier venues for their interests and hobbies within a short drive. UD students are also very active in the thriving local sports scene.`}
-        imageLink={locationImage}
+        imageLink={recreationImage}
         bgColor="white"
         textColor="black"
         classes={{ marginTop: 0 }}

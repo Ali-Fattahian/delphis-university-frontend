@@ -50,7 +50,7 @@ const ApplyGraduatesPage = () => {
           <img
             src={howToImage}
             alt="How to Apply"
-            className=" w-11/12 aspect-square object-cover max-w-[540px] mx-auto mt-4"
+            className="w-11/12 aspect-square object-cover max-w-[540px] mx-auto mt-4"
           />
           <h2 className="mt-3 text-3xl pb-2 text-vgblue border-b-[1px] border-b-neutral-200">
             Application Materials and Submission Requirements
@@ -64,7 +64,7 @@ const ApplyGraduatesPage = () => {
           <img
             src={extraImage}
             alt="How to Apply"
-            className=" w-11/12 aspect-square object-cover max-w-[540px] mx-auto mt-4"
+            className="w-11/12 aspect-square object-cover max-w-[540px] mx-auto mt-4"
           />
           <div className="p-2 bg-neutral-100 mt-4 text-neutral-600">
             <h3 className="font-semibold">
