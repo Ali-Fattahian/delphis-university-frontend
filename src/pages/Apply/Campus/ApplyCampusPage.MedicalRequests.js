@@ -1,6 +1,9 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPageMedicalRequests = () => {
+  useDocumentTitle("Medical Requests");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-xs">
       <p className="text-neutral-600 text-sm">
@@ -23,7 +26,7 @@ const ApplyCampusPageMedicalRequests = () => {
         For all disability housing accommodation requests, HRC requires
         completion of the Medical Accommodation Form by the treating licensed
         clinical professional or health care provider thoroughly familiar with
-        the student’s condition and functional limitations and/or restrictions.
+        the student's condition and functional limitations and/or restrictions.
         Family members through blood, marriage, or other legal arrangement
         cannot act as the professional or provider.
       </p>
@@ -44,7 +47,7 @@ const ApplyCampusPageMedicalRequests = () => {
       </p>
       <p className="text-neutral-600 mt-2">
         Please note that requests for particular housing assignments/living
-        environments based on a student’s preference, rather than need, will not
+        environments based on a student's preference, rather than need, will not
         be honored. For example, a student with ADHD or anxiety seeking a single
         room to serve as a quiet, undisturbed place to study likely represents a
         preference, but not a necessity, for most students. Campus offers
@@ -76,7 +79,7 @@ const ApplyCampusPageMedicalRequests = () => {
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
         Deadlines
       </h2>
-      <ul className="mt-2 list-disc list-inside [&>li]:my-1 p-2">
+      <ul className="list-disc list-inside [&>li]:my-1 p-2">
         <li>
           Spring semester
           <li>December 1</li>
@@ -91,11 +94,11 @@ const ApplyCampusPageMedicalRequests = () => {
         Appeals Process
       </h2>
       <p className="text-neutral-600 mt-2">
-        UA recognizes that despite its good faith and reasonable efforts to
+        UD recognizes that despite its good faith and reasonable efforts to
         provide fair accommodations to its policies, practices, and procedures
         for students with disabilities, students may ultimately disagree with
         the determination made by HRC. In the event of contention, the student
-        may request a review by UA’s ADA Coordinator. The Vice President of
+        may request a review by UD's ADA Coordinator. The Vice President of
         Student Life will review all written appeals of the decision by the ADA
         coordinator to provide the final institutional review.
       </p>

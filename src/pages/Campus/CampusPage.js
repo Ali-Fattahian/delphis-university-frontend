@@ -54,7 +54,7 @@ const CampusPage = () => {
     {
       key: 1,
       title: "Dining",
-      text: `See UA's wide variety of on-campus options for nutritious and delicious food.`,
+      text: `See UD's wide variety of on-campus options for nutritious and delicious food.`,
       link: "/",
       imageURL: diningImage,
     },

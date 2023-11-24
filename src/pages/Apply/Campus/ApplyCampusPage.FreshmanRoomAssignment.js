@@ -1,6 +1,9 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPageFreshmanRoomAssignment = () => {
+  useDocumentTitle("Freshman Room Assignment");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-sm">
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
@@ -23,7 +26,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
           space allows (space may not allow roommates to live together),
         </li>
         <li>
-          students are <span className="font-semibold mx-1">not</span>
+          students are<span className="font-semibold mx-1">not</span>
           guaranteed any specific building or style of building. Buildings will
           fill during the room selection process, and suites may not be
           available later in the room selection process. Students should have
@@ -32,7 +35,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
         </li>
       </ul>
       <p className="text-neutral-600 text-sm mt-3">
-        We base a student’s initial room selection day/time on their housing
+        We base a student's initial room selection day/time on their housing
         application <span className="font-semibold mx-1">completion date</span>
         (which means the contract is signed and the $175 housing deposit is
         paid). Return to your application to confirm your completion date.
@@ -51,11 +54,11 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
       <p className="text-neutral-600 text-sm mt-3">
         NOTE: A confirmed roommate pair created in myRoomie will identify the
         student who initiated a roommate group as the “leader,” however, this
-        isn’t relevant for online room selection. In online room selection,
+        isn't relevant for online room selection. In online room selection,
         either student in the roommate pair can select a room online, dependent
         on their individual room selection date/time.
       </p>
-      <h2 className="text-neutral-800 font-semibold mt-2 mb-1 px-1 text-base">
+      <h2 className="text-neutral-800 font-semibold mt-4 mb-1 px-1 text-base">
         Trying to Fill a 4-Person Suite (Optional and not Guaranteed)
       </h2>
       <p className="text-neutral-600 text-sm mt-1">
@@ -86,7 +89,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
         </li>
         <li>
           If Pair A selects a suite during their earlier room selection time
-          without waiting until Pair B’s time, then more than likely, another
+          without waiting until Pair B's time, then more than likely, another
           random pair will go in and select the remaining spaces in that suite.
         </li>
         <li>
@@ -99,7 +102,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
         </li>
       </ul>
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
-        Room Assignment – Housing Applications from February 2
+        Room Assignment - Housing Applications from February 2
       </h2>
       <p className="text-neutral-600 text-sm mt-3">
         HRC assigns students who apply after February 1 beginning in late May
@@ -107,7 +110,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
         application date; gender; Living-Learning Community status, if any; and
         roommate pair. Students who complete the application beginning February
         2 will preference their top 10 residence hall choices. This list is
-        editable until a student’s assignment is made.
+        editable until a student's assignment is made.
         <span className="font-semibold mx-1">
           We consider roommate and hall preferences as space allows but cannot
           guarantee either.
@@ -116,7 +119,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
         their assignment and roommate(s) in their myHousing portal by clicking
         on View Fall Assignment.
       </p>
-      <h2 className="text-neutral-800 font-semibold mt-2 mb-1 px-1 text-base">
+      <h2 className="text-neutral-800 font-semibold mt-4 mb-1 px-1 text-base">
         Editing Hall Preferences
       </h2>
       <p className="text-neutral-600 text-sm mt-1">
@@ -132,7 +135,7 @@ const ApplyCampusPageFreshmanRoomAssignment = () => {
       <p className="text-neutral-600 text-sm mt-3">
         Once freshman room selection begins for the upcoming academic year,
         students can see their room assignment and other occupants in the space.
-        To review your room assignment/roommates once you’ve received an
+        To review your room assignment/roommates once you've received an
         assignment, log back into the myHousing portal, click
         <span className="font-semibold mx-1">myRoom</span>and then click the{" "}
         <span className="mx-1 font-semibold">View Fall Housing Assignment</span>

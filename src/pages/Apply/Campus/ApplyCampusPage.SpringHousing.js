@@ -1,4 +1,5 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 import LinkButton from "../../../components/utilities/LinkButton";
 
 const tableContent = [
@@ -21,6 +22,8 @@ const tableContent = [
 ];
 
 const ApplyCampusPageSpringHousing = () => {
+  useDocumentTitle("Spring Housing");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2">
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
@@ -28,7 +31,7 @@ const ApplyCampusPageSpringHousing = () => {
       </h2>
       <p className="text-neutral-600 mt-3">
         The Spring 2024 housing application for incoming freshmen, transfer
-        students, and UA students currently living off campus opens in the
+        students, and UD students currently living off campus opens in the
         myHousing portal on Monday, November 13, 2023, at 9 a.m. CDT. Students
         currently living on campus do not need to apply for spring housing. In
         order to apply for housing, a student must be admitted to the
@@ -40,7 +43,7 @@ const ApplyCampusPageSpringHousing = () => {
         exemption.
       </p>
       <p className="text-neutral-600 mt-3">
-        If you apply for housing and then decide not to attend UA, cancel your
+        If you apply for housing and then decide not to attend UD, cancel your
         housing application prior to moving in or the first day of class
         (whichever comes first) for the spring semester to avoid housing charges
         for the full spring semester. There is no refund for the $175 housing

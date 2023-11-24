@@ -1,7 +1,10 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 import UserGroupIcon from "@heroicons/react/24/outline/UserGroupIcon";
 
 const ApplyCampusPageRoommates = ({ setShow }) => {
+  useDocumentTitle("Roommates");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-sm">
       <p className="text-neutral-600 mt-3">
@@ -30,7 +33,7 @@ const ApplyCampusPageRoommates = ({ setShow }) => {
         </span>{" "}
         To create a roommate pair, students will go to the portal; click on
         myRoomie; click on “Go to the Roommate Group Section;” click on “Create
-        Group,” and click on “Invite,” entering their intended roommate’s first
+        Group,” and click on “Invite,” entering their intended roommate's first
         and last name.
         <span className="font-semibold mx-1">
           Admitted freshmen have until 8am Central on Monday, May 6 to complete
@@ -58,7 +61,7 @@ const ApplyCampusPageRoommates = ({ setShow }) => {
       </div>
       <p className="w-full max-w-[615px] mx-auto text-xs mt-3 bg-vgskyblue bg-opacity-50 p-3 border-l-2 border-vgblue border-opacity-50">
         A confirmed roommate pair created in the myHousing portal will identify
-        the student who initiated the group as the “leader,” however, this isn’t
+        the student who initiated the group as the “leader,” however, this isn't
         relevant for online room selection. In online room selection, either
         student in the roommate pair can select a room online, dependent on
         their individual room selection date/time.

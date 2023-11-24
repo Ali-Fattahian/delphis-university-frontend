@@ -1,13 +1,16 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPagePackingMoveIn = () => {
+  useDocumentTitle("Packing for Move-In");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-xs">
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
         Packing
       </h2>
-      <p className="text-neutral-600 text-base mt-2">Tips:</p>
-      <ul className="list-disc list-inside [&>li]:my-1 p-2">
+      <p className="text-neutral-600 text-base mt-3">Tips:</p>
+      <ul className="list-disc list-inside [&>li]:my-1 py-1 px-2">
         <li>Pack light and pick up additional items when you arrive.</li>
         <li>
           Contact roommate(s) ahead of time to avoid bringing duplicate items.
@@ -64,7 +67,7 @@ const ApplyCampusPagePackingMoveIn = () => {
       <h2 className="text-neutral-800 font-semibold mt-2 text-base">
         Items Shared with Roommates
       </h2>
-      <ul className="mt-1 list-disc list-inside [&>li]:my-1 p-2">
+      <ul className="mt-1 list-disc list-inside [&>li]:my-1 px-2">
         <li>
           TV for shared space (no size limit, but mounting TVs is prohibited)
         </li>
@@ -108,12 +111,12 @@ const ApplyCampusPagePackingMoveIn = () => {
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
         Shipping and Package Pickup
       </h2>
-      <p className="text-neutral-600 mt-3 text-sm">
+      <p className="text-neutral-600 mt-2 text-sm">
         You can begin shipping packages to campus prior to move-in. Campus Mail
         has helpful information on their website, including district zone info.
         Every student is assigned a Mail Stop Code (MSC) number for their time
-        at UA. All packages must include this MSC number, which can be found in
-        the student’s myBama.
+        at UD. All packages must include this MSC number, which can be found in
+        the student's account.
       </p>
     </div>
   );

@@ -164,7 +164,7 @@ const AcademicCalendarPage = () => {
           day: 6,
           title: "Degree Application Available",
           description:
-            "The online degree application in myBama becomes available for Graduate & Undergraduate students.",
+            "The online degree application in becomes available for Graduate & Undergraduate students.",
         },
         {
           key: 2,
@@ -185,7 +185,7 @@ const AcademicCalendarPage = () => {
           day: 6,
           title: "Degree Application Available",
           description:
-            "The online degree application in myBama becomes available for Graduate & Undergraduate students.",
+            "The online degree application in the online portal becomes available for Graduate & Undergraduate students.",
         },
         {
           key: 2,
@@ -206,7 +206,7 @@ const AcademicCalendarPage = () => {
           day: 6,
           title: "Degree Application Available",
           description:
-            "The online degree application in myBama becomes available for Graduate & Undergraduate students.",
+            "The online degree application in the online portal becomes available for Graduate & Undergraduate students.",
         },
         {
           key: 2,

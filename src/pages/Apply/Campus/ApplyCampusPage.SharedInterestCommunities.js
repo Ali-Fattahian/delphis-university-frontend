@@ -1,11 +1,14 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPageSharedInterestCommunities = () => {
+  useDocumentTitle("Shared Interest Communities");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-xs">
       <p className="text-neutral-600 text-sm">
         Shared Interest Living-Learning Communities (LLC) are organized either
-        around students’ shared academic or social interests. Students in Shared
+        around students' shared academic or social interests. Students in Shared
         Interest LLCs have the opportunity to build strong academic and social
         support systems with their fellow residents with whom they have a common
         interest. Each group is supported by either an academic department or a
@@ -19,7 +22,7 @@ const ApplyCampusPageSharedInterestCommunities = () => {
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
         Engineering and Computer Science
       </h2>
-      <p className="text-neutral-600">
+      <p className="text-neutral-600 mt-3">
         A unique living option is available for male engineering and computer
         science students in Bryant Hall, which houses student-athletes and
         freshmen from the College of Engineering. This living option provides an
@@ -32,12 +35,12 @@ const ApplyCampusPageSharedInterestCommunities = () => {
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">
         Mallet Assembly
       </h2>
-      <p className="text-neutral-600">
+      <p className="text-neutral-600 mt-3">
         Mallet Assembly, currently located in Highlands, is a group of original
         thinkers and eclectic personalities. This living option has the
         following goals:
       </p>
-      <ul className="mt-2 list-disc list-inside [&>li]:my-1 p-2">
+      <ul className="list-disc list-inside [&>li]:my-1 p-2">
         <li>
           to recognize extraordinary scholastic achievement through its
           admissions process
@@ -62,7 +65,7 @@ const ApplyCampusPageSharedInterestCommunities = () => {
         Multicultural Living Learning Community at the Rotary International
         House
       </h2>
-      <p className="text-neutral-600">
+      <p className="text-neutral-600 mt-3">
         The Multicultural Living Learning Community is a place where students
         can engage with people and ideas from around the world. The small, co-ed
         atmosphere fosters an environment where globalism and multicultural

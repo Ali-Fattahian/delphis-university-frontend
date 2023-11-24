@@ -1,4 +1,5 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 import CalendarDaysIcon from "@heroicons/react/24/outline/CalendarDaysIcon";
 import CubeIcon from "@heroicons/react/24/outline/CubeIcon";
 import TruckIcon from "@heroicons/react/24/outline/TruckIcon";
@@ -6,6 +7,8 @@ import HomeModernIcon from "@heroicons/react/24/outline/HomeModernIcon";
 import HandRaisedIcon from "@heroicons/react/24/outline/HandRaisedIcon";
 
 const ApplyCampusPageMoveIn = ({ setShow }) => {
+  useDocumentTitle("Move-In");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-sm">
       <p className="text-neutral-600">

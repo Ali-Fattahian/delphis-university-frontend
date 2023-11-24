@@ -1,10 +1,13 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPageExemptions = () => {
+  useDocumentTitle("Campus Exemptions");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-xs">
       <p className="text-neutral-600 text-sm">
-        UA requires that all first year, full-time students live on campus for
+        UD requires that all first year, full-time students live on campus for
         the entirety of their first year to provide students with a
         comprehensive educational experience.
       </p>
@@ -26,7 +29,7 @@ const ApplyCampusPageExemptions = () => {
         </li>
       </ul>
       <p className="text-neutral-600 text-sm">
-        UA’s freshman residency program applies to all students who are college
+        UD's freshman residency program applies to all students who are college
         students for the first time. Dual enrollment credits from high school do
         not impact the duration of the freshman residency program.
       </p>
@@ -39,7 +42,7 @@ const ApplyCampusPageExemptions = () => {
       </p>
       <ul className="mt-2 list-disc list-inside [&>li]:my-1 p-2">
         <li>
-          Live within 60 miles of UA (including Bibb, Chilton, Dallas, Fayette,
+          Live within 60 miles of UD (including Bibb, Chilton, Dallas, Fayette,
           Greene, Hale, Jefferson, Lamar, Marion, Marengo, Perry, Pickens,
           Shelby, Sumter, Tuscaloosa, Walker, and Winston counties) with lineal
           relatives (parent or grandparent, not siblings) or legal guardian
@@ -50,11 +53,11 @@ const ApplyCampusPageExemptions = () => {
         </li>
         <li>Married and/or have dependent children in residence</li>
       </ul>
-      <p className="text-neutral-600 text-sm">
+      <p className="text-neutral-600 text-sm mt-2">
         The exemption committee reviews requests that do not meet the above
         criteria. Other criteria considered include:
       </p>
-      <ul className="mt-4 list-disc list-inside [&>li]:my-1 p-2">
+      <ul className="list-disc list-inside [&>li]:my-1 p-2">
         <li>Military veteran</li>
         <li>Compelling individual circumstance (committee reviewed)</li>
       </ul>
@@ -69,12 +72,15 @@ const ApplyCampusPageExemptions = () => {
       <p className="text-neutral-600 text-sm mt-3">
         The exemption request form is available when the housing application
         opens for Fall. To access the exemption request form, go to your
-        myHousing portal and log in with your myBama account when prompted. From
-        the home page, select the “Housing Application” button, then click on
-        the “Freshman Exemption Request” at the bottom of the next page.
-        Exemption requests for Fall 2024 that are submitted in Fall 2023 or
-        early Spring 2024 will be considered by March 2024. The deadline to
-        submit an exemption request is July 15, 2024.
+        <a className="cursor-pointer mx-1 text-vggreen underline" href="/login">
+          online portal
+        </a>
+        and log in with your account when prompted. From the home page, select
+        the “Housing Application” button, then click on the “Freshman Exemption
+        Request” at the bottom of the next page. Exemption requests for Fall
+        2024 that are submitted in Fall 2023 or early Spring 2024 will be
+        considered by March 2024. The deadline to submit an exemption request is
+        July 15, 2024.
       </p>
     </div>
   );

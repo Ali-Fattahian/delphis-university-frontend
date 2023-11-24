@@ -86,7 +86,7 @@ const DiversityPage = () => {
                 life because I think if I can somehow be even a fraction as
                 impactful to my students as my teachers were to me then I've
                 done something worthy in this world.” In a recent faculty
-                spotlight Q&A conducted by the UA Teaching Academy, Brooks —
+                spotlight Q&A conducted by the UD Teaching Academy, Brooks —
                 associate professor and director of the Speaking Studio — shares
                 insights into his teaching philosophy, the pivotal moments that
                 shaped his methods and the profound impact he has had on his

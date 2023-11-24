@@ -1,6 +1,9 @@
 import React from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPageTransferGraduateStudents = () => {
+  useDocumentTitle("Transfer and Graduate Students");
+
   return (
     <div className="w-full max-w-[1200px] mx-auto p-2 text-xs">
       <p className="text-neutral-600 text-sm">

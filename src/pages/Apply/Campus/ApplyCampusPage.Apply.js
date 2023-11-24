@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import useDocumentTitle from "../../../hooks/useDocumentTitle";
 import LinkButton from "../../../components/utilities/LinkButton";
 
 const ApplyCampusPageApply = () => {
+  useDocumentTitle("Apply to Campus");
   const [show, setShow] = useState(0);
 
   return (
@@ -54,8 +56,8 @@ const ApplyCampusPageApply = () => {
           <p className="text-neutral-700 mt-4">
             To apply for housing (after the above are true) for the 2024-2025
             academic year, click on the “Apply for Housing” link below, log in
-            using your myBama credentials, and select “Academic Year 2024-2025.”
-            Your housing application is not complete until you have submitted:
+            using your credentials, and select “Academic Year 2024-2025.” Your
+            housing application is not complete until you have submitted:
           </p>
           <ul className="mt-4 list-disc list-inside [&>li]:my-1">
             <li>the application form through the myHousing portal</li>
@@ -108,7 +110,7 @@ const ApplyCampusPageApply = () => {
           <p className="text-neutral-700 mt-4">
             To apply for housing (after the above are true) for the 2023-2024
             academic year, click on the “Apply for Housing” link below, log in
-            using your myBama credentials, and select “Academic Year 2023-2024.”
+            using your credentials, and select “Academic Year 2023-2024.”
           </p>
           <ul className="mt-4 list-disc list-inside [&>li]:my-1">
             <li>the application form through the myHousing portal</li>
@@ -134,7 +136,7 @@ const ApplyCampusPageApply = () => {
         Summer Housing
       </h2>
       <p className="text-neutral-600 text-sm mt-4">
-        Incoming freshmen who will be taking UA courses this summer can live on
+        Incoming freshmen who will be taking UD courses this summer can live on
         campus for one or more summer terms (Summer I, Summer II or both). The
         application for summer housing is a separate application than the
         housing application for Academic Year 24-25 for fall and spring.

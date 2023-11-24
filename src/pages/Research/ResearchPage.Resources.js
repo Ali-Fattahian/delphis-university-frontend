@@ -71,7 +71,7 @@ const ResearchPageResources = () => {
 
       <ImageNextToParagraphMoreInfo
         title="Resources for Industry"
-        text="The University of Delphis Office for Research & Economic Development has dedicated resources to support the success of strategic projects with industry partners. These resources support the collaboration process and further the University’s goal of empowering transformative research and innovation to develop a better workforce economy.."
+        text="The University of Delphis Office for Research & Economic Development has dedicated resources to support the success of strategic projects with industry partners. These resources support the collaboration process and further the University's goal of empowering transformative research and innovation to develop a better workforce economy.."
         imageLink={researchIndustryImage}
         bgColor="vgyellow"
         textColor="black"

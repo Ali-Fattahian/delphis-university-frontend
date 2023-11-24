@@ -226,7 +226,7 @@ const ApplyUndergraduatesPage = () => {
         title="Readmit, Transient, Postgraduates & Specials"
         bgColor="vggreen"
         textColor="white"
-        subTitle={`Readmits have previously attended UD as an undergraduate student in a degree-seeking capacity. Transients are applying to take classes as a visitor. Postgraduates hold an undergraduate degree from any university. Specials are students seeking to take a class as a non-degree seeking student; they could range from UA staff members to the public.`}
+        subTitle={`Readmits have previously attended UD as an undergraduate student in a degree-seeking capacity. Transients are applying to take classes as a visitor. Postgraduates hold an undergraduate degree from any university. Specials are students seeking to take a class as a non-degree seeking student; they could range from UD staff members to the public.`}
         text={
           <ul className="shadow-md">
             <p className="ml-2 mb-3">

@@ -20,47 +20,9 @@ import ApplyCampusPagePackingMoveIn from "./ApplyCampusPage.PackingMoveIn";
 import ApplyCampusPageMoveInDay from "./ApplyCampusPage.MoveInDay";
 import ApplyCampusPageRoomSetup from "./ApplyCampusPage.RoomSetup";
 import ApplyCampusPageMoveInVolunteers from "./ApplyCampusPage.MoveInVolunteers";
-import useDocumentTitle from "../../../hooks/useDocumentTitle";
 
 const ApplyCampusPage = () => {
   const [show, setShow] = useState(0);
-
-  useDocumentTitle("Apply to Campus");
-
-  // switch (show) {
-  //   case 0:
-  //     useDocumentTitle("Apply to Campus");
-  //   case 1:
-  //     useDocumentTitle("Campus Exemptions");
-  //   case 2:
-  //     useDocumentTitle("Living-Learning Communities");
-  //   case 3:
-  //     useDocumentTitle("Academic LLCs");
-  //   case 4:
-  //     useDocumentTitle("Shared Interests Communities");
-  //   case 5:
-  //     useDocumentTitle("Spring Housing");
-  //   case 6:
-  //     useDocumentTitle("Transfer Graduate Students");
-  //   case 7:
-  //     useDocumentTitle("Medical Requests");
-  //   case 8:
-  //     useDocumentTitle("Roommates");
-  //   case 9:
-  //     useDocumentTitle("Freshman Room Assignment");
-  //   case 10:
-  //     useDocumentTitle("Move-In");
-  //   case 11:
-  //     useDocumentTitle("Move-In Schedule");
-  //   case 12:
-  //     useDocumentTitle("Packing Move-In");
-  //   case 13:
-  //     useDocumentTitle("Move-In Day");
-  //   case 14:
-  //     useDocumentTitle("Room Setup");
-  //   case 15:
-  //     useDocumentTitle("Move-In Volunteers");
-  // }
 
   return (
     <>
@@ -195,7 +157,9 @@ const ApplyCampusPage = () => {
       <div className="w-full p-2 bg-neutral-100">
         {show === 0 && <ApplyCampusPageApply />}
         {show === 1 && <ApplyCampusPageExemptions />}
-        {show === 2 && <ApplyCampusPageLivingLearningCommunities />}
+        {show === 2 && (
+          <ApplyCampusPageLivingLearningCommunities setShow={setShow} />
+        )}
         {show === 3 && <ApplyCampusPageAcademicLLCs />}
         {show === 4 && <ApplyCampusPageSharedInterestCommunities />}
         {show === 5 && <ApplyCampusPageSpringHousing />}
