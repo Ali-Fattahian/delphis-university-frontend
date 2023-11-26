@@ -5,26 +5,23 @@ import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer"
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const headerImage = require("../assets/images/student life - header.jpeg");
-const image2 = require("../assets/images/about - events.jpeg");
+const awardsImage = require("../assets/images/student life - awards.jpeg");
+const eventsImage = require("../assets/images/student life - events.jpeg");
 
 const cardsArr = [
   {
     key: 1,
-    title: "From Corpse to Capstone",
-    text: `See how the Office of Veteran and Military Affairs helps students in unique situations like Wade and several more.`,
-    imageURL: image2,
+    title: "Premier Awards",
+    text: `UA is now accepting nominations and applications for Premier Awards! These recognize exemplary students, faculty or staff members for their achievements and contributions toward the Capstone. Nominations are due Nov. 1 and student applications are due Nov. 15.`,
+    imageURL: awardsImage,
+    link: "/premier-awards",
   },
   {
     key: 2,
-    title: "From Corpse to Capstone",
-    text: `See how the Office of Veteran and Military Affairs helps students in unique situations like Wade and several more.`,
-    imageURL: image2,
-  },
-  {
-    key: 3,
-    title: "From Corpse to Capstone",
-    text: `See how the Office of Veteran and Military Affairs helps students in unique situations like Wade and several more.`,
-    imageURL: image2,
+    title: "Upcoming Events",
+    text: `See all upcoming Student Life events.`,
+    imageURL: eventsImage,
+    link: "student-events",
   },
 ];
 

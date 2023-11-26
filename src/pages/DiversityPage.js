@@ -13,18 +13,21 @@ const cardsArr = [
     title: "From Corpse to Capstone",
     text: `See how the Office of Veteran and Military Affairs helps students in unique situations like Wade and several more.`,
     imageURL: image2,
+    link: `/news-center/${1}`,
   },
   {
     key: 2,
     title: "From Corpse to Capstone",
     text: `See how the Office of Veteran and Military Affairs helps students in unique situations like Wade and several more.`,
     imageURL: image2,
+    link: `/news-center/${2}`,
   },
   {
     key: 3,
     title: "From Corpse to Capstone",
     text: `See how the Office of Veteran and Military Affairs helps students in unique situations like Wade and several more.`,
     imageURL: image2,
+    link: `/news-center/${3}`,
   },
 ];
 

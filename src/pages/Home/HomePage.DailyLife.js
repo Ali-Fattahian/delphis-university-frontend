@@ -4,7 +4,6 @@ import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContain
 
 const supportImage = require("../../assets/images/homepage - support.jpeg");
 const diversityImage = require("../../assets/images/homepage - diversity.jpeg");
-const housingImage = require("../../assets/images/homepage - housing.jpeg");
 const lifeImage = require("../../assets/images/homepage - student life.jpeg");
 
 const HomePageDailyLife = () => {
@@ -31,13 +30,6 @@ const HomePageDailyLife = () => {
       link: "/diversity",
       imageURL: diversityImage,
       key: 3,
-    },
-    {
-      title: "Student Housing",
-      text: `Residential living puts you at the heart of campus life, where you will interact with a diverse community of people.`,
-      link: "/student-housing",
-      imageURL: housingImage,
-      key: 4,
     },
   ];
 

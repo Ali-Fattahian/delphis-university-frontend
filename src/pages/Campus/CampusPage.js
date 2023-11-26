@@ -55,14 +55,14 @@ const CampusPage = () => {
       key: 1,
       title: "Dining",
       text: `See UD's wide variety of on-campus options for nutritious and delicious food.`,
-      link: "/",
+      link: "/dining",
       imageURL: diningImage,
     },
     {
       key: 2,
-      title: "Crimson Ride",
+      title: "Ride",
       text: `Enjoy the convenience of timely and comprehensive on-campus public transportation.`,
-      link: "/",
+      link: "/ride",
       imageURL: rideImage,
     },
     {

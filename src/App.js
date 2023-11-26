@@ -14,7 +14,7 @@ import AboutPage from "./pages/AboutPage";
 import StudentLifePage from "./pages/StudentLifePage";
 import DiversityPage from "./pages/DiversityPage";
 import SafetySupportPage from "./pages/SafetySupportPage";
-import StudentHousingPage from "./pages/StudentHousingPage";
+// import StudentHousingPage from "./pages/StudentHousingPage";
 import AcademicCatalogPage from "./pages/AcademicCatalog/AcademicCatalogPage";
 import CatalogGeneralInfoPage from "./pages/AcademicCatalog/CatalogGeneralInfoPage";
 import ApplyGeneralPage from "./pages/Apply/ApplyGeneralPage";
@@ -29,6 +29,14 @@ import CampusVisitPage from "./pages/Campus/CampusVisitPage";
 import CalendarDetailsPage from "./pages/Calendar/CalendarDetailsPage";
 import DelphisCityPage from "./pages/DelphisCityPage";
 import ApplyCampusPage from "./pages/Apply/Campus/ApplyCampusPage";
+import UndergraduatesAdmissionsPage from "./pages/Admissions/UndergraduatesAdmissionsPage";
+import PremierAwardsPage from "./pages/PremierAwardsPage";
+import StudentEventsPage from "./pages/StudentEventsPage";
+import NewsCenterDetailPage from "./pages/NewsCenterDetailPage";
+import NewsCenterPage from "./pages/NewsCenterPage";
+import FreshmanRequirementsPage from "./pages/Requirements/FreshmanRequirementsPage";
+import TransferRequirementsPage from "./pages/Requirements/TransferRequirementsPage";
+import InternationalRequirementsPage from "./pages/Requirements/InternationalRequirementsPage";
 
 function App() {
   return (
@@ -49,6 +57,10 @@ function App() {
         <Route element={<LoginPage />} path="/login" />
         <Route element={<RegisterPage />} path="/register" />
         <Route element={<AdmissionsPage />} path="/admissions" />
+        <Route
+          element={<UndergraduatesAdmissionsPage />}
+          path="/undergraduates-admissions"
+        />
         <Route element={<AcademicsPage />} path="/academics" />
         <Route element={<CampusPage />} path="/campus-life" />
         <Route element={<AcademicCatalogPage />} path="/academic-catalog" />
@@ -65,9 +77,25 @@ function App() {
         <Route element={<AboutPage />} path="/about" />
         {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}
         <Route element={<StudentLifePage />} path="/student-life" />
+        <Route element={<PremierAwardsPage />} path="/premier-awards" />
+        <Route element={<StudentEventsPage />} path="/student-events" />
         <Route element={<DiversityPage />} path="/diversity" />
         <Route element={<SafetySupportPage />} path="/safety-support" />
-        <Route element={<StudentHousingPage />} path="/student-housing" />
+        {/* <Route element={<StudentHousingPage />} path="/student-housing" /> */}
+        <Route element={<NewsCenterPage />} path="/general-news-center" />
+        <Route element={<NewsCenterDetailPage />} path="/news-center/:newsId" />
+        <Route
+          element={<FreshmanRequirementsPage />}
+          path="/freshman-requirements"
+        />
+        <Route
+          element={<TransferRequirementsPage />}
+          path="/transfer-requirements"
+        />
+        <Route
+          element={<InternationalRequirementsPage />}
+          path="/international-requirements"
+        />
         <Route
           element={<StudentEndorsementsPage />}
           path="/student-endorsement"

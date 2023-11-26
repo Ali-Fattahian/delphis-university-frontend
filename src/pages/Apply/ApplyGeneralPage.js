@@ -85,7 +85,7 @@ const ApplyGeneralPage = () => {
         buttonComponent={
           <LinkButtonAlt
             name="Apply for an on-campus housing"
-            link="/"
+            link="/apply-campus"
             classes="text-center"
           />
         }

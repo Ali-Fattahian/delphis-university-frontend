@@ -24,21 +24,21 @@ const ApplyUndergraduatesPage = () => {
         buttonComponent={
           <div className="flex flex-col gap-4">
             <a
-              href="/"
+              href="/freshman-requirements"
               className="text-xs underline-offset-2 hover:underline cursor-pointer font-bold text-vgblue"
             >
               Freshman Requirements
               <ArrowRightIcon className="w-4 inline-block" />
             </a>
             <a
-              href="/"
+              href="/transfer-requirements"
               className="text-xs underline-offset-2 hover:underline cursor-pointer font-bold text-vgblue"
             >
               Transfer Requirements
               <ArrowRightIcon className="w-4 inline-block" />
             </a>
             <a
-              href="/"
+              href="/international-requirements"
               className="text-xs underline-offset-2 hover:underline cursor-pointer font-bold text-vgblue"
             >
               International Requirements
