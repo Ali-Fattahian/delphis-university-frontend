@@ -23,7 +23,7 @@ const ApplyGeneralPage = () => {
       imageURL: undergraduatesImage,
       title: "Apply for undergraduate admission",
       text: "Application for all undergraduate students - domestic, international and transfer",
-      link: "/apply-undergraduates",
+      link: "/application",
     },
     {
       key: 2,

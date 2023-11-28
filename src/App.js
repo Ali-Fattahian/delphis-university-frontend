@@ -18,7 +18,6 @@ import SafetySupportPage from "./pages/SafetySupportPage";
 import AcademicCatalogPage from "./pages/AcademicCatalog/AcademicCatalogPage";
 import CatalogGeneralInfoPage from "./pages/AcademicCatalog/CatalogGeneralInfoPage";
 import ApplyGeneralPage from "./pages/Apply/ApplyGeneralPage";
-import ApplyUndergraduatesPage from "./pages/Apply/ApplyUndergraduatesPage";
 import ApplyGraduatesPage from "./pages/Apply/ApplyGraduatesPage";
 import ApplyNowPage from "./pages/Apply/ApplyNowPage";
 import RegisterPage from "./pages/RegisterPage";
@@ -29,14 +28,15 @@ import CampusVisitPage from "./pages/Campus/CampusVisitPage";
 import CalendarDetailsPage from "./pages/Calendar/CalendarDetailsPage";
 import DelphisCityPage from "./pages/DelphisCityPage";
 import ApplyCampusPage from "./pages/Apply/Campus/ApplyCampusPage";
-import UndergraduatesAdmissionsPage from "./pages/Admissions/UndergraduatesAdmissionsPage";
 import PremierAwardsPage from "./pages/PremierAwardsPage";
 import StudentEventsPage from "./pages/StudentEventsPage";
 import NewsCenterDetailPage from "./pages/NewsCenterDetailPage";
 import NewsCenterPage from "./pages/NewsCenterPage";
 import FreshmanRequirementsPage from "./pages/Requirements/FreshmanRequirementsPage";
 import TransferRequirementsPage from "./pages/Requirements/TransferRequirementsPage";
-import InternationalRequirementsPage from "./pages/Requirements/InternationalRequirementsPage";
+import InternationalAdmissionsPage from "./pages/Admissions/InternationalAdmissionsPage";
+import UndergraduatesAdmissionsPage from "./pages/Admissions/UndergraduatesAdmissionsPage";
+import ApplicationPage from "./pages/Apply/ApplicationPage";
 
 function App() {
   return (
@@ -46,10 +46,7 @@ function App() {
         <Route element={<ResearchPage />} path="/research" />
         <Route element={<CommunityPage />} path="/community" />
         <Route element={<ApplyGeneralPage />} path="/apply" />
-        <Route
-          element={<ApplyUndergraduatesPage />}
-          path="/apply-undergraduates"
-        />
+        <Route element={<ApplicationPage />} path="/application" />
         <Route element={<ApplyGraduatesPage />} path="/apply-graduates" />
         <Route element={<ApplyNowPage />} path="/apply-now" />
         <Route element={<ApplyCampusPage />} path="/apply-campus" />
@@ -59,7 +56,11 @@ function App() {
         <Route element={<AdmissionsPage />} path="/admissions" />
         <Route
           element={<UndergraduatesAdmissionsPage />}
-          path="/undergraduates-admissions"
+          path="/undergraduate-admissions"
+        />
+        <Route
+          element={<InternationalAdmissionsPage />}
+          path="/international-admissions"
         />
         <Route element={<AcademicsPage />} path="/academics" />
         <Route element={<CampusPage />} path="/campus-life" />
@@ -91,10 +92,6 @@ function App() {
         <Route
           element={<TransferRequirementsPage />}
           path="/transfer-requirements"
-        />
-        <Route
-          element={<InternationalRequirementsPage />}
-          path="/international-requirements"
         />
         <Route
           element={<StudentEndorsementsPage />}

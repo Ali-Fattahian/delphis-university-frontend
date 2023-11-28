@@ -33,7 +33,6 @@ const FreshmanRequirementsPage = () => {
               </p>
             </div>
           </div>
-
           <h1 className="text-3xl font-semibold">Freshman Requirements</h1>
           <p className="mt-6 text-sm">
             The University of Delphis will not require standardized ACT or SAT

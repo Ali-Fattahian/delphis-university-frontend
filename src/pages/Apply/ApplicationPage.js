@@ -11,8 +11,8 @@ const freshmanImage = require("../../assets/images/apply undergraduates - freshm
 const transferImage = require("../../assets/images/apply undergraduates - transfer.jpeg");
 const extraImage = require("../../assets/images/apply undergraduates - extra.jpeg");
 
-const ApplyUndergraduatesPage = () => {
-  useDocumentTitle("The Undergraduates Apply");
+const ApplicationPage = () => {
+  useDocumentTitle("How To Apply");
 
   return (
     <>
@@ -38,7 +38,7 @@ const ApplyUndergraduatesPage = () => {
               <ArrowRightIcon className="w-4 inline-block" />
             </a>
             <a
-              href="/international-requirements"
+              href="/international-admissions"
               className="text-xs underline-offset-2 hover:underline cursor-pointer font-bold text-vgblue"
             >
               International Requirements
@@ -299,4 +299,4 @@ const ApplyUndergraduatesPage = () => {
   );
 };
 
-export default ApplyUndergraduatesPage;
+export default ApplicationPage;
