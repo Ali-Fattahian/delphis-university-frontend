@@ -37,6 +37,9 @@ import TransferRequirementsPage from "./pages/Requirements/TransferRequirementsP
 import InternationalAdmissionsPage from "./pages/Admissions/InternationalAdmissionsPage";
 import UndergraduatesAdmissionsPage from "./pages/Admissions/UndergraduatesAdmissionsPage";
 import ApplicationPage from "./pages/Apply/ApplicationPage";
+import InternationalTransferPage from "./pages/International/InternationalTransferPage";
+import InternationalFreshmanPage from "./pages/International/InternationalFreshmanPage";
+import EnglishProofPage from "./pages/International/EnglishProofPage";
 
 function App() {
   return (
@@ -61,6 +64,18 @@ function App() {
         <Route
           element={<InternationalAdmissionsPage />}
           path="/international-admissions"
+        />
+        <Route
+          element={<InternationalTransferPage />}
+          path="/international/transfer"
+        />
+        <Route
+          element={<InternationalFreshmanPage />}
+          path="/international/freshman"
+        />
+        <Route
+          element={<EnglishProofPage />}
+          path="/international/english-proficiency-proof"
         />
         <Route element={<AcademicsPage />} path="/academics" />
         <Route element={<CampusPage />} path="/campus-life" />

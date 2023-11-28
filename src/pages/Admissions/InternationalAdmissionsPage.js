@@ -21,14 +21,14 @@ const cardsArr = [
     title: "Freshman",
     text: `You have finished, or are set to finish Secondary School, but have not enrolled in any University courses after secondary school completion.`,
     imageURL: freshmanImage,
-    link: "/international-freshman",
+    link: "/international/freshman",
   },
   {
     key: 2,
     title: "Transfer",
     text: `You have completed one or more courses at the college level after graduating from secondary school.`,
     imageURL: transferImage,
-    link: "/international-transfer",
+    link: "/international/transfer",
   },
 ];
 
