@@ -56,7 +56,7 @@ const TourPage = () => {
       text: `There are always new and exciting ways to experience Delphis
        City while you are here.`,
       imageURL: eventsImage,
-      link: "/",
+      link: "/upcoming-events",
     },
     {
       key: 2,
@@ -64,14 +64,14 @@ const TourPage = () => {
       text: `Delphis City is home to some of the best
        restaurants in the Southeast.`,
       imageURL: eatingImage,
-      link: "/",
+      link: "/eat-delphis",
     },
     {
       key: 3,
       title: "Hometown",
       text: `Delphis City is so much more than a college town.`,
       imageURL: hometownImage,
-      link: "/",
+      link: "/delphis-city",
     },
   ];
 
@@ -99,7 +99,7 @@ const TourPage = () => {
           <LinkButtonAlt
             name="Schedule a tour"
             classes="text-center"
-            link="/"
+            link="/campus-visit"
           />
         }
       />
@@ -122,7 +122,7 @@ const TourPage = () => {
         </div>
         <LinkButton
           name="Calendar"
-          link="/"
+          link="/events-calendar"
           classes="max-w-[400px] min-w-[200px] text-center self-center"
         />
       </div>

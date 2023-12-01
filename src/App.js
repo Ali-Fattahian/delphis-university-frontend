@@ -43,6 +43,8 @@ import EnglishProofPage from "./pages/International/EnglishProofPage";
 import MissionsAndObjectivesPage from "./pages/About/MissionsAndObjectivesPage";
 import TraditionsPage from "./pages/About/TraditionsPage";
 import HistoryPage from "./pages/About/HistoryPage";
+import UpcomingEventsPage from "./pages/UpcomingEventsPage";
+import EatAtDelphisPage from "./pages/EatAtDelphisPage";
 
 function App() {
   return (
@@ -91,6 +93,8 @@ function App() {
           path="/event-calendar/:eventId"
         />
         <Route element={<TourPage />} path="/tour" />
+        <Route element={<UpcomingEventsPage />} path="/upcoming-events" />
+        <Route element={<EatAtDelphisPage />} path="/eat-delphis" />
         <Route element={<CampusVisitPage />} path="/campus-visit" />
         <Route element={<DelphisCityPage />} path="/delphis-city" />
         <Route element={<AboutPage />} path="/about" />

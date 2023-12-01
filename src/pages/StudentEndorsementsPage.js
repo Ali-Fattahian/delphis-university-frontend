@@ -13,7 +13,7 @@ const StudentEndorsementsPage = () => {
     <>
       <Navbar />
       <div className="w-full bg-neutral-100 p-1 mt-[36px] min-[720px]:mt-0">
-        <div className="w-full max-w-[1200px] m-auto ">
+        <div className="w-full max-w-[1200px] m-auto">
           <ul className="flex flex-col gap-4 px-2 py-4">
             <li className="self-start flex flex-col min-[400px]:flex-row justify-between gap-4 bg-white p-2 border-neutral-200 shadow-sm max-w-[540px]">
               <img
