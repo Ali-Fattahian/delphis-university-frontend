@@ -9,7 +9,7 @@ import AdmissionsPage from "./pages/AdmissionsPage";
 import ResearchPage from "./pages/Research/ResearchPage";
 import AcademicsPage from "./pages/AcademicsPage";
 import CampusPage from "./pages/Campus/CampusPage";
-import AboutPage from "./pages/AboutPage";
+import AboutPage from "./pages/About/AboutPage";
 // import SearchResultsPage from "./pages/SearchResultsPage";
 import StudentLifePage from "./pages/StudentLifePage";
 import DiversityPage from "./pages/DiversityPage";
@@ -40,6 +40,9 @@ import ApplicationPage from "./pages/Apply/ApplicationPage";
 import InternationalTransferPage from "./pages/International/InternationalTransferPage";
 import InternationalFreshmanPage from "./pages/International/InternationalFreshmanPage";
 import EnglishProofPage from "./pages/International/EnglishProofPage";
+import MissionsAndObjectivesPage from "./pages/About/MissionsAndObjectivesPage";
+import TraditionsPage from "./pages/About/TraditionsPage";
+import HistoryPage from "./pages/About/HistoryPage";
 
 function App() {
   return (
@@ -91,6 +94,12 @@ function App() {
         <Route element={<CampusVisitPage />} path="/campus-visit" />
         <Route element={<DelphisCityPage />} path="/delphis-city" />
         <Route element={<AboutPage />} path="/about" />
+        <Route
+          element={<MissionsAndObjectivesPage />}
+          path="/missions-objectives"
+        />
+        <Route element={<TraditionsPage />} path="/traditions" />
+        <Route element={<HistoryPage />} path="/history" />
         {/* <Route element={<SearchResultsPage />} path="/search-results" /> */}
         <Route element={<StudentLifePage />} path="/student-life" />
         <Route element={<PremierAwardsPage />} path="/premier-awards" />

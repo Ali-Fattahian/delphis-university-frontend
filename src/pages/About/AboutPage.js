@@ -1,47 +1,51 @@
 import React from "react";
-import Navbar from "../components/layout/Navbar";
-import Footer from "../components/layout/Footer";
-import CardsNoBorderContainer from "../components/layout/CardsNoBorderContainer";
-import ImageNextToParagraphMoreInfo from "../components/layout/ImageNextToParagraph.MoreInfo";
-import LinkButtonTransparent from "../components/utilities/LinkButtonTransparent";
-import useDocumentTitle from "../hooks/useDocumentTitle";
-import TextOnImage from "../components/layout/TextOnImage";
+import Navbar from "../../components/layout/Navbar";
+import Footer from "../../components/layout/Footer";
+import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
+import ImageNextToParagraphMoreInfo from "../../components/layout/ImageNextToParagraph.MoreInfo";
+import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
+import TextOnImage from "../../components/layout/TextOnImage";
 
 const AboutPage = () => {
-  const headerImage = require("../assets/images/about - header.jpeg");
-  const historyImage = require("../assets/images/about- history.jpeg");
-  const exploreImage = require("../assets/images/about - explore.jpeg");
-  const administrationImage = require("../assets/images/about - administration.jpeg");
-  const policiesImage = require("../assets/images/about - policies.jpeg");
-  const missionsImage = require("../assets/images/about - missions.jpeg");
-  const eventsImage = require("../assets/images/about - events.jpeg");
+  const headerImage = require("../../assets/images/about - header.jpeg");
+  const historyImage = require("../../assets/images/about- history.jpeg");
+  const exploreImage = require("../../assets/images/about - explore.jpeg");
+  // const administrationImage = require("../../assets/images/about - administration.jpeg");
+  // const policiesImage = require("../../assets/images/about - policies.jpeg");
+  const traditionsImage = require("../../assets/images/about - traditions.jpeg");
+  const missionsImage = require("../../assets/images/about - missions.jpeg");
+  const eventsImage = require("../../assets/images/about - events.jpeg");
 
   useDocumentTitle("About");
 
   const cardsArr = [
+    // {
+    //   key: 1,
+    //   title: "Administration",
+    //   text: `The University's leadership and structure`,
+    //   imageURL: administrationImage,
+    // },
     {
       key: 1,
-      title: "Administration",
-      text: `The University's leadership and structure`,
-      imageURL: administrationImage,
-    },
-    {
-      key: 2,
       title: "History",
       text: `Key events in the University's history`,
       imageURL: historyImage,
+      link: "/history",
     },
     {
-      key: 3,
+      key: 2,
       title: "Missions & Objectives",
       text: `Teaching, research and service`,
       imageURL: missionsImage,
+      link: "/missions-objectives",
     },
     {
-      key: 4,
-      title: "Policies",
-      text: `Ensuring The UD's mission.`,
-      imageURL: policiesImage,
+      key: 3,
+      title: "Traditions",
+      text: `Beloved places, symbols and songs`,
+      imageURL: traditionsImage,
+      link: "/traditions",
     },
   ];
 
@@ -97,12 +101,12 @@ const AboutPage = () => {
             <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
               <LinkButtonTransparent
                 name="The University News"
-                link="/"
+                link="/general-news-center"
                 width={"100%"}
               />
               <LinkButtonTransparent
                 name="Campus Events Calendar"
-                link="/"
+                link="/events-calendar"
                 width={"100%"}
               />
             </div>

@@ -10,9 +10,9 @@ const applyImage = require("../../assets/images/apply - header.jpeg");
 const undergraduatesImage = require("../../assets/images/apply - undergraduates.jpeg");
 const graduatesImage = require("../../assets/images/apply - graduates.jpeg");
 const housingImage = require("../../assets/images/apply - housing.jpeg");
-const financialAidImage = require("../../assets/images/apply - financial aid.jpeg");
-const freshMenImage = require("../../assets/images/apply - freshmen.jpeg");
-const scholarSchipsImage = require("../../assets/images/apply - scholarships.jpeg");
+// const financialAidImage = require("../../assets/images/apply - financial aid.jpeg");
+// const freshMenImage = require("../../assets/images/apply - freshmen.jpeg");
+// const scholarSchipsImage = require("../../assets/images/apply - scholarships.jpeg");
 
 const ApplyGeneralPage = () => {
   useDocumentTitle("Apply");
@@ -34,26 +34,26 @@ const ApplyGeneralPage = () => {
     },
   ];
 
-  const cardsArr2 = [
-    {
-      key: 1,
-      imageURL: financialAidImage,
-      title: "Apply for financial aid",
-      text: "Learn more about opportunities to finance your education",
-    },
-    {
-      key: 2,
-      imageURL: freshMenImage,
-      title: "Scholarships for freshmen and transfer students",
-      text: "Scholarship opportunities for incoming freshmen and transfer students",
-    },
-    {
-      key: 3,
-      imageURL: scholarSchipsImage,
-      title: "Schorlarships for current students",
-      text: "Scholarship application for students currently attending The University of Delphis",
-    },
-  ];
+  // const cardsArr2 = [
+  //   {
+  //     key: 1,
+  //     imageURL: financialAidImage,
+  //     title: "Apply for financial aid",
+  //     text: "Learn more about opportunities to finance your education",
+  //   },
+  //   {
+  //     key: 2,
+  //     imageURL: freshMenImage,
+  //     title: "Scholarships for freshmen and transfer students",
+  //     text: "Scholarship opportunities for incoming freshmen and transfer students",
+  //   },
+  //   {
+  //     key: 3,
+  //     imageURL: scholarSchipsImage,
+  //     title: "Schorlarships for current students",
+  //     text: "Scholarship application for students currently attending The University of Delphis",
+  //   },
+  // ];
 
   return (
     <>
@@ -90,12 +90,12 @@ const ApplyGeneralPage = () => {
           />
         }
       />
-      <CardsNoBorderContainer
+      {/* <CardsNoBorderContainer
         cardsArr={cardsArr2}
         bgColor={"white"}
         title={"Scholarships & Financial Aid"}
         text={"Financial resources for incoming and current students."}
-      />
+      /> */}
       <Footer />
     </>
   );
