@@ -45,6 +45,10 @@ import TraditionsPage from "./pages/About/TraditionsPage";
 import HistoryPage from "./pages/About/HistoryPage";
 import UpcomingEventsPage from "./pages/UpcomingEventsPage";
 import EatAtDelphisPage from "./pages/EatAtDelphisPage";
+import RoommatesPairsPage from "./pages/RoommatesPairsPage";
+import HumanResourcesPage from "./pages/HumanResourcesPage";
+import StaffDirectoryPage from "./pages/StaffDirectoryPage";
+// import EmployeeHandbookPage from "./pages/EmployeeHandbookPage";
 
 function App() {
   return (
@@ -125,6 +129,10 @@ function App() {
           element={<StudentEndorsementsPage />}
           path="/student-endorsement"
         />
+        <Route element={<HumanResourcesPage />} path="/human-resources" />
+        <Route element={<RoommatesPairsPage />} path="/roommates-pairs" />
+        <Route element={<StaffDirectoryPage />} path="/staff-directory" />
+        {/* <Route element={<EmployeeHandbookPage />} path="/employee-handbook" /> */}
       </Routes>
     </Router>
   );

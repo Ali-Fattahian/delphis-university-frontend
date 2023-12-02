@@ -14,7 +14,7 @@ import ExtraInfoButton from "../../components/utilities/ExtraInfoButton";
 const facultyAndStaffImage = require("../../assets/images/faculty & staff.jpeg");
 const HRImage = require("../../assets/images/faculty & staff - HR.jpeg");
 const directoryImage = require("../../assets/images/faculty & staff - directory.jpeg");
-const policiesImage = require("../../assets/images/faculty & staff - policies.jpeg");
+// const policiesImage = require("../../assets/images/faculty & staff - policies.jpeg");
 
 const FacultyPage = () => {
   useDocumentTitle("Faculty & Staff");
@@ -25,19 +25,22 @@ const FacultyPage = () => {
       imageURL: HRImage,
       title: "Human Resources",
       text: "Access information on compensation, benefits and professional development.",
+      link: "/human-resources",
     },
     {
       key: 2,
       imageURL: directoryImage,
       title: "Directory",
       text: "Find contact information for current faculty, staff and students.",
+      link: "/staff-directory",
     },
-    {
-      key: 3,
-      imageURL: policiesImage,
-      title: "Handbooks and Policies",
-      text: "Information for faculty and staff on Delphis University policies and employee procedures.",
-    },
+    // {
+    //   key: 3,
+    //   imageURL: policiesImage,
+    //   title: "Handbooks and Policies",
+    //   text: "Information for faculty and staff on Delphis University policies and employee procedures.",
+    //   link: "/employee-handbook",
+    // },
   ];
 
   const buttonsClasses =
@@ -47,7 +50,7 @@ const FacultyPage = () => {
     <>
       <Navbar />
       <TextOnImage
-        title="FACULTY AND STAFF"
+        title="Faculty and Staff"
         text={`Resources and information for navigating your career at the
             Capstone.`}
         imageURL={facultyAndStaffImage}
@@ -55,7 +58,7 @@ const FacultyPage = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"white"}
-        title={"EMPLOYEE RESOURCES"}
+        title={"Employee Resources"}
         classes={"mt-8"}
         text={"Commonly used employee tools and guides."}
       />

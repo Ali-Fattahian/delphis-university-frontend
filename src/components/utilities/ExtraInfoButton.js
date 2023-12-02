@@ -12,13 +12,13 @@ const ExtraInfoButton = ({ name, text, bg, color, icon, classes }) => {
         {icon}
         {name}
       </button>
-      <p
+      <div
         className={`p-2 text-sm transition-all duration-300 ${
           textHidden ? "hidden" : "block"
         } text-slate-500 text-left border-[1px]`}
       >
         {text}
-      </p>
+      </div>
     </div>
   );
 };

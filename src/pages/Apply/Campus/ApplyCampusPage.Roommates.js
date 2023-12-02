@@ -49,7 +49,7 @@ const ApplyCampusPageRoommates = ({ setShow }) => {
         <div>
           <a
             className="text-base underline underline-offset-1 font-semibold cursor-pointer"
-            href="/"
+            href="/roommates-pairs"
           >
             Roommate Pairs
           </a>
