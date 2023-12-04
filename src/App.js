@@ -48,6 +48,10 @@ import EatAtDelphisPage from "./pages/EatAtDelphisPage";
 import RoommatesPairsPage from "./pages/RoommatesPairsPage";
 import HumanResourcesPage from "./pages/HumanResourcesPage";
 import StaffDirectoryPage from "./pages/StaffDirectoryPage";
+import DelphisOnlinePage from "./pages/DelphisOnlinePage";
+import AwardWinnerOnlineDetailsPage from "./pages/AwardWinnerOnlineDetailsPage";
+import OnlineAwardWinnersPage from "./pages/OnlineAwardWinnersPage";
+import DistantProgramsPage from "./pages/DistantPrograms/DistantProgramsPage";
 // import EmployeeHandbookPage from "./pages/EmployeeHandbookPage";
 
 function App() {
@@ -132,6 +136,16 @@ function App() {
         <Route element={<HumanResourcesPage />} path="/human-resources" />
         <Route element={<RoommatesPairsPage />} path="/roommates-pairs" />
         <Route element={<StaffDirectoryPage />} path="/staff-directory" />
+        <Route element={<DelphisOnlinePage />} path="/delphis-online" />
+        <Route element={<DistantProgramsPage />} path="/distant-programs" />
+        <Route
+          element={<OnlineAwardWinnersPage />}
+          path="/online-award-winners"
+        />
+        <Route
+          element={<AwardWinnerOnlineDetailsPage />}
+          path="/online-award-winners/:winner-id"
+        />
         {/* <Route element={<EmployeeHandbookPage />} path="/employee-handbook" /> */}
       </Routes>
     </Router>

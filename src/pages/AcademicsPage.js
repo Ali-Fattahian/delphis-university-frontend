@@ -23,18 +23,21 @@ const AcademicsPage = () => {
       imageURL: undergraduatesImage,
       title: "Undergraduate Majors",
       text: `Delphis provides a liberal arts education that fosters intellectual curiosity, independent thinking, and leadership skills.`,
+      link: "/academic-catalog?academic-level=undergraduates&degree-type=major",
     },
     {
       key: 2,
       imageURL: graduatesImage,
       title: "Graduate Programs",
       text: `Our advanced degree programs are close-knit communities with access to vast resources.`,
+      link: "/academic-catalog?academic-level=graduates&degree-type=major",
     },
     {
       key: 3,
       imageURL: onlineImage,
       title: "UD Online",
       text: `Step inside a virtual Delphis classroom and learn from some of our most renowned faculty members.`,
+      link: "/delphis-online",
     },
   ];
 
