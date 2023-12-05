@@ -11,7 +11,7 @@ import TextOnImage from "../components/layout/TextOnImage";
 
 const admissionsImage = require("../assets/images/admissions.jpeg");
 const applyImage = require("../assets/images/admissions - apply.jpeg");
-const requestInfoImage = require("../assets/images/admissions - request information.jpeg");
+// const requestInfoImage = require("../assets/images/admissions - request information.jpeg");
 const scheduleVisitImage = require("../assets/images/admissions - schedule visit.jpeg");
 const internationalAdmissionsImage = require("../assets/images/admissions - international.jpeg");
 const recruiterImage = require("../assets/images/admissions - recruiter.jpeg");
@@ -31,35 +31,35 @@ const AdmissionsPage = () => {
       title: "Apply Now",
       text: "Apply for admission.",
       imageURL: applyImage,
-      link: "/",
+      link: "/apply",
     },
-    {
-      key: 2,
-      title: "Request Information",
-      text: "Contact admissions or request printed materials.",
-      imageURL: requestInfoImage,
-      link: "/",
-    },
+    // {
+    //   key: 2,
+    //   title: "Request Information",
+    //   text: "Contact admissions or request printed materials.",
+    //   imageURL: requestInfoImage,
+    //   link: "/",
+    // },
     {
       key: 3,
       title: "Schedule a Visit",
       text: "Guided tours of campus options.",
       imageURL: scheduleVisitImage,
-      link: "/",
+      link: "/tour",
     },
     {
       key: 4,
       title: "International Admissions",
       text: "Connect with a regional recruiter in your area.",
       imageURL: internationalAdmissionsImage,
-      link: "/",
+      link: "/international-admissions",
     },
     {
       key: 5,
       title: "Find Your Recruiter",
       text: "Admissions for international students who are entering freshmen.",
       imageURL: recruiterImage,
-      link: "/",
+      link: "/find-recruiter",
     },
   ];
 
@@ -69,21 +69,21 @@ const AdmissionsPage = () => {
       title: "Graduate Admissions",
       text: "Learn admissions requirements and apply for graduate school.",
       imageURL: graduateAdmissionsImage,
-      link: "/",
+      link: "/apply-graduates",
     },
     {
       key: 2,
-      title: "International Graduate Admissions",
+      title: "Graduate International Admissions",
       text: "Admissions for international students who wish to continue their graduate education.",
       imageURL: internationalGradsImage,
-      link: "/",
+      link: "/international/graduates-admissions",
     },
     {
       key: 3,
       title: "Graduate Programs",
       text: "Explore the master's, educational specialist and doctoral degree programs.",
       imageURL: gradsProgramsImage,
-      link: "/",
+      link: "/academic-catalog?academic-level=graduates&degree-type=major",
     },
   ];
 
@@ -98,13 +98,13 @@ const AdmissionsPage = () => {
       />
       <CardsNoBorderContainer
         cardsArr={undergraduates}
-        bgColor={"white"}
+        bgColor="neutral-100"
         title={"Undergraduate Admissions"}
         text={
           "The highest-achieving students are drawn to Delphis university for its transformative opportunities — their impact limited only by your ambition."
         }
       />
-      <ImageNextToParagraphMoreInfo
+      {/* <ImageNextToParagraphMoreInfo
         reverse={false}
         bgColor="vgblue"
         classes={{ marginTop: "0" }}
@@ -118,7 +118,7 @@ const AdmissionsPage = () => {
             <LinkButtonTransparent width="100%" name="Scholarships" link="/" />
           </div>
         }
-      />
+      /> */}
       <CardsNoBorderContainer
         cardsArr={graduates}
         bgColor={"white"}
@@ -127,7 +127,7 @@ const AdmissionsPage = () => {
           "Choose from graduate programs to launch your professional and academic career to the highest levels of achievement."
         }
       />
-      <ImageNextToParagraphMoreInfo
+      {/* <ImageNextToParagraphMoreInfo
         reverse={true}
         bgColor="vggreen"
         textColor="white"
@@ -151,8 +151,8 @@ const AdmissionsPage = () => {
             />
           </div>
         }
-      />
-      <div className="bg-white p-10 flex flex-col justify-center gap-6">
+      /> */}
+      <div className="bg-neutral-100 p-10 flex flex-col justify-center gap-6">
         <h1 className="text-3xl sm:text-5xl text-center overflow-hidden">
           Cost of Attendance
         </h1>
@@ -160,16 +160,11 @@ const AdmissionsPage = () => {
           Resources to help determine your budget as you prepare to attend The
           University of Delphis in the coming academic year.
         </p>
-        <div className="w-full max-w-[400px] justify-center items-center flex flex-col gap-4 m-auto">
+        <div className="w-full max-w-[400px] justify-center items-center flex m-auto">
           <LinkButtonAlt
             classes="w-full text-center"
-            name="Transfer Admissions"
-            link="/"
-          />
-          <LinkButtonAlt
-            classes="w-full text-center"
-            name="Transfer FAQs"
-            link="/"
+            name="Cost of Attendance Info"
+            link="/cost-info"
           />
         </div>
       </div>
@@ -187,7 +182,7 @@ const AdmissionsPage = () => {
             <LinkButtonTransparent
               width="100%"
               name="Delphis Online"
-              link="/"
+              link="/delphis-online"
             />
           </div>
         }

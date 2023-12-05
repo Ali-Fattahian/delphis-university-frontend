@@ -52,6 +52,10 @@ import DelphisOnlinePage from "./pages/DelphisOnlinePage";
 import AwardWinnerOnlineDetailsPage from "./pages/AwardWinnerOnlineDetailsPage";
 import OnlineAwardWinnersPage from "./pages/OnlineAwardWinnersPage";
 import DistantProgramsPage from "./pages/DistantPrograms/DistantProgramsPage";
+import LibrariesInformationPage from "./pages/LibrariesInformationPage";
+import FindYourRecruiterPage from "./pages/FindYourRecruiterPage";
+import InternationalGraduatesAdmissionsPage from "./pages/International/InternationalGraduatesAdmissionsPage";
+import CostOfAttendanceInfoPage from "./pages/CostOfAttendanceInfoPage";
 // import EmployeeHandbookPage from "./pages/EmployeeHandbookPage";
 
 function App() {
@@ -85,6 +89,10 @@ function App() {
         <Route
           element={<InternationalFreshmanPage />}
           path="/international/freshman"
+        />
+        <Route
+          element={<InternationalGraduatesAdmissionsPage />}
+          path="/international/graduates-admissions"
         />
         <Route
           element={<EnglishProofPage />}
@@ -146,6 +154,9 @@ function App() {
           element={<AwardWinnerOnlineDetailsPage />}
           path="/online-award-winners/:winner-id"
         />
+        <Route element={<LibrariesInformationPage />} path="/libraries" />
+        <Route element={<FindYourRecruiterPage />} path="/find-recruiter" />
+        <Route element={<CostOfAttendanceInfoPage />} path="/cost-info" />
         {/* <Route element={<EmployeeHandbookPage />} path="/employee-handbook" /> */}
       </Routes>
     </Router>

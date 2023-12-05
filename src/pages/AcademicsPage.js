@@ -41,26 +41,26 @@ const AcademicsPage = () => {
     },
   ];
 
-  const technology = [
-    {
-      key: 1,
-      imageURL: informationTechnology,
-      title: "Office of Information Technology",
-      text: `Information technology services for all of the University community`,
-    },
-    {
-      key: 2,
-      imageURL: instructionalTechnology,
-      title: "Center for Instructional Technology",
-      text: `Tools and services for teaching, learning and collaboration`,
-    },
-    {
-      key: 3,
-      imageURL: accounts,
-      title: "Accounts",
-      text: `Log in to view grades, accounts, employee information and more`,
-    },
-  ];
+  // const technology = [
+  //   {
+  //     key: 1,
+  //     imageURL: informationTechnology,
+  //     title: "Office of Information Technology",
+  //     text: `Information technology services for all of the University community`,
+  //   },
+  //   {
+  //     key: 2,
+  //     imageURL: instructionalTechnology,
+  //     title: "Center for Instructional Technology",
+  //     text: `Tools and services for teaching, learning and collaboration`,
+  //   },
+  //   {
+  //     key: 3,
+  //     imageURL: accounts,
+  //     title: "Accounts",
+  //     text: `Log in to view grades, accounts, employee information and more`,
+  //   },
+  // ];
 
   useDocumentTitle("Academics");
 
@@ -93,19 +93,19 @@ const AcademicsPage = () => {
             <LinkButtonTransparent
               classes="w-full text-center"
               name="University Libraries"
-              link="/"
+              link="/libraries"
             />
           </div>
         }
       />
-      <CardsNoBorderContainer
+      {/* <CardsNoBorderContainer
         cardsArr={technology}
         bgColor={"slate-100"}
         title={"Technology"}
         text={
           "The University of Alabama emphasizes leading-edge technology to keep the campus connected and provides computer and web-based classroom and distance education opportunities for students, faculty and staff."
         }
-      />
+      /> */}
       <Footer />
     </>
   );
