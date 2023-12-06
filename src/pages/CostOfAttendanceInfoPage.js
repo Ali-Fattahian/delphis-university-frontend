@@ -17,7 +17,7 @@ const CostOfAttendanceInfoPage = () => {
           <img
             className="object-cover w-full max-h-[15rem]"
             src={headerImage}
-            alt="Human Resources"
+            alt="Cost of Attendance"
           />
           <p className="text-sm text-slate-800 mt-6">
             The 2023-2024 Cost of Attendance (COA) table below is used to

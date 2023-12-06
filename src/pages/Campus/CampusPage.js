@@ -5,47 +5,47 @@ import Footer from "../../components/layout/Footer";
 import TextOnImage from "../../components/layout/TextOnImage";
 import CardsNoBorderContainer from "../../components/layout/CardsNoBorderContainer";
 import ImageNextToParagraphMoreInfo from "../../components/layout/ImageNextToParagraph.MoreInfo";
-import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
+// import LinkButtonTransparent from "../../components/utilities/LinkButtonTransparent";
 import LinkButtonAlt from "../../components/utilities/LinkButtonAlt";
 import LinkButton from "../../components/utilities/LinkButton";
 
 const CampusPage = () => {
   useDocumentTitle("Campus");
 
-  const healthImage = require("../../assets/images/campus - health.jpeg");
+  // const healthImage = require("../../assets/images/campus - health.jpeg");
   const supportImage = require("../../assets/images/campus - support.jpeg");
   const securityImage = require("../../assets/images/campus - security.jpeg");
-  const rideImage = require("../../assets/images/campus - ride.jpeg");
+  // const rideImage = require("../../assets/images/campus - ride.jpeg");
   const diningImage = require("../../assets/images/campus - dining.jpeg");
   const diversityImage = require("../../assets/images/campus - diversity.jpeg");
   const ArtImage = require("../../assets/images/campus - art.jpeg");
-  const commencementImage = require("../../assets/images/campus - commencement.jpeg");
-  const getOnBoardImage = require("../../assets/images/campus - get on board.jpeg");
-  const weeksOfWelcomeImage = require("../../assets/images/campus - weeks of welcome.jpeg");
+  // const commencementImage = require("../../assets/images/campus - commencement.jpeg");
+  // const getOnBoardImage = require("../../assets/images/campus - get on board.jpeg");
+  // const weeksOfWelcomeImage = require("../../assets/images/campus - weeks of welcome.jpeg");
   const ourCampusImage = require("../../assets/images/campus - our campus.jpeg");
   const involvementImage = require("../../assets/images/campus - involvement.jpeg");
   const campusLifeImage = require("../../assets/images/campus - campus life.jpeg");
 
   const cardsArr = [
+    // {
+    //   key: 1,
+    //   title: "Health & Wellbeing",
+    //   text: `Learn how The University of Delphis promotes a healthy campus environment to enhance student well-being.`,
+    //   link: "/",
+    //   imageURL: healthImage,
+    // },
     {
       key: 1,
-      title: "Health & Wellbeing",
-      text: `Learn how The University of Delphis promotes a healthy campus environment to enhance student well-being.`,
-      link: "/",
-      imageURL: healthImage,
-    },
-    {
-      key: 2,
       title: "Safety & Support",
       text: `The safety and well-being of our students is one of our highest priorities.`,
-      link: "/",
+      link: "/campus-life/safety",
       imageURL: supportImage,
     },
     {
-      key: 3,
+      key: 2,
       title: "University Police",
-      text: `UAPD works to provide a safe and secure environment for the Delphis University community.`,
-      link: "/",
+      text: `UDPD works to provide a safe and secure environment for the Delphis University community.`,
+      link: "/university-police",
       imageURL: securityImage,
     },
   ];
@@ -55,18 +55,18 @@ const CampusPage = () => {
       key: 1,
       title: "Dining",
       text: `See UD's wide variety of on-campus options for nutritious and delicious food.`,
-      link: "/dining",
+      link: "/campus-dining",
       imageURL: diningImage,
     },
+    // {
+    //   key: 2,
+    //   title: "Ride",
+    //   text: `Enjoy the convenience of timely and comprehensive on-campus public transportation.`,
+    //   link: "/ride",
+    //   imageURL: rideImage,
+    // },
     {
       key: 2,
-      title: "Ride",
-      text: `Enjoy the convenience of timely and comprehensive on-campus public transportation.`,
-      link: "/ride",
-      imageURL: rideImage,
-    },
-    {
-      key: 3,
       title: "Diversity",
       text: `Learn more about yourself as you learn with and through others.`,
       link: "/diversity",
@@ -74,29 +74,29 @@ const CampusPage = () => {
     },
   ];
 
-  const cardsArr3 = [
-    {
-      key: 1,
-      title: "Commencement",
-      text: `Graduation ceremonies and information.`,
-      link: "/",
-      imageURL: commencementImage,
-    },
-    {
-      key: 2,
-      title: "Get on board day",
-      text: `Learn about the student organizations at the university of Delphis.`,
-      link: "/",
-      imageURL: getOnBoardImage,
-    },
-    {
-      key: 3,
-      title: "Weeks of Welcome",
-      text: `Programs for first-year and transfer students new to the Capstone.`,
-      link: "/",
-      imageURL: weeksOfWelcomeImage,
-    },
-  ];
+  // const cardsArr3 = [
+  //   {
+  //     key: 1,
+  //     title: "Commencement",
+  //     text: `Graduation ceremonies and information.`,
+  //     link: "/",
+  //     imageURL: commencementImage,
+  //   },
+  //   {
+  //     key: 2,
+  //     title: "Get on board day",
+  //     text: `Learn about the student organizations at the university of Delphis.`,
+  //     link: "/",
+  //     imageURL: getOnBoardImage,
+  //   },
+  //   {
+  //     key: 3,
+  //     title: "Weeks of Welcome",
+  //     text: `Programs for first-year and transfer students new to the Capstone.`,
+  //     link: "/",
+  //     imageURL: weeksOfWelcomeImage,
+  //   },
+  // ];
 
   return (
     <>
@@ -118,15 +118,15 @@ const CampusPage = () => {
         bgColor="vgblue"
         imageLink={involvementImage}
         reverse={true}
-        buttonComponent={
-          <div className="w-full max-w-[400px] justify-center items-center flex gap-4 m-auto">
-            <LinkButtonTransparent
-              classes="w-full text-center"
-              name="Some Origin Story"
-              link="/"
-            />
-          </div>
-        }
+        // buttonComponent={
+        //   <div className="w-full max-w-[400px] justify-center items-center flex gap-4 m-auto">
+        //     <LinkButtonTransparent
+        //       classes="w-full text-center"
+        //       name="Some Origin Story"
+        //       link="/"
+        //     />
+        //   </div>
+        // }
       />
       <CardsNoBorderContainer
         title="Health & Safety"
@@ -140,24 +140,29 @@ const CampusPage = () => {
         bgColor="vggreen"
         imageLink={ArtImage}
         reverse={false}
+        classes={{ marginTop: "0" }}
         buttonComponent={
           <div className="w-full">
             <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
-              <LinkButton name="Art" link="/" classes="w-full text-center" />
               <LinkButton
-                name="Creative Campus"
-                link="/"
+                name="Museums"
+                link="/museums"
+                classes="w-full text-center"
+              />
+              <LinkButton
+                name="Libraries"
+                link="/libraries"
                 classes="w-full text-center"
               />
             </div>
           </div>
         }
       />
-      <CardsNoBorderContainer
+      {/* <CardsNoBorderContainer
         title="Student Events"
         text={`The student experience here is rich in opportunities to expand your horizons and immerse yourself in a campus unlike any other.`}
         cardsArr={cardsArr3}
-      />
+      /> */}
       <ImageNextToParagraphMoreInfo
         title="Our Campus"
         text={`Year after year, the university of Delphis's campus ranks among the very best in the world. From tulips and cherry blossoms in the spring to cascades of golden leaves in the fall, you're surrounded by dramatic intersections of classic architecture and modern advancement.`}
@@ -165,17 +170,18 @@ const CampusPage = () => {
         bgColor="vgred"
         imageLink={ourCampusImage}
         reverse={true}
+        classes={{ marginTop: "0" }}
         buttonComponent={
           <div className="w-full">
             <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
               <LinkButtonAlt
                 name="Schedule a Tour"
-                link="/"
+                link="/campus-visit"
                 classes="w-full text-center"
               />
               <LinkButtonAlt
-                name="Somewhere Our Home Town"
-                link="/"
+                name="Delphis Our Home Town"
+                link="/delphis-city"
                 classes="w-full text-center"
               />
             </div>

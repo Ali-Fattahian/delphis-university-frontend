@@ -56,6 +56,10 @@ import LibrariesInformationPage from "./pages/LibrariesInformationPage";
 import FindYourRecruiterPage from "./pages/FindYourRecruiterPage";
 import InternationalGraduatesAdmissionsPage from "./pages/International/InternationalGraduatesAdmissionsPage";
 import CostOfAttendanceInfoPage from "./pages/CostOfAttendanceInfoPage";
+import CampusDiningPage from "./pages/CampusDiningPage";
+import CampusSafetyPage from "./pages/CampusSafetyPage";
+import UniversityPolicePage from "./pages/UniversityPolicePage";
+import MuseumsPage from "./pages/MuseumsPage";
 // import EmployeeHandbookPage from "./pages/EmployeeHandbookPage";
 
 function App() {
@@ -157,6 +161,10 @@ function App() {
         <Route element={<LibrariesInformationPage />} path="/libraries" />
         <Route element={<FindYourRecruiterPage />} path="/find-recruiter" />
         <Route element={<CostOfAttendanceInfoPage />} path="/cost-info" />
+        <Route element={<CampusDiningPage />} path="/campus-dining" />
+        <Route element={<CampusSafetyPage />} path="/campus-life/safety" />
+        <Route element={<UniversityPolicePage />} path="/university-police" />
+        <Route element={<MuseumsPage />} path="/museums" />
         {/* <Route element={<EmployeeHandbookPage />} path="/employee-handbook" /> */}
       </Routes>
     </Router>
