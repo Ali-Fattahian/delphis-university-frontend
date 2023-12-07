@@ -19,9 +19,9 @@ const NavbarMainLinks = () => {
       <li>
         <NavbarLink name={"Community"} link={"/community"} />
       </li>
-      <li>
+      {/* <li>
         <NavbarLink name={"Research"} link={"/research"} />
-      </li>
+      </li> */}
     </ul>
   );
 };

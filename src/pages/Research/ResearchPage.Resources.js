@@ -53,9 +53,8 @@ const ResearchPageResources = () => {
         bgColor="vgblue"
         textColor="white"
         buttonComponent={
-          <div className="flex flex-col gap-4 justify-center items-center">
-            <LinkButtonTransparent name="Training" link="/" />
-            <LinkButtonTransparent name="Forms & Templates" link="/" />
+          <div className="flex justify-center items-center">
+            <LinkButtonTransparent name="Training" link="/training" />
           </div>
         }
       />
@@ -63,7 +62,7 @@ const ResearchPageResources = () => {
       <CardsNoBorderContainer
         cardsArr={cardsArr}
         bgColor={"white"}
-        title={"RESOURCES FOR STUDENTS"}
+        title={"Resources for Students"}
         text={
           "programs and resources provided can help empower all student researchers at the Capstone in order to engage in research during their academic careers."
         }

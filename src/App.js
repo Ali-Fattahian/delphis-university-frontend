@@ -65,6 +65,7 @@ import CouncilOnCommunityPartnershipsPage from "./pages/CouncilOnCommunityPartne
 import ResearchAndPulicationsPage from "./pages/ResearchAndPulicationsPage";
 import FacultyCommunityEngagementTourPage from "./pages/FacultyCommunityEngagementTourPage";
 import StudentCommunityEngagementCenterPage from "./pages/StudentCommunityEngagementCenterPage";
+import TrainingPage from "./pages/TrainingPage";
 // import EmployeeHandbookPage from "./pages/EmployeeHandbookPage";
 
 function App() {
@@ -187,6 +188,7 @@ function App() {
           element={<StudentCommunityEngagementCenterPage />}
           path="/student-community-engagement"
         />
+        <Route element={<TrainingPage />} path="/training" />
         {/* <Route element={<EmployeeHandbookPage />} path="/employee-handbook" /> */}
       </Routes>
     </Router>
