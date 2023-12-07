@@ -14,7 +14,7 @@ const CardsNoBorderContainer = ({
       className={`bg-${bgColor} p-10 flex flex-col justify-center gap-6 ${classes}`}
     >
       <h1
-        className={`text-3xl sm:text-5xl text-center overflow-hidden text-${textColor}`}
+        className={`text-3xl sm:text-5xl text-center p-1 overflow-hidden text-${textColor}`}
       >
         {title}
       </h1>

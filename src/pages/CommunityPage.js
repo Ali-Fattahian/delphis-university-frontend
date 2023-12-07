@@ -15,9 +15,9 @@ const councilImage = require("../assets/images/community - council.jpeg");
 const researchImage = require("../assets/images/community - research.jpeg");
 const facultyImage = require("../assets/images/community - faculty engagement.jpeg");
 
-const earlyCollegeImage = require("../assets/images/community - early college.jpeg");
-const honorsActionImage = require("../assets/images/community - honors action.jpeg");
-const parentTeacherImage = require("../assets/images/community - parent teacher.jpeg");
+// const earlyCollegeImage = require("../assets/images/community - early college.jpeg");
+// const honorsActionImage = require("../assets/images/community - honors action.jpeg");
+// const parentTeacherImage = require("../assets/images/community - parent teacher.jpeg");
 
 const CommunityPage = () => {
   useDocumentTitle("Community");
@@ -28,41 +28,44 @@ const CommunityPage = () => {
       imageURL: councilImage,
       title: "Council on Community Based Partnerships",
       text: `All academic disciplines are represented on a Council comprised of students, faculty, and community members`,
+      link: "/council-community-partnerships",
     },
     {
       key: 2,
       imageURL: researchImage,
       title: "Research and Publications",
       text: `Support for students and faculty involved in community-engaged scholarship`,
+      link: "/research-publications",
     },
     {
       key: 3,
       imageURL: facultyImage,
       title: "New Faculty Community Engagement Tour",
       text: `Annual tour of West Alabama to connect faculty and students with community members`,
+      link: "/community-engagement-tour",
     },
   ];
 
-  const cardsArr2 = [
-    {
-      key: 1,
-      imageURL: earlyCollegeImage,
-      title: "Delphis Early College",
-      text: `Earn up to 30 hours of college credit during high school`,
-    },
-    {
-      key: 2,
-      imageURL: honorsActionImage,
-      title: "Honors Action",
-      text: `Incoming Honors College freshmen participate in service-learning programs`,
-    },
-    {
-      key: 3,
-      imageURL: parentTeacherImage,
-      title: "Parent Teacher Leadership Academy",
-      text: `Develops parents and teachers as leaders within their school communities`,
-    },
-  ];
+  // const cardsArr2 = [
+  //   {
+  //     key: 1,
+  //     imageURL: earlyCollegeImage,
+  //     title: "Delphis Early College",
+  //     text: `Earn up to 30 hours of college credit during high school`,
+  //   },
+  //   {
+  //     key: 2,
+  //     imageURL: honorsActionImage,
+  //     title: "Honors Action",
+  //     text: `Incoming Honors College freshmen participate in service-learning programs`,
+  //   },
+  //   {
+  //     key: 3,
+  //     imageURL: parentTeacherImage,
+  //     title: "Parent Teacher Leadership Academy",
+  //     text: `Develops parents and teachers as leaders within their school communities`,
+  //   },
+  // ];
 
   return (
     <>
@@ -86,7 +89,7 @@ const CommunityPage = () => {
         buttonComponent={
           <LinkButtonTransparent
             name="Diversity of Community Affairs"
-            link="/"
+            link="/community-affairs"
           />
         }
       />
@@ -109,29 +112,24 @@ const CommunityPage = () => {
         imageLink={communityLearningImage}
         buttonComponent={
           <div className="w-full">
-            <div className="flex flex-col gap-4 justify-center items-center w-full max-w-[400px] m-auto">
-              <LinkButtonTransparent
-                name="Center for service & Leadership"
-                link="/"
-                width={"100%"}
-              />
+            <div className="flex gap-4 justify-center items-center w-full max-w-[400px] m-auto">
               <LinkButtonTransparent
                 name="Student Community Engagement Center"
-                link="/"
+                link="/student-community-engagement"
                 width={"100%"}
               />
             </div>
           </div>
         }
       />
-      <CardsNoBorderContainer
+      {/* <CardsNoBorderContainer
         cardsArr={cardsArr2}
         bgColor={"white"}
         title={"Community Education"}
         text={
           "Our faculty, staff and students are committed to making a positive impact on the local children and the future of our state and region."
         }
-      />
+      /> */}
       <Footer />
     </>
   );

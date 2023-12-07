@@ -60,6 +60,11 @@ import CampusDiningPage from "./pages/CampusDiningPage";
 import CampusSafetyPage from "./pages/CampusSafetyPage";
 import UniversityPolicePage from "./pages/UniversityPolicePage";
 import MuseumsPage from "./pages/MuseumsPage";
+import CommunityAffairsPage from "./pages/CommunityAffairsPage";
+import CouncilOnCommunityPartnershipsPage from "./pages/CouncilOnCommunityPartnershipsPage";
+import ResearchAndPulicationsPage from "./pages/ResearchAndPulicationsPage";
+import FacultyCommunityEngagementTourPage from "./pages/FacultyCommunityEngagementTourPage";
+import StudentCommunityEngagementCenterPage from "./pages/StudentCommunityEngagementCenterPage";
 // import EmployeeHandbookPage from "./pages/EmployeeHandbookPage";
 
 function App() {
@@ -165,6 +170,23 @@ function App() {
         <Route element={<CampusSafetyPage />} path="/campus-life/safety" />
         <Route element={<UniversityPolicePage />} path="/university-police" />
         <Route element={<MuseumsPage />} path="/museums" />
+        <Route element={<CommunityAffairsPage />} path="/community-affairs" />
+        <Route
+          element={<CouncilOnCommunityPartnershipsPage />}
+          path="/council-community-partnerships"
+        />
+        <Route
+          element={<ResearchAndPulicationsPage />}
+          path="/research-publications"
+        />
+        <Route
+          element={<FacultyCommunityEngagementTourPage />}
+          path="/community-engagement-tour"
+        />
+        <Route
+          element={<StudentCommunityEngagementCenterPage />}
+          path="/student-community-engagement"
+        />
         {/* <Route element={<EmployeeHandbookPage />} path="/employee-handbook" /> */}
       </Routes>
     </Router>
