@@ -148,7 +148,7 @@ const ApplyCampusPageAcademicLLCs = () => {
       </p>
       <p className="text-neutral-600 text-sm mt-2">
         The Community Engagement LLC provides first-year, undergraduate students
-        with an opportunity to connect, collaborate, and explore the Tuscaloosa
+        with an opportunity to connect, collaborate, and explore the Delphis
         area through community engagement. Community engagement is the process
         of working collaboratively with and through groups of people affiliated
         by geographic proximity, special interest, or similar situations to

@@ -21,12 +21,12 @@ const TraditionsPage = () => {
           <div className="mt-4 bg-neutral-200 p-3">
             <h2 className="text-xl font-semibold">Academic families</h2>
             <p className="mt-2 font-light">
-              St Andrews is also home to a large number of academic families – a
+              St Andrews is also home to a large number of academic families - a
               tradition where older students adopt first year students as
-              ‘children’ and help guide them in a system of mentoring. This is a
+              ‘children' and help guide them in a system of mentoring. This is a
               fantastic way for first year students to meet new people, and many
               of the friendships that begin as part of the academic family
-              tradition continue throughout a student’s time at the University
+              tradition continue throughout a student's time at the University
               and beyond.
             </p>
           </div>
@@ -38,7 +38,7 @@ const TraditionsPage = () => {
           <div className="mt-4 bg-neutral-200 p-3">
             <h2 className="text-xl font-semibold">Raisin Weekend</h2>
             <p className="mt-2 font-light">
-              This ‘mentoring’ culminates in Raisin Weekend, when children are
+              This ‘mentoring' culminates in Raisin Weekend, when children are
               entertained by their parents and are encouraged to play pranks and
               silly games. On Raisin Monday, the children dress in embarrassing,
               flamboyant costumes, are given strange objects with a traditional
@@ -61,7 +61,7 @@ const TraditionsPage = () => {
             </p>
             <p className="mt-2 font-light">
               If you do not fancy a cold swim, you can always help by promising
-              to look after your friends’ clothes on the beach!
+              to look after your friends' clothes on the beach!
             </p>
           </div>
           <img
@@ -72,7 +72,7 @@ const TraditionsPage = () => {
           <div className="mt-4 bg-neutral-200 p-3">
             <h2 className="text-xl font-semibold">Soakings</h2>
             <p className="mt-2 font-light">
-              A final tradition occurs after many students’ final undergraduate
+              A final tradition occurs after many students' final undergraduate
               exam when their friends will meet them as they leave the location
               of their exam to shower them with cold water. This invigorating
               tradition is a great way to celebrate completing your final

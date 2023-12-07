@@ -46,8 +46,13 @@ const ResearchPageCenter = () => {
         bgColor="vgskyblue"
         textColor="black"
         title="Delphis Analytical Research Center"
-        text={`DARC supports collaborative, multidisciplinary research involving instruments for electron, ion, and x-ray imaging, diffraction, and spectroscopy. This center works with researchers from Delphis and other universities, regional institutions, and stakeholders to accelerate discovery in a variety of fields.
-        AARC's strength resides in its ability to facilitate transformative advancements through training and direct research assistance.`}
+        text={`DARC supports collaborative, multidisciplinary research
+         involving instruments for electron, ion, and x-ray imaging,
+          diffraction, and spectroscopy. This center works with researchers
+           from Delphis and other universities, regional institutions, and
+            stakeholders to accelerate discovery in a variety of fields.
+        AARC's strength resides in its ability to facilitate transformative
+         advancements through training and direct research assistance.`}
         reverse={false}
         buttonComponent={
           <LinkButton name="Learn More" link="/" classes="text-center" />
@@ -56,7 +61,11 @@ const ResearchPageCenter = () => {
       <ImageNextToParagraph
         bgColor="white"
         title="Delphis Cyber Initiative"
-        text="DCI advances the understanding of cyber issues and develops and implements a comprehensive cyber research and education program, creating a more secure, stable, and advanced digital future. DCI collaborates extensively with other institutes to provide expertise related to its main foci."
+        text="DCI advances the understanding of cyber issues and develops
+         and implements a comprehensive cyber research and education program,
+          creating a more secure, stable, and advanced digital future.
+           DCI collaborates extensively with other institutes to provide
+            expertise related to its main foci."
         textColor="black"
         imageLink={researchCyberImage}
         reverse={true}
@@ -65,7 +74,11 @@ const ResearchPageCenter = () => {
       <ImageNextToParagraph
         bgColor="vggreen"
         title="Delphis Life Research Institute"
-        text="DLRI serves as a focal point for interdisciplinary biopsychosocial research that investigates the human condition at all levels to improve lives across the world. The institute collaborates with other institutions, health care corporations, governmental agencies, and community-based organizations."
+        text="DLRI serves as a focal point for interdisciplinary biopsychosocial
+         research that investigates the human condition at all levels to improve
+          lives across the world. The institute collaborates
+           with other institutions, health care corporations, governmental
+            agencies, and community-based organizations."
         textColor="white"
         imageLink={researchHealthImage}
         reverse={false}
@@ -75,7 +88,9 @@ const ResearchPageCenter = () => {
       <ImageNextToParagraph
         bgColor="white"
         title="Delphis Transportation Institute"
-        text="DTI facilitates and provides world-class leadership for interdisciplinary research, promoting transportation infrastructure, innovation, and advancements that impact the nation."
+        text="DTI facilitates and provides world-class leadership for
+         interdisciplinary research, promoting transportation infrastructure,
+          innovation, and advancements that impact the nation."
         subTitle={`Automated, Connected, Electric, Shared & Safe Mobility`}
         textColor="black"
         imageLink={researchTransportationImage}
@@ -88,7 +103,17 @@ const ResearchPageCenter = () => {
       <ImageNextToParagraph
         bgColor="vgred"
         title="Delphis Water Institute"
-        text="DWI supports a water-secure world by training the next generation of scientists. Additionally, the Global Water Security Center, part of AWI, investigates science applications that enable analysis of environmental (in)security regarding water, food, energy, and health nexus, providing decision-makers with reliable water intelligence. The institute partners with the National Oceanic and Atmospheric Administration's (NOAA) National Water Center and the U.S. Geological Survey (USGS) Hydrologic Instrumentation Facility, both making a home on the Delphis University campus, which makes Tuscaloosa the epicenter for water research and operations in the nation."
+        text="DWI supports a water-secure world by training the next generation
+         of scientists. Additionally, the Global Water Security Center, part
+          of AWI, investigates science applications that enable analysis of
+           environmental (in)security regarding water, food, energy, and health
+            nexus, providing decision-makers with reliable water intelligence.
+             The institute partners with the National Oceanic and Atmospheric
+              Administration's (NOAA) National Water Center and the U.S.
+               Geological Survey (USGS) Hydrologic Instrumentation Facility,
+                both making a home on the Delphis University campus, which
+                 makes Delphis the epicenter for water
+                  research and operations in the nation."
         subTitle={`Automated, Connected, Electric, Shared & Safe Mobility`}
         textColor="white"
         imageLink={researchWaterImage}

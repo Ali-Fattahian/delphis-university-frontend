@@ -116,7 +116,7 @@ const InternationalFreshmanPage = () => {
                 Test scores must be received directly from the testing agency or
                 on your high school transcript
               </li>
-              <li>UA’s ACT code is 0052 and SAT code is 1830</li>
+              <li>UD's ACT code is 0052 and SAT code is 1830</li>
               <li>
                 Information on these tests is available from your high school
                 counselor or from the testing agency
@@ -134,15 +134,15 @@ const InternationalFreshmanPage = () => {
               Admission Requirements
             </p>
             <p className="mt-2 text-sm">
-              The University of Alabama employs a competitive admission process
+              The University of Delphis employs a competitive admission process
               that includes reviewing and evaluating each application on an
-              individual basis for an applicant’s abilities as a student and a
+              individual basis for an applicant's abilities as a student and a
               scholar.
             </p>
             <ul className="mt-3 list-disc list-inside [&>li]:py-2 text-xs">
               <li>
                 The undergraduate international admissions office will review
-                the applicant’s transcripts within the context of the school,
+                the applicant's transcripts within the context of the school,
                 curriculum and country.
               </li>
               <li>
@@ -150,11 +150,11 @@ const InternationalFreshmanPage = () => {
                   GPA will be calculated on all coursework, not just core
                   subjects.
                 </span>
-                UA considers applicants with a cumulative GPA of 3.0 on a 4.0
+                UD considers applicants with a cumulative GPA of 3.0 on a 4.0
                 scale for admission.
               </li>
               <li>
-                UA will accept unofficial transcripts for admission purposes.
+                UD will accept unofficial transcripts for admission purposes.
                 These can be emailed or uploaded by the student.
                 <li className="mt-3 ml-3">
                   If a student applies with unofficial documents, we MUST
@@ -167,7 +167,7 @@ const InternationalFreshmanPage = () => {
                   able to enroll for courses.
                 </li>
                 <li className="mt-1 ml-3">
-                  If a student’s official documents are not available by that
+                  If a student's official documents are not available by that
                   time, exceptions will be made on a case-by-case basis.
                   Students requesting an exception must email
                   international.admissions@ua.edu before the deadline to be
@@ -176,7 +176,7 @@ const InternationalFreshmanPage = () => {
               </li>
               <li>
                 For academic admission, students must meet the English
-                proficiency requirement. For more information see UA’s English
+                proficiency requirement. For more information see UD's English
                 Language Proficiency page.
               </li>
               <li>
@@ -190,7 +190,7 @@ const InternationalFreshmanPage = () => {
                   proficiency.
                 </li>
                 <li className="mt-1 ml-4">
-                  For more information see UA’s conditional admission page.
+                  For more information see UD's conditional admission page.
                 </li>
               </li>
               <li>
@@ -198,7 +198,7 @@ const InternationalFreshmanPage = () => {
                 documentation in order to secure an I-20 or DS-2010.
               </li>
               <li>
-                Successful candidates for UA will have completed a college
+                Successful candidates for UD will have completed a college
                 preparatory curriculum.
               </li>
             </ul>
@@ -316,7 +316,7 @@ const InternationalFreshmanPage = () => {
                 Test scores must be received directly from the testing agency or
                 on your high school transcript
               </li>
-              <li>UA’s ACT code is 0052 and SAT code is 1830</li>
+              <li>UD's ACT code is 0052 and SAT code is 1830</li>
               <li>
                 Information on these tests is available from your high school
                 counselor or from the testing agency

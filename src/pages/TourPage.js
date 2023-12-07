@@ -23,7 +23,7 @@ const TourPage = () => {
       day: "6",
       year: "2023",
       title:
-        "The Northern Edge of the Gulf of Mexico: Visual Representations of Alabama during the Age of European Exploration and Settlement, c. 1592 - 1819",
+        "The Northern Edge of the Gulf of Mexico: Visual Representations of Delphis during the Age of European Exploration and Settlement, c. 1592 - 1819",
       time: "All Day",
       location: "Quad Entrance/Foyer , Gorgas Library, 2nd Floor",
     },
@@ -33,7 +33,7 @@ const TourPage = () => {
       day: "6",
       year: "2023",
       title:
-        "The Northern Edge of the Gulf of Mexico: Visual Representations of Alabama during the Age of European Exploration and Settlement, c. 1592 - 1819",
+        "The Northern Edge of the Gulf of Mexico: Visual Representations of Delphis during the Age of European Exploration and Settlement, c. 1592 - 1819",
       time: "All Day",
       location: "Quad Entrance/Foyer , Gorgas Library, 2nd Floor",
     },
@@ -43,7 +43,7 @@ const TourPage = () => {
       day: "6",
       year: "2023",
       title:
-        "The Northern Edge of the Gulf of Mexico: Visual Representations of Alabama during the Age of European Exploration and Settlement, c. 1592 - 1819",
+        "The Northern Edge of the Gulf of Mexico: Visual Representations of Delphis during the Age of European Exploration and Settlement, c. 1592 - 1819",
       time: "All Day",
       location: "Quad Entrance/Foyer , Gorgas Library, 2nd Floor",
     },

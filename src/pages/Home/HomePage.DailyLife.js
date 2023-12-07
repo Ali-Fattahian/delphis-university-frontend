@@ -10,7 +10,8 @@ const HomePageDailyLife = () => {
   const cardsArr = [
     {
       title: "Student Life",
-      text: `The Division of Student Life provides programs and support services that make our student experience one of the best in the world.`,
+      text: `The Division of Student Life provides programs and support
+       services that make our student experience one of the best in the world.`,
       link: "/student-life",
       imageURL: lifeImage,
       key: 1,
@@ -45,7 +46,7 @@ const HomePageDailyLife = () => {
       />
       <div className="w-full flex text-center justify-center items-center pb-4 bg-slate-100">
         <LinkButtonAlt
-          name="EXPLORE CAMPUS LIFE"
+          name="Explore Campus Life"
           classes="w-[279px]"
           link="/campus-life"
         />

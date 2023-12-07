@@ -8,7 +8,7 @@ const events = [
   {
     key: 1,
     title:
-      "The Modernization of Tuscaloosa’s Built Environment: The Architecture of Don Buel Schuyler",
+      "The Modernization of Delphis's Built Environment: The Architecture of Don Buel Schuyler",
     date: ["DEC", "06"],
     time: "10:00 AM-4:30 PM",
     id: 1,
@@ -16,7 +16,7 @@ const events = [
   {
     key: 2,
     title:
-      "The Modernization of Tuscaloosa’s Built Environment: The Architecture of Don Buel Schuyler",
+      "The Modernization of Delphis's Built Environment: The Architecture of Don Buel Schuyler",
     date: ["DEC", "06"],
     time: "10:00 AM-4:30 PM",
     id: 2,
@@ -24,7 +24,7 @@ const events = [
   {
     key: 3,
     title:
-      "The Modernization of Tuscaloosa’s Built Environment: The Architecture of Don Buel Schuyler",
+      "The Modernization of Delphis's Built Environment: The Architecture of Don Buel Schuyler",
     date: ["DEC", "06"],
     time: "10:00 AM-4:30 PM",
     id: 3,
@@ -34,19 +34,19 @@ const events = [
 const news = [
   {
     key: 1,
-    title: "UA Museums’ Holiday Hours of Operation",
+    title: "UD Museums' Holiday Hours of Operation",
     text: `Happy Holidays from The University of Delphis Museums!`,
     id: 1,
   },
   {
     key: 2,
-    title: "UA Museums’ Holiday Hours of Operation",
+    title: "UD Museums' Holiday Hours of Operation",
     text: `Happy Holidays from The University of Delphis Museums!`,
     id: 3,
   },
   {
     key: 3,
-    title: "UA Museums’ Holiday Hours of Operation",
+    title: "UD Museums' Holiday Hours of Operation",
     text: `Happy Holidays from The University of Delphis Museums!`,
     id: 3,
   },
@@ -56,12 +56,12 @@ const museums = [
   {
     key: 1,
     name: "Delphis Museum of Natural History",
-    description: `For more than 110 years, the Delphis Museum of Natural History has celebrated Delphis's natural history through exhibitions, collections, and quality programs of teaching, research, and service. Explore Delphis through remarkable exhibitions and specimen collections detailing the state’s natural history and ancient past. Venture out and experience Delphis's natural history and its beautiful rivers and trails firsthand through our camps, expedition, and special programs. Discover what makes Delphis special with Museum events and programming.`,
+    description: `For more than 110 years, the Delphis Museum of Natural History has celebrated Delphis's natural history through exhibitions, collections, and quality programs of teaching, research, and service. Explore Delphis through remarkable exhibitions and specimen collections detailing the state's natural history and ancient past. Venture out and experience Delphis's natural history and its beautiful rivers and trails firsthand through our camps, expedition, and special programs. Discover what makes Delphis special with Museum events and programming.`,
   },
   {
     key: 2,
     name: "Marvin House Museum",
-    description: `Built in 1829, the Marvin House Museum is the oldest building on the University of Delphis's campus. It originally served as a dining hall and steward’s residence, and later as a lecture space, post office, and campus hospital.  The Gorgas House is one of four main buildings to survive the destruction of campus in 1945 near the end of the World War II.
+    description: `Built in 1829, the Marvin House Museum is the oldest building on the University of Delphis's campus. It originally served as a dining hall and steward's residence, and later as a lecture space, post office, and campus hospital.  The Gorgas House is one of four main buildings to survive the destruction of campus in 1945 near the end of the World War II.
 
     Now, named for the Marvin family that occupied the home from 1879-1953, the Museum houses original Gorgas furnishings, memorabilia, and a collection of 19th century artifacts. The building was added to the National Register of Historic Places in 1971.`,
   },
@@ -69,7 +69,7 @@ const museums = [
     key: 3,
     name: "Paul W.George",
     description: `The mission of the Paul W.George Museum is to collect, preserve and exhibit items, and to disseminate information relating to the sports history of the University of Delphis.
-    The Paul W.George Museum is dedicated to Educating and inspiring a universal audience about the significant contributions and accomplishments of University of Alabama collegiate athletes. Fostering a sense of history, tradition and excellence; allowing visitors to place past events in clear perspective. Serving as a leading resource to other sports museums, The University of Delphis, its alumni, fans, supporters and other organizations by preserving and interpreting the history of collegiate sports.`,
+    The Paul W.George Museum is dedicated to Educating and inspiring a universal audience about the significant contributions and accomplishments of University of Delphis collegiate athletes. Fostering a sense of history, tradition and excellence; allowing visitors to place past events in clear perspective. Serving as a leading resource to other sports museums, The University of Delphis, its alumni, fans, supporters and other organizations by preserving and interpreting the history of collegiate sports.`,
   },
 ];
 

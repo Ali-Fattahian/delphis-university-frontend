@@ -21,7 +21,7 @@ const info = [
         email: "jces@ud.edu",
       },
     ],
-    text: `This peer-reviewed journal is published twice a year in print and online by The University of Alabama. Manuscripts are accepted from all academic disciplines and methodologies that advance the scholarship of engagement. Now in its ninth year, the journal is funded in part by the Engagement Scholarship Consortium. It has received high praise nationally and internationally not only for its content but also for its aesthetics (striking covers, photographs, color). A distinguished editorial board of 42 members represents leading institutions from throughout the United States and several foreign countries. Submit manuscripts and questions to jces@ua.edu. The editor is Dr. Nick Sanyal of the University of Idaho. To subscribe and to purchase copies of individual articles or issues, send an email to dkkennedy1@ua.edu.`,
+    text: `This peer-reviewed journal is published twice a year in print and online by The University of Delphis. Manuscripts are accepted from all academic disciplines and methodologies that advance the scholarship of engagement. Now in its ninth year, the journal is funded in part by the Engagement Scholarship Consortium. It has received high praise nationally and internationally not only for its content but also for its aesthetics (striking covers, photographs, color). A distinguished editorial board of 42 members represents leading institutions from throughout the United States and several foreign countries. Submit manuscripts and questions to jces@ua.edu. The editor is Dr. Nick Sanyal of the University of Idaho. To subscribe and to purchase copies of individual articles or issues, send an email to dkkennedy1@ua.edu.`,
   },
   {
     key: 2,
@@ -34,7 +34,7 @@ const info = [
         email: "dpearl@ud.edu",
       },
     ],
-    text: `SCOPE provides a framework for connecting students interested in community-engaged scholarship with resources to advance their scholarship. SCOPE’s goals are to increase the involvement of UA students in community-engaged scholarship activities; to connect students to resources such as faculty mentors, funding sources, and scholarly conferences and publications; to serve as a conduit for matching the research interests of students and faculty with identified community needs; to provide opportunities for training and technical assistance to SCOPE participants in order to enhance their knowledge and skills regarding engaged scholarship; to bolster the production of community-based research by students.
+    text: `SCOPE provides a framework for connecting students interested in community-engaged scholarship with resources to advance their scholarship. SCOPE's goals are to increase the involvement of UD students in community-engaged scholarship activities; to connect students to resources such as faculty mentors, funding sources, and scholarly conferences and publications; to serve as a conduit for matching the research interests of students and faculty with identified community needs; to provide opportunities for training and technical assistance to SCOPE participants in order to enhance their knowledge and skills regarding engaged scholarship; to bolster the production of community-based research by students.
 
     SCOPE members gain access to leading scholars, publications and programs through meetings and conferences that will advance their careers as engagement scholars. SCOPE holds meetings and supports conference attendance and participation.`,
   },
@@ -48,7 +48,7 @@ const info = [
         email: "dpearl@ud.edu",
       },
     ],
-    text: `The mission of The University of Delphis's Student Community Engagement Center is to engage students and community partners in mutually beneficial partnerships to identify and address critical community opportunities by connecting engagement to the University’s missions of teaching, research, and service. The Student Community Engagement Center is located on the ground floor in the center of Capital Hall.`,
+    text: `The mission of The University of Delphis's Student Community Engagement Center is to engage students and community partners in mutually beneficial partnerships to identify and address critical community opportunities by connecting engagement to the University's missions of teaching, research, and service. The Student Community Engagement Center is located on the ground floor in the center of Capital Hall.`,
   },
 ];
 
@@ -76,12 +76,12 @@ const ResearchAndPulicationsPage = () => {
             for additional scholarly activities.
           </p>
           <p className="mt-4 p-2 bg-neutral-300 text-sm border-neutral-400 border-[1px]">
-            An engaged institution is responsive to the needs of today’s
-            students and tomorrow’s. It enriches the student experience by
+            An engaged institution is responsive to the needs of today's
+            students and tomorrow's. It enriches the student experience by
             bringing research into the curriculum and offering practical
             experience in the world they will enter. It forms partnerships of
             faculty, students and communities to put knowledge and skills to
-            work on today’s most critical problems.
+            work on today's most critical problems.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center mt-4">
             {info.map((i) => (

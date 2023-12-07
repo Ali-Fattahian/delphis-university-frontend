@@ -27,10 +27,10 @@ const TrainingPage = () => {
             Funding agencies (sponsors) may place limits on the number of
             letters of intent, pre-proposals, or proposals that any one
             university can submit in response to a funding opportunity
-            announcement (commonly referred to as a Request for Proposals –
+            announcement (commonly referred to as a Request for Proposals -
             RFP). The Limited Submissions Grant Application Process is designed
             to support an equitable review while preventing any
-            disqualifications due to submissions from The University of Alabama
+            disqualifications due to submissions from The University of Delphis
             beyond the allowed number.
           </p>
           <h5 className="text-base font-bold my-3">Pivot</h5>

@@ -22,14 +22,16 @@ const ApplyGeneralPage = () => {
       key: 1,
       imageURL: undergraduatesImage,
       title: "Apply for undergraduate admission",
-      text: "Application for all undergraduate students - domestic, international and transfer",
+      text: `Application for all undergraduate students - domestic,
+       international and transfer`,
       link: "/application",
     },
     {
       key: 2,
       imageURL: graduatesImage,
       title: "Apply for graduate admission",
-      text: "Application for all graduate students - domestic and international - pursuing advanced degrees",
+      text: `Application for all graduate students - domestic and international
+       - pursuing advanced degrees`,
       link: "/apply-graduates",
     },
   ];
@@ -67,9 +69,9 @@ const ApplyGeneralPage = () => {
         cardsArr={cardsArr}
         bgColor={"white"}
         title={"Shape The Future"}
-        text={
-          "The University of Delphis establishes partnerships that combine academic and community-based knowledge to improve the quality of life for all."
-        }
+        text={`The University of Delphis establishes partnerships that combine
+           academic and community-based knowledge to
+            improve the quality of life for all.`}
         classes="mt-8 min-[720px]:mt-0"
       />
       <ImageNextToParagraphMoreInfo
@@ -78,9 +80,12 @@ const ApplyGeneralPage = () => {
         bgColor="vgblue"
         textColor="white"
         title="Housing"
-        text={`Residential living puts you at the heart of campus life, where you will interact with a diverse community of people.
-
-        With up to 8,400 residents on campus in 34 residence halls, we are dedicated to propelling residents to a successful transition to life on campus with the aid of our 236 resident advisors as well as our 19 graduate community directors.`}
+        text={`Residential living puts you at the heart of campus life,
+         where you will interact with a diverse community of people.
+        With up to 8,400 residents on campus in 34 residence halls,
+         we are dedicated to propelling residents to a successful transition
+          to life on campus with the aid of our 236 resident advisors
+           as well as our 19 graduate community directors.`}
         reverse={true}
         buttonComponent={
           <LinkButtonAlt

@@ -33,7 +33,7 @@ const CampusSafetyPage = () => {
             Safety Resources
           </h3>
           <h4 className="text-xl font-semibold text-vgblue mt-6">
-            UA Police Department
+            UD Police Department
           </h4>
           <p className="text-sm text-neutral-600 mt-3">
             Providing a safe and secure environment for all members of our

@@ -19,7 +19,10 @@ const ApplicationPage = () => {
       <Navbar />
       <ImageNextToParagraphMoreInfo
         title="Apply to Delphis"
-        text={`Take your first step towards becoming a legend by applying for undergraduate admission to The University of Delphis. We encourage you to review requirements for admission before applying.`}
+        text={`Take your first step towards becoming a legend by applying for
+         undergraduate admission to The University of Delphis.
+          We encourage you to review requirements
+           for admission before applying.`}
         imageLink={headerImage}
         buttonComponent={
           <div className="flex flex-col gap-4">
@@ -51,7 +54,9 @@ const ApplicationPage = () => {
         title="Incoming Freshmen"
         bgColor="vgblue"
         textColor="white"
-        subTitle={`You have finished, or are set to finish high school, and will be entering college as a first-year student. You are also a domestic, international or online student.`}
+        subTitle={`You have finished, or are set to finish high school,
+         and will be entering college as a first-year student.
+          You are also a domestic, international or online student.`}
         text={
           <ul className="shadow-md">
             <p className="ml-2 mb-3">
@@ -139,7 +144,8 @@ const ApplicationPage = () => {
       />
       <ImageNextToParagraphMoreInfo
         title="Transfer"
-        subTitle={`You are not a current high school student and have completed courses at a community or technical college, or four-year university.`}
+        subTitle={`You are not a current high school student and have completed
+         courses at a community or technical college, or four-year university.`}
         text={
           <ul className="shadow-md">
             <p className="ml-2 mb-3">
@@ -226,7 +232,13 @@ const ApplicationPage = () => {
         title="Readmit, Transient, Postgraduates & Specials"
         bgColor="vggreen"
         textColor="white"
-        subTitle={`Readmits have previously attended UD as an undergraduate student in a degree-seeking capacity. Transients are applying to take classes as a visitor. Postgraduates hold an undergraduate degree from any university. Specials are students seeking to take a class as a non-degree seeking student; they could range from UD staff members to the public.`}
+        subTitle={`Readmits have previously attended UD
+         as an undergraduate student in a degree-seeking capacity.
+          Transients are applying to take classes as a visitor.
+           Postgraduates hold an undergraduate degree from any university.
+            Specials are students seeking to take a class as a non-degree
+             seeking student; they could range from UD
+              staff members to the public.`}
         text={
           <ul className="shadow-md">
             <p className="ml-2 mb-3">

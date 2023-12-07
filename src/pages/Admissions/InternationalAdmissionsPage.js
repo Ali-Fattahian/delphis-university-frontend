@@ -2,7 +2,6 @@ import React, { useMemo, useState } from "react";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import ImageNextToParagraphMoreInfo from "../../components/layout/ImageNextToParagraph.MoreInfo";
-import LinkButton from "../../components/utilities/LinkButton";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 import countryList from "react-select-country-list";
@@ -19,14 +18,17 @@ const cardsArr = [
   {
     key: 1,
     title: "Freshman",
-    text: `You have finished, or are set to finish Secondary School, but have not enrolled in any University courses after secondary school completion.`,
+    text: `You have finished, or are set to finish Secondary School,
+     but have not enrolled in any
+      University courses after secondary school completion.`,
     imageURL: freshmanImage,
     link: "/international/freshman",
   },
   {
     key: 2,
     title: "Transfer",
-    text: `You have completed one or more courses at the college level after graduating from secondary school.`,
+    text: `You have completed one or more
+     courses at the college level after graduating from secondary school.`,
     imageURL: transferImage,
     link: "/international/transfer",
   },
@@ -46,7 +48,13 @@ const InternationalAdmissionsPage = () => {
         <div className="w-full max-w-[1200px] mx-auto text-neutral-700">
           <ImageNextToParagraphMoreInfo
             title="International Admissions"
-            text={`Founded in 1831 as the state of Alabama’s flagship university, The University of Alabama has always focused on being the best. We are dedicated to excellence in teaching, research and service. We welcome applications from students around the world! Undergraduate International Admissions is here to help you with your application and admission to The University of Alabama.`}
+            text={`Founded in 1831 as the state of Delphis's flagship
+             university, The University of Delphis has always focused
+              on being the best. We are dedicated to excellence in teaching,
+               research and service. We welcome applications from students
+                around the world! Undergraduate International Admissions
+                 is here to help you with your application and admission
+                  to The University of Delphis.`}
             imageLink={headerImage}
             bgColor="white"
             textColor="black"
@@ -60,13 +68,18 @@ const InternationalAdmissionsPage = () => {
           />
           <CardsNoBorderContainer
             title="Application Requirements and Procedures"
-            text={`What best describes how you would enter UA?`}
+            text={`What best describes how you would enter UD?`}
             cardsArr={cardsArr}
             bgColor="neutral-100"
           />
           <ImageNextToParagraphMoreInfo
             title="Explore. Create. Achieve. Transcend."
-            text={`As a student at The University of Alabama you’ll grow and excel in an unrivaled academic environment on our campus, routinely named one of the most impressive in the country. Equipped with the unmatched opportunities and resources UA has to offer, there is no limit to what you can dream and achieve.`}
+            text={`As a student at The University of Delphis you'll grow and
+             excel in an unrivaled academic environment on our campus,
+              routinely named one of the most impressive in the country.
+               Equipped with the unmatched opportunities and resources UD
+                has to offer, there is no limit to
+                 what you can dream and achieve.`}
             imageLink={exploreImage}
             bgColor="white"
             textColor="black"
@@ -289,7 +302,12 @@ const InternationalAdmissionsPage = () => {
           </div>
           <ImageNextToParagraphMoreInfo
             title="Capstone International Center"
-            text={`UA offers many ways for you to become part of the global community on our campus. We have 26 student organizations specific to the international and multicultural community, as well as Capstone International, which helps you understand all aspects of your student visa and other immigration guidelines.`}
+            text={`UD offers many ways for you to become part
+             of the global community on our campus. We have 26 student
+              organizations specific to the international and multicultural
+               community, as well as Capstone International,
+                which helps you understand all aspects of your student visa
+                 and other immigration guidelines.`}
             imageLink={centerImage}
             bgColor="white"
             textColor="black"

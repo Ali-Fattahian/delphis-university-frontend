@@ -59,7 +59,7 @@ const ApplyCampusPageMedicalRequests = () => {
       <p className="text-neutral-600 mt-2">
         Once completed and signed, submit the form to Assignments Coordinator
         Jim Barron by either faxing it to 205-348-7135 or mailing to Box 870399,
-        Tuscaloosa, AL 35487. Only HRC will have access to and utilize this
+        Delphis, AL 35487. Only HRC will have access to and utilize this
         documentation for housing-specific accommodations.
       </p>
       <p className="text-neutral-600 mt-2">

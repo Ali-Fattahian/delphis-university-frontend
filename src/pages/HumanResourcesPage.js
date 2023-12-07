@@ -34,7 +34,7 @@ const HumanResourcesPage = () => {
             Inclusion teams.
           </p>
           <p className="text-sm text-slate-800 mt-4">
-            The University has a five-year People Strategy, 2020 – 2025 which
+            The University has a five-year People Strategy, 2020 - 2025 which
             sets out five interconnected strategic aims:
           </p>
           <ul className="mt-4 list-decimal list-inside [&>li]:py-2 px-4 text-sm">
@@ -95,7 +95,7 @@ const HumanResourcesPage = () => {
                   </p>
                   <p className="mt-4">
                     A small and dedicated team, we engage across our staff and
-                    student communities, the Students’ Union and EDI governance
+                    student communities, the Students' Union and EDI governance
                     framework, to drive cultural and structural change to
                     advance equity and inclusion through an evidence-based
                     approach, and informed by the voices and lived experiences
@@ -194,7 +194,7 @@ const HumanResourcesPage = () => {
                   <ul className="mt-3 list-inside list-disc">
                     <li>
                       <p className="inline">
-                        Nicola Junkin, Assistant Director HR – Health Wellbeing
+                        Nicola Junkin, Assistant Director HR - Health Wellbeing
                         and Organisational Development:
                         <span className="ml-1">
                           <a
@@ -262,7 +262,7 @@ const HumanResourcesPage = () => {
                 <div className="text-slate-800 text-sm px-1">
                   <p>
                     The HR Business Partnering and Advisory teams play a crucial
-                    role in managing various aspects of the University’s HR
+                    role in managing various aspects of the University's HR
                     functions, offering guidance and support to managers and
                     employees on things like employee development, conflict
                     resolution, and policy interpretation.
@@ -272,7 +272,7 @@ const HumanResourcesPage = () => {
                     ensure that University policies, procedures and practices
                     are consistently applied across Professional Services and
                     the colleges, and ensure that we are inclusive, inspiring
-                    and impactful in line with the University’s values. We
+                    and impactful in line with the University's values. We
                     develop and update HR policies to reflect changing laws,
                     regulations, and best practice. We address employee
                     enquiries, concerns and conflicts and act as intermediaries
@@ -326,7 +326,7 @@ const HumanResourcesPage = () => {
               text={
                 <div className="text-slate-800 text-sm px-1">
                   <p>
-                    The University’s strategic aims involve attracting and
+                    The University's strategic aims involve attracting and
                     retaining excellent, committed staff with outstanding
                     experience, skills and knowledge. We use our understanding
                     of particular departments and role requirements to advise
@@ -338,7 +338,7 @@ const HumanResourcesPage = () => {
                     The Recruitment team also ensure that staff are recruited
                     both in a timely manner and in line with employment
                     legislation to result in an efficient onboarding process in
-                    line with the University’s reputation and wider strategic
+                    line with the University's reputation and wider strategic
                     aims. As well as attracting new candidates, we also work to
                     retain current staff by promoting secondment and
                     redeployment opportunities within the University and ensure

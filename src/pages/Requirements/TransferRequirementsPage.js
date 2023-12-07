@@ -17,12 +17,12 @@ const TransferRequirementsPage = () => {
               (excludes technical, remedial and vocational courses)
             </li>
             <li>
-              If you’re currently a freshman or have fewer than the required
+              If you're currently a freshman or have fewer than the required
               transferable hours, additional high school records will be
               required including a high school transcript and ACT/SAT score.
               <li>
                 Because of limited testing opportunities throughout the United
-                States, The University of Alabama will not require standardized
+                States, The University of Delphis will not require standardized
                 ACT or SAT scores from students applying for the Spring, Summer
                 or Fall 2024 semesters. The presence of a score will not create
                 an unfair advantage or disadvantage to students applying for
@@ -40,11 +40,11 @@ const TransferRequirementsPage = () => {
           </div>
           <h1 className="text-3xl font-semibold mt-6">Transcripts</h1>
           <p className="mt-4 text-sm">
-            Official transcripts are those submitted directly to UA in a sealed
+            Official transcripts are those submitted directly to UD in a sealed
             envelope by the originating institution. Official electronic
-            transcripts are those submitted directly to UA by the originating
+            transcripts are those submitted directly to UD by the originating
             institution, normally through a third-party provider such as the
-            National Student Clearinghouse or Parchment. UA will only accept a
+            National Student Clearinghouse or Parchment. UD will only accept a
             transcript directly from the student provided it is delivered in the
             envelope sealed by the originating institution and marked as
             official.

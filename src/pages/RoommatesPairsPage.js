@@ -20,7 +20,7 @@ const RoommatesPairsPage = () => {
           </div>
           <div className="w-full p-6">
             <p className="text-sm">
-              Only UA students with a complete housing application can search
+              Only UD students with a complete housing application can search
               for and select a roommate. Incoming freshmen can only view and
               select other freshmen. Incoming freshmen can select one roommate.
               Returning students can select up to three roommates.

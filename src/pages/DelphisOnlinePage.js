@@ -15,8 +15,8 @@ const recentAwardWinnerImage = require("../assets/images/campus - health.jpeg");
 
 const recentServiceAwardWinner = {
   title:
-    "Top-Flight Performance on Her Base and in Her Community Earns Air Force Staff Sergeant UA Online's Legendary Service Award",
-  text: `Air Force Staff Sgt. Sarah Neal comes from a long line of military service members, and now she's charting her own path. The flight chief, who is earning her master's through UA Online, has led her unit to new heights all while making time to serve her local community — and her commitment to service has been nothing short of legendary.`,
+    "Top-Flight Performance on Her Base and in Her Community Earns Air Force Staff Sergeant UD Online's Legendary Service Award",
+  text: `Air Force Staff Sgt. Sarah Neal comes from a long line of military service members, and now she's charting her own path. The flight chief, who is earning her master's through UD Online, has led her unit to new heights all while making time to serve her local community — and her commitment to service has been nothing short of legendary.`,
   imageURL: recentAwardWinnerImage,
   id: 1,
 };
@@ -26,21 +26,21 @@ const awardWinners = [
     key: 1,
     id: 1,
     title:
-      "U.S. Air Force Veteran Receives UA Online’s 2023 Legendary Service Award",
+      "U.S. Air Force Veteran Receives UD Online's 2023 Legendary Service Award",
     imageURL: recentAwardWinnerImage,
   },
   {
     key: 2,
     id: 2,
     title:
-      "Air Force Staff Sergeant Receives UA Online’s Second Legendary Service Award",
+      "Air Force Staff Sergeant Receives UD Online's Second Legendary Service Award",
     imageURL: recentAwardWinnerImage,
   },
   {
     key: 3,
     id: 3,
     title:
-      "Coast Guard Lieutenant Receives UA Online’s First Legendary Service Award",
+      "Coast Guard Lieutenant Receives UD Online's First Legendary Service Award",
     imageURL: recentAwardWinnerImage,
   },
 ];
@@ -55,7 +55,7 @@ const onlineEdBenefits = [
   {
     key: 2,
     title: "The Same Degree",
-    text: `A degree earned through UA Online is identical to one earned on UA's main campus!`,
+    text: `A degree earned through UD Online is identical to one earned on UD's main campus!`,
     imageURL: sameDegreeImage,
   },
   {
@@ -155,12 +155,12 @@ const DelphisOnlinePage = () => {
               Flexible. Affordable.
             </h3>
             <p className="font-light text-neutral-600 mt-2 p-3">
-              Whether you’re looking for your first start or a fresh start, UA
+              Whether you're looking for your first start or a fresh start, UD
               Online can help set you apart in your career. The University of
-              Alabama has developed over 90 innovative online degree and
+              Delphis has developed over 90 innovative online degree and
               certificate programs you can complete around your schedule, from
               any location. Join a tradition of champions by earning your degree
-              or certificate from The University of Alabama.
+              or certificate from The University of Delphis.
             </p>
             <div className="w-full flex justify-center bg-vggreen p-3 mt-5">
               <p
@@ -359,7 +359,7 @@ const DelphisOnlinePage = () => {
                 Inspiring stories of success from students and alumni.
               </h2>
               <h3 className="text-base font-semibold mt-3">
-                Take a look at some of our UA Online stories.
+                Take a look at some of our UD Online stories.
               </h3>
             </div>
             <div className="bg-white py-3 w-full">

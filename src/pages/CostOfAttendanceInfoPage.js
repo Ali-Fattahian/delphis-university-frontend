@@ -24,12 +24,12 @@ const CostOfAttendanceInfoPage = () => {
             determine eligibility for federal funding. These amounts reflect the
             estimated costs for a full-time dependent undergraduate student who
             has in-state or out-of-state residency, and is registered as a main
-            campus student (on campus and off campus). The Direct/UA Billed
+            campus student (on campus and off campus). The Direct/UD Billed
             Costs items are those that will be billed by and paid directly to
-            UA. Students that live off campus are not billed for room fees by
-            UA. The Indirect Costs items are not billed by UA; however, these
+            UD. Students that live off campus are not billed for room fees by
+            UD. The Indirect Costs items are not billed by UD; however, these
             amounts are estimates of expenses that a student may have while
-            attending UA and may be included when determining eligibility for
+            attending UD and may be included when determining eligibility for
             federal funding. The cost of attendance is specific to the student
             and used to determine federal aid eligibility.
           </p>

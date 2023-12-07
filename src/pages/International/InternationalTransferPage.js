@@ -80,10 +80,10 @@ const InternationalTransferPage = () => {
             or by mail to:
           </p>
           <ul className="mt-4 [&>li]:py-2 text-xs">
-            <li>The University of Alabama</li>
+            <li>The University of Delphis</li>
             <li>Office of the University Registrar</li>
             <li>Box 870134</li>
-            <li>Tuscaloosa, AL 35487-0134</li>
+            <li>Delphis, AL 35487-0134</li>
           </ul>
           <p className="mt-8 text-base font-semibold">Admission Requirements</p>
           <ul className="mt-3 list-disc list-inside [&>li]:py-2 text-xs">
@@ -116,7 +116,7 @@ const InternationalTransferPage = () => {
               </li>
             </li>
             <li>
-              To be admitted to UA as a transfer student, you must have earned
+              To be admitted to UD as a transfer student, you must have earned
               an overall GPA of “C” (2.00 on a 4.00 scale) or higher on all
               university-level work attempted. GPA will be calculated on all
               coursework, not just core subjects.
@@ -175,7 +175,7 @@ const InternationalTransferPage = () => {
               </li>
             </li>
             <li>
-              To be admitted to UA as a transfer student, you must have earned
+              To be admitted to UD as a transfer student, you must have earned
               an overall GPA of “C” (2.00 on a 4.00 scale) or higher on all
               university-level work attempted. GPA will be calculated on all
               coursework, not just core subjects.
@@ -191,9 +191,9 @@ const InternationalTransferPage = () => {
                 enrolled.
               </li>
               <li className="mt-1 ml-4">
-                Since the academic departments at The University of Alabama
+                Since the academic departments at The University of Delphis
                 determine whether credits earned abroad will be accepted as
-                equivalent to courses offered at UA, credit is awarded on a
+                equivalent to courses offered at UD, credit is awarded on a
                 subject-by-subject basis.
               </li>
             </li>

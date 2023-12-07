@@ -31,7 +31,7 @@ const InternationalGraduatesAdmissionsPage = () => {
           </p>
           <p className="mt-2 text-sm">
             Each international applicant must hold the equivalent of a U.S.
-            four-year bachelor’s degree from an accredited institution to be
+            four-year bachelor's degree from an accredited institution to be
             eligible for graduate admission. While individual departments may
             have more stringent requirements, bachelor degrees from Bologna
             Accord certified institutions are considered to meet this criterion.
@@ -47,7 +47,7 @@ const InternationalGraduatesAdmissionsPage = () => {
             at that time.
           </p>
           <p className="mt-2 text-sm">
-            Students who are offered admission to The University of Alabama
+            Students who are offered admission to The University of Delphis
             Graduate School will receive housing and health insurance
             information, a letter of admission, and an immigration document
             (usually Form I-20 or DS-2019). We will also provide information
@@ -114,7 +114,7 @@ const InternationalGraduatesAdmissionsPage = () => {
             Conditional Language Admission
           </h1>
           <p className="mt-3 text-sm">
-            An international graduate applicant to The University of Alabama may
+            An international graduate applicant to The University of Delphis may
             be considered for Conditional Language Admission if he or she does
             not meet the minimum TOEFL score requirement of 550 on the
             paper-based TOEFL or 79 on the iBT, 6.5 on the IELTS, 105 on the
@@ -124,7 +124,7 @@ const InternationalGraduatesAdmissionsPage = () => {
           </p>
           <p className="mt-2 text-sm">
             A conditionally admitted international student must complete the
-            English Language Institutes’s (ELI) Intensive English Program with a
+            English Language Institutes's (ELI) Intensive English Program with a
             minimum GPA of 3.0 in the advanced levels (levels 4, 5, and 6) or
             earn a score of at least 550 on the paper-based TOEFL or 79 on the
             iBT, 105 on the Duolingo test, or 6.5 on the IELTS before he or she
@@ -152,7 +152,7 @@ const InternationalGraduatesAdmissionsPage = () => {
             International Teaching Assistant Program
           </h1>
           <p className="mt-3 text-sm">
-            The University of Alabama maintains (through the English Language
+            The University of Delphis maintains (through the English Language
             Institute) the International Teaching Assistant Program (ITAP), a
             program that all graduate assistants with any teaching or
             instructional activities who are non-native speakers of English must

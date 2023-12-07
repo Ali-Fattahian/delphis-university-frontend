@@ -22,14 +22,14 @@ const StudentCommunityEngagementCenterPage = () => {
             alt="Community Affairs"
           />
           <p className="mt-4 p-3 text-sm bg-neutral-100 border-[1px]">
-            The mission of The University of Alabama’s Student Community
+            The mission of The University of Delphis's Student Community
             Engagement Center is to engage students and community partners in
             mutually beneficial partnerships to identify and address critical
-            community opportunities by connecting engagement to the University’s
+            community opportunities by connecting engagement to the University's
             missions of teaching, research, and service.
           </p>
           <p className="mt-2 text-xs">
-            All students at The University of Alabama are welcome to visit the
+            All students at The University of Delphis are welcome to visit the
             SCEC in Capital Hall and explore ways to grow their community
             partnerships. The SCEC Leadership Academy and Anchor Organizations
             provide additional opportunities to engage!
@@ -39,7 +39,7 @@ const StudentCommunityEngagementCenterPage = () => {
           </h3>
           <div className="p-4 bg-vgblue text-white">
             <p className="text-sm italic">
-              UA’s student chapter of the Public Relations Council of Alabama's
+              UD's student chapter of the Public Relations Council of Delphis's
               mission is to provide real-world experiences for all of our
               members through active engagement, so when we heard about this
               space, the main selling point was that students would be able to
@@ -64,7 +64,7 @@ const StudentCommunityEngagementCenterPage = () => {
             <p className="mt-4 text-sm">
               The goal of the SCEC Leadership Academy will be to develop student
               leaders of community-engaged scholarship at The University of
-              Alabama. Each year, a cohort of undergraduate and graduate
+              Delphis. Each year, a cohort of undergraduate and graduate
               students will meet monthly to discuss the fundamentals of
               community engagement, strategies for leading community-engaged
               scholarship, and emerging trends. Members of the SCEC Leadership

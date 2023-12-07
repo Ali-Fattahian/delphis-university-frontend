@@ -141,7 +141,7 @@ const Footer = () => {
             href="/"
             className="text-xs font-semibold hover:underline cursor-pointer"
           >
-            The University of Alabama System
+            The University of Delphis System
           </a>
         </div>
         <div className="flex flex-col gap-1">

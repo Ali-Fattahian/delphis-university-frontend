@@ -52,7 +52,7 @@ const EnglishProofPage = () => {
               <li>TOEFL paper-based score of 550 and above</li>
               <li>TOEFL Essentials score of 8.5 and above</li>
               <li>IELTS score of 6.0 or above</li>
-              <li>Pearson’s Test of English score of 54 or above</li>
+              <li>Pearson's Test of English score of 54 or above</li>
               <li>
                 Duolingo English Test score of 51 or above (test dates before
                 July 15, 2019)
@@ -84,7 +84,7 @@ const EnglishProofPage = () => {
                 If your TOEFL iBT writing score is lower than 18, or IELTS
                 writing score is lower than 6.0, or your overall Duolingo score
                 is lower than 120, or your TOEFL Essentials writing score is
-                lower than 8.5, or your Pearson’s Test of English writing score
+                lower than 8.5, or your Pearson's Test of English writing score
                 is lower than 51, you must enroll in the Undergraduate Academic
                 Writing course (ELC 111) in addition to your other undergraduate
                 courses.
@@ -93,7 +93,7 @@ const EnglishProofPage = () => {
                 If your TOEFL iBT speaking score is lower than 18, or IELTS
                 speaking score is lower than 6.0, or your overall Duolingo score
                 is lower than 120, or your TOEFL Essentials speaking score is
-                lower than 6.5, or your Pearson’s Test of English speaking score
+                lower than 6.5, or your Pearson's Test of English speaking score
                 is lower than 51, you must enroll in the Undergraduate Academic
                 Speaking course (ELC 110) in addition to your other
                 undergraduate courses.
@@ -118,7 +118,7 @@ const EnglishProofPage = () => {
                 taken prior to July 15, 2019)
               </li>
               <li>
-                Your Writing sub-score is 51 or higher on the Pearson’s Test of
+                Your Writing sub-score is 51 or higher on the Pearson's Test of
                 English
               </li>
               <li>You have completed ELI Reading/Writing 6.</li>
@@ -139,7 +139,7 @@ const EnglishProofPage = () => {
                 taken prior to July 15, 2019)
               </li>
               <li>
-                Your Speaking sub-score is 51 or higher on the Pearson’s Test of
+                Your Speaking sub-score is 51 or higher on the Pearson's Test of
                 English
               </li>
               <li>You have completed ELI Speaking/Listening 6</li>
@@ -148,7 +148,7 @@ const EnglishProofPage = () => {
               You are exempt from both the Undergraduate Academic Writing (ELC
               111) and Undergraduate Academic Speaking (ELC 110) course
               requirements if you have an ELI Proficiency Certificate or if you
-              were admitted to UA with an English proficiency waiver. English
+              were admitted to UD with an English proficiency waiver. English
               proficiency Exemption Options Exemptions are granted to applicants
               who:
             </p>

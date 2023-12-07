@@ -27,7 +27,7 @@ const CampusVisitPage = () => {
             With a current Delphis student as your guide, you'll get an up-close
             look at our campus, learn more about our rich history and traditions
             and find out about the limitless opportunities available to you at
-            The University of Alabama. Our guided tours, which last
+            The University of Delphis. Our guided tours, which last
             approximately two hours, include an information session and tour of
             top campus locations, with visits to some of our residence halls.
           </p>

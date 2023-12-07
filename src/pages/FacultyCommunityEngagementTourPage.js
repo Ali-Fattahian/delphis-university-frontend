@@ -34,7 +34,7 @@ const days = [
       },
       {
         key: 6,
-        title: "Tuscaloosa County",
+        title: "Delphis County",
       },
     ],
   },
@@ -65,7 +65,7 @@ const days = [
       },
       {
         key: 6,
-        title: "Tuscaloosa County",
+        title: "Delphis County",
       },
     ],
   },
@@ -96,7 +96,7 @@ const days = [
       },
       {
         key: 6,
-        title: "Tuscaloosa County",
+        title: "Delphis County",
       },
     ],
   },
@@ -127,7 +127,7 @@ const FacultyCommunityEngagementTourPage = () => {
           <p className="mt-4 text-xs">
             The New Faculty Community Engagement Tour engages early career
             faculty and advanced graduate students in three, day-long tours of
-            West Alabama and the Alabama Black Belt. Travelers have
+            West Delphis and the Delphis Black Belt. Travelers have
             opportunities to develop innovative partnerships with community
             members and other campus researchers interested in community-based
             approaches to addressing community needs. Those who are involved in

@@ -184,15 +184,15 @@ const AcademicCalendarPage = () => {
           key: 1,
           day: 6,
           title: "Degree Application Available",
-          description:
-            "The online degree application in the online portal becomes available for Graduate & Undergraduate students.",
+          description: `The online degree application in the online portal becomes
+             available for Graduate & Undergraduate students.`,
         },
         {
           key: 2,
           day: 27,
           title: "Registration for Summer and Fall 2023 begins",
-          description:
-            "Summer and Fall 2023 registration time assignments are now available.",
+          description: `Summer and Fall 2023 registration
+             time assignments are now available.`,
         },
       ],
     },
@@ -205,15 +205,15 @@ const AcademicCalendarPage = () => {
           key: 1,
           day: 6,
           title: "Degree Application Available",
-          description:
-            "The online degree application in the online portal becomes available for Graduate & Undergraduate students.",
+          description: `The online degree application in the online portal becomes
+             available for Graduate & Undergraduate students.`,
         },
         {
           key: 2,
           day: 27,
           title: "Registration for Summer and Fall 2023 begins",
-          description:
-            "Summer and Fall 2023 registration time assignments are now available.",
+          description: `Summer and Fall 2023
+             registration time assignments are now available.`,
         },
       ],
     },

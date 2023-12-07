@@ -158,11 +158,11 @@ const FreshmanRequirementsPage = () => {
           <h1 className="text-3xl font-semibold mt-8">Scholarships</h1>
           <p className="mt-6 text-sm font-semibold">
             There are two ways students can be eligible for scholarships under
-            UA’s current test optional admission policy.
+            UD's current test optional admission policy.
           </p>
           <ul className="list-disc list-inside [&>li]:py-1 mt-4 text-sm">
             <li>
-              Competitive Scholarships – The competitive scholarship application
+              Competitive Scholarships - The competitive scholarship application
               is part of your application for admission. Students are eligible
               for competitive scholarship consideration if their application for
               admission and all supporting documents are received by the
@@ -173,7 +173,7 @@ const FreshmanRequirementsPage = () => {
               scores sent to UD. Our ACT code is 0052 and our SAT code is 1830.
             </li>
             <li>
-              Automatic Merit Scholarships – To qualify for automatic merit
+              Automatic Merit Scholarships - To qualify for automatic merit
               scholarships, students must provide a test score and official
               transcript. Applicants may indicate that they do not want their
               test scores included in the review of their application for

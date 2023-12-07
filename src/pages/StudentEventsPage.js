@@ -49,7 +49,7 @@ const StudentEventsPage = () => {
         <div className="w-full max-w-[800px] mx-auto">
           <p className="mt-4 text-xs">
             The nomination period opens on September 1, 2023. The deadline for
-            nominations is 11:59 p.m. on November 1, 2023. All members of the UA
+            nominations is 11:59 p.m. on November 1, 2023. All members of the UD
             community may nominate qualified students, faculty and staff.
           </p>
           <h2 className="mt-4 font-semibold text-base border-b-[1px] border-vgyellow border-spacing-1">

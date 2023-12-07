@@ -16,7 +16,7 @@ const ApplyCampusPageTransferGraduateStudents = () => {
       </p>
       <p className="text-neutral-600 text-sm mt-2">
         For students looking for off-campus housing options, we suggest
-        utilizing the Off-Campus Resources office for information on Tuscaloosa
+        utilizing the Off-Campus Resources office for information on Delphis
         properties and leasing and landlord information.
       </p>
       <h2 className="text-neutral-800 font-semibold border-spacing-1 mt-3 border-b-[1px] border-vgyellow text-base">

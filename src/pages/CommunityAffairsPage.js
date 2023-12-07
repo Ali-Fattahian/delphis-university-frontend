@@ -96,7 +96,7 @@ const CommunityAffairsPage = () => {
                 The
                 <span className="mx-1 font-bold">
                   Student Community Engagement Center houses student
-                  organizations from all UA colleges and schools
+                  organizations from all UD colleges and schools
                 </span>
                 that have demonstrated an interest in connecting their efforts
                 to community engagement.
@@ -119,6 +119,7 @@ const CommunityAffairsPage = () => {
             <img
               src={vicePresidentImage}
               className="max-w-[250px] aspect-square rounded-full"
+              alt="Vice President"
             />
             <h5 className="text-base font-bold">
               A Message from the Vice President
@@ -126,7 +127,7 @@ const CommunityAffairsPage = () => {
             <p className="text-sm font-light">
               This message is intended for our friends and partners both on and
               off campus. We hope you will visit the site often, for it is our
-              most important communication tool in our dual role as UA’s leader
+              most important communication tool in our dual role as UD’s leader
               in engaged scholarship and intercultural relations.
             </p>
             <p className="text-xs font-light -translate-y-2">

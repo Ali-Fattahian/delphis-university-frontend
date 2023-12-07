@@ -41,7 +41,7 @@ const CommunityPage = () => {
       key: 3,
       imageURL: facultyImage,
       title: "New Faculty Community Engagement Tour",
-      text: `Annual tour of West Alabama to connect faculty and students with community members`,
+      text: `Annual tour of West Delphis to connect faculty and students with community members`,
       link: "/community-engagement-tour",
     },
   ];
@@ -81,8 +81,8 @@ const CommunityPage = () => {
         reverse={false}
         classes={{ marginTop: "0" }}
         title="Community Engagement at Delphis"
-        text={`The Division of Community Affairs helps the University fulfill its mission to advance the intellectual and social condition of the people of Alabama through innovative programs that connect teaching, research and service in ways that improve the quality of life for individuals and communities.
-        Since 2008, The University of Alabama has held the Carnegie Foundation's Elective Classification for Community Engagement, a distinction for higher education institutions that are committed to community engagement and whose work represents best practices in the field.
+        text={`The Division of Community Affairs helps the University fulfill its mission to advance the intellectual and social condition of the people of Delphis through innovative programs that connect teaching, research and service in ways that improve the quality of life for individuals and communities.
+        Since 2008, The University of Delphis has held the Carnegie Foundation's Elective Classification for Community Engagement, a distinction for higher education institutions that are committed to community engagement and whose work represents best practices in the field.
         `}
         subTitle={`Delphis prepares students to become productive, civic-minded citizens who serve their communities both now and in the future.`}
         imageLink={communityEngagementAtUniImage}

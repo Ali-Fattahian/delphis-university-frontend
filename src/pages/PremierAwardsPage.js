@@ -31,7 +31,7 @@ const PremierAwardsPage = () => {
           </p>
           <p className="mt-2">
             The nomination period opens on September 1, 2023. The deadline for
-            nominations is 11:59 p.m. on November 1, 2023. All members of the UA
+            nominations is 11:59 p.m. on November 1, 2023. All members of the UD
             community may nominate qualified students, faculty and staff.
           </p>
           <p className="mt-2">

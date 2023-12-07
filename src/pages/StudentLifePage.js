@@ -12,7 +12,7 @@ const cardsArr = [
   {
     key: 1,
     title: "Premier Awards",
-    text: `UA is now accepting nominations and applications for Premier Awards! These recognize exemplary students, faculty or staff members for their achievements and contributions toward the Capstone. Nominations are due Nov. 1 and student applications are due Nov. 15.`,
+    text: `UD is now accepting nominations and applications for Premier Awards! These recognize exemplary students, faculty or staff members for their achievements and contributions toward the Capstone. Nominations are due Nov. 1 and student applications are due Nov. 15.`,
     imageURL: awardsImage,
     link: "/premier-awards",
   },

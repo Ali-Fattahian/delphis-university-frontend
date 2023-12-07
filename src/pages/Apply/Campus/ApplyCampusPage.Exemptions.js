@@ -44,11 +44,11 @@ const ApplyCampusPageExemptions = () => {
         <li>
           Live within 60 miles of UD (including Bibb, Chilton, Dallas, Fayette,
           Greene, Hale, Jefferson, Lamar, Marion, Marengo, Perry, Pickens,
-          Shelby, Sumter, Tuscaloosa, Walker, and Winston counties) with lineal
+          Shelby, Sumter, Delphis, Walker, and Winston counties) with lineal
           relatives (parent or grandparent, not siblings) or legal guardian
         </li>
         <li>
-          Live in Tuscaloosa-area property owned by a parent (proof of ownership
+          Live in Delphis-area property owned by a parent (proof of ownership
           required)
         </li>
         <li>Married and/or have dependent children in residence</li>

@@ -37,14 +37,16 @@ const CampusPage = () => {
     {
       key: 1,
       title: "Safety & Support",
-      text: `The safety and well-being of our students is one of our highest priorities.`,
+      text: `The safety and well-being of our
+       students is one of our highest priorities.`,
       link: "/campus-life/safety",
       imageURL: supportImage,
     },
     {
       key: 2,
       title: "University Police",
-      text: `UDPD works to provide a safe and secure environment for the Delphis University community.`,
+      text: `UDPD works to provide a safe and secure environment
+       for the Delphis University community.`,
       link: "/university-police",
       imageURL: securityImage,
     },
@@ -54,7 +56,8 @@ const CampusPage = () => {
     {
       key: 1,
       title: "Dining",
-      text: `See UD's wide variety of on-campus options for nutritious and delicious food.`,
+      text: `See UD's wide variety of on-campus
+       options for nutritious and delicious food.`,
       link: "/campus-dining",
       imageURL: diningImage,
     },
@@ -103,17 +106,30 @@ const CampusPage = () => {
       <Navbar />
       <TextOnImage
         title="Campus Life"
-        text={`With exceptional dining options and residential halls, a bounty of social, cultural and academic activities, sporting venues, an easy-to-traverse campus with shuttle service and a myriad of parking options, the University of Miami is home away from home, a place where students who live on or commute to campus can stretch their comfort zones and expand their horizons.`}
+        text={`With exceptional dining options and residential halls, a bounty
+         of social, cultural and academic activities, sporting venues,
+          an easy-to-traverse campus with shuttle service and a myriad
+           of parking options, the University of Miami is home away from home,
+            a place where students who live on or commute to campus can stretch
+             their comfort zones and expand their horizons.`}
         imageURL={campusLifeImage}
       />
       <CardsNoBorderContainer
         title="Life At Delphis"
-        text={`The University of Delphis offers a complete educational, cultural and social experience. Whatever your interests, you'll find a group, an organization, an activity or a program that appeals to you.`}
+        text={`The University of Delphis offers a complete educational,
+         cultural and social experience. Whatever your interests, you'll find
+          a group, an organization, an activity or a program that
+           appeals to you.`}
         cardsArr={cardsArr2}
       />
       <ImageNextToParagraphMoreInfo
         title="Activities & Involvement"
-        text={`Delphis University students are from many backgrounds with differing interests and passions. We want to make sure you have the information, resources and support you need to succeed here and for a lifetime. Whether your interests are intellectual, social, recreational, cultural, multicultural or spiritual in nature, there is a place for you here.`}
+        text={`Delphis University students are from many backgrounds with
+         differing interests and passions. We want to make sure you have the
+          information, resources and support you need to succeed here and for
+           a lifetime. Whether your interests are intellectual, social,
+            recreational, cultural, multicultural or spiritual in nature,
+             there is a place for you here.`}
         textColor="white"
         bgColor="vgblue"
         imageLink={involvementImage}
@@ -130,12 +146,19 @@ const CampusPage = () => {
       />
       <CardsNoBorderContainer
         title="Health & Safety"
-        text={`Your safety and well-being are one of our highest priorities.The university of Delphis invests significant resources in activities and initiatives designed to increase both your security on our campus and your ability to make responsible decisions that enhance your well-being.`}
+        text={`Your safety and well-being are one of our highest priorities. 
+        The university of Delphis invests significant resources in activities
+         and initiatives designed to increase both your security on our campus
+          and your ability to make responsible decisions that enhance
+           your well-being.`}
         cardsArr={cardsArr}
       />
       <ImageNextToParagraphMoreInfo
         title="Arts & Culture"
-        text={`Enrich your life! Take advantage of a robust and varied schedule of musical, dance and theatre performances, art galleries and exhibitions, museums, lectures and readings by writers, poets and experts on every topic imaginable.`}
+        text={`Enrich your life! Take advantage of a robust and varied schedule
+         of musical, dance and theatre performances, art galleries and
+          exhibitions, museums, lectures and readings by writers, poets and
+           experts on every topic imaginable.`}
         textColor="white"
         bgColor="vggreen"
         imageLink={ArtImage}
@@ -165,7 +188,11 @@ const CampusPage = () => {
       /> */}
       <ImageNextToParagraphMoreInfo
         title="Our Campus"
-        text={`Year after year, the university of Delphis's campus ranks among the very best in the world. From tulips and cherry blossoms in the spring to cascades of golden leaves in the fall, you're surrounded by dramatic intersections of classic architecture and modern advancement.`}
+        text={`Year after year, the university of Delphis's campus ranks among
+         the very best in the world. From tulips and cherry blossoms in
+          the spring to cascades of golden leaves in the fall, you're
+           surrounded by dramatic intersections of classic architecture and
+            modern advancement.`}
         textColor="white"
         bgColor="vgred"
         imageLink={ourCampusImage}

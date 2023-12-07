@@ -68,7 +68,10 @@ const AcademicsPage = () => {
     <>
       <Navbar />
       <TextOnImage
-        text={`We encourage our students to explore the academic landscape, venturing into unfamiliar fields of knowledge and, perhaps, discovering new passions that will take them in a different direction altogether.`}
+        text={`We encourage our students to explore the academic landscape,
+         venturing into unfamiliar fields of knowledge and, perhaps,
+          discovering new passions that will take them in a different
+           direction altogether.`}
         title="Academics"
         imageURL={academics}
       />
@@ -76,9 +79,10 @@ const AcademicsPage = () => {
         cardsArr={programs}
         bgColor={"white"}
         title={"Programs of Study"}
-        text={
-          "Delphis's academics are boosted by its inherent culture and ecosystem of innovation. You name it, if it's cutting-edge, the University's faculty—and students—have their hands in it."
-        }
+        text={`Delphis's academics are boosted by its inherent culture and
+           ecosystem of innovation. You name it,
+            if it's cutting-edge, the University's faculty—and students—have 
+            their hands in it.`}
       />
       <ImageNextToParagraphMoreInfo
         bgColor="vgblue"
@@ -86,7 +90,10 @@ const AcademicsPage = () => {
         reverse={false}
         classes={{ marginTop: "0" }}
         title="Libraries"
-        text={`More than just a place to study, Delphis's Libraries are widely recognized for their innovative services and quality reference materials. Choose from a number of impressive facilities to conduct your research and enhance your educational experience.`}
+        text={`More than just a place to study, Delphis's Libraries are widely
+         recognized for their innovative services and quality reference
+          materials. Choose from a number of impressive facilities to conduct
+           your research and enhance your educational experience.`}
         imageLink={librariesImage}
         buttonComponent={
           <div className="w-full max-w-[400px] justify-center items-center flex gap-4 m-auto">
@@ -103,7 +110,7 @@ const AcademicsPage = () => {
         bgColor={"slate-100"}
         title={"Technology"}
         text={
-          "The University of Alabama emphasizes leading-edge technology to keep the campus connected and provides computer and web-based classroom and distance education opportunities for students, faculty and staff."
+          "The University of Delphis emphasizes leading-edge technology to keep the campus connected and provides computer and web-based classroom and distance education opportunities for students, faculty and staff."
         }
       /> */}
       <Footer />

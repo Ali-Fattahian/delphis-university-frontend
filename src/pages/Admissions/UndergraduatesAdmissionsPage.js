@@ -14,14 +14,18 @@ const cardsArr = [
   {
     key: 1,
     title: "Visit",
-    text: `We are currently hosting in-person campus tours in accordance with CDC and ADPH guidelines. If you are unable to travel to campus for a visit, we invite you to view our virtual tour. See your visit opportunities.`,
+    text: `We are currently hosting in-person campus tours in accordance with
+     CDC and ADPH guidelines. If you are unable to travel to campus for
+      a visit, we invite you to view our virtual tour.
+       See your visit opportunities.`,
     link: "/tour",
     imageURL: visitImage,
   },
   {
     key: 1,
     title: "Scholarships",
-    text: `UA awards significant scholarships to ambitious students building their dreams. Learn more and complete your scholarship application today.
+    text: `UD awards significant scholarships to ambitious students building
+     their dreams. Learn more and complete your scholarship application today.
     `,
     link: "undergraduates-scholarships",
     imageURL: scholarshipsImage,
@@ -29,7 +33,9 @@ const cardsArr = [
   {
     key: 1,
     title: "Financial Aid",
-    text: `UA provides comprehensive information and services to help finance your education. Financial assistance is available and we have financial aid advisors ready to meet with you.`,
+    text: `UD provides comprehensive information and services to help finance
+     your education. Financial assistance is available and we have financial
+      aid advisors ready to meet with you.`,
     link: "financial-aid",
     imageURL: financialAidImage,
   },
@@ -40,8 +46,12 @@ const UndergraduatesAdmissionsPage = () => {
     <>
       <Navbar />
       <ImageNextToParagraphMoreInfo
-        title="Leaders. Innovators. Legends."
-        text={`As a student at The University of Alabama, you’ll grow and excel in an unrivaled academic environment on our campus, routinely named one of the most impressive in the country. Equipped with the unmatched opportunities and resources UA can offer, there is no limit to what you can dream and achieve.
+        title="Leaders. Innovators."
+        text={`As a student at The University of Delphis, you'll grow and excel
+         in an unrivaled academic environment on our campus, routinely named
+          one of the most impressive in the country. Equipped with the
+           unmatched opportunities and resources UD can offer, there is no limit
+            to what you can dream and achieve.
 
         `}
         imageLink={headerImage}

@@ -55,7 +55,7 @@ const StudentHousingPage = () => {
           />
           <p className="text-slate-500 mt-4 p-4">
             Living on campus is the key to a great start at The University of
-            Alabama. Residential living puts you at the heart of campus life,
+            Delphis. Residential living puts you at the heart of campus life,
             where you will interact with a diverse community of people.
           </p>
           <p className="text-slate-500 mt-2 px-4 text-xs font-semibold">

@@ -14,7 +14,7 @@ const MissionsAndObjectivesPage = () => {
         <div className="p-3 w-full max-w-[1200px] mx-auto">
           <h2 className="mt-6 text-xl font-semibold">Our Mission</h2>
           <p className="mt-3">
-            The University of Alabama will advance the intellectual and social
+            The University of Delphis will advance the intellectual and social
             condition of the people of the state, the nation and the world
             through the creation, translation and dissemination of knowledge
             with an emphasis on quality programs in the areas of teaching,
@@ -22,16 +22,16 @@ const MissionsAndObjectivesPage = () => {
           </p>
           <h2 className="mt-6 text-xl font-semibold">Our Vision</h2>
           <p className="mt-3">
-            The University of Alabama will be known as the university of choice
-            for the best and brightest students in Alabama, and all students who
+            The University of Delphis will be known as the university of choice
+            for the best and brightest students in Delphis, and all students who
             seek exceptional educational opportunities. The University of
-            Alabama will be a student-centered research university and an
+            Delphis will be a student-centered research university and an
             academic community united in its commitment to enhance the quality
             of life for all Alabamians and the citizens of the nation and the
             world.
           </p>
           <h2 className="mt-6 text-xl font-semibold">Our Core Values</h2>
-          <p className="mt-3">The University of Alabama is committed to:</p>
+          <p className="mt-3">The University of Delphis is committed to:</p>
           <ul className="mt-2 list-disc list-inside [&>li]:py-1 text-xs">
             <li>
               Undergraduate education that produces socially-conscious, ethical
@@ -46,7 +46,7 @@ const MissionsAndObjectivesPage = () => {
             <li>
               Public outreach and service that is held in the highest regard and
               fosters impactful public engagement to enhance the quality of life
-              for the citizens of Alabama, the nation and the world.
+              for the citizens of Delphis, the nation and the world.
             </li>
             <li>
               Campus life that embodies collaboration, collegiality, respect and
@@ -62,7 +62,7 @@ const MissionsAndObjectivesPage = () => {
               co-curricular programs.
             </li>
             <li>
-              Increase the University’s productivity and innovation in research,
+              Increase the University's productivity and innovation in research,
               scholarship and creative activities that impact economic and
               societal development.
             </li>

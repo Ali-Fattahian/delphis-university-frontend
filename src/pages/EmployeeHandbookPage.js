@@ -15,7 +15,7 @@ const EmployeeHandbookPage = () => {
         </div>
         <div className="w-full max-w-[800px] mx-auto p-2 text-sm">
           <p>
-            The employee handbook is a document outlining a company’s mission,
+            The employee handbook is a document outlining a company's mission,
             policies, and expectations. It provides clarity on employee rights
             and responsibilities, ensuring a harmonious work environment. The
             handbook covers employment basics, workplace policies, code of

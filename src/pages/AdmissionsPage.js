@@ -74,14 +74,16 @@ const AdmissionsPage = () => {
     {
       key: 2,
       title: "Graduate International Admissions",
-      text: "Admissions for international students who wish to continue their graduate education.",
+      text: `Admissions for international students who wish to continue their
+       graduate education.`,
       imageURL: internationalGradsImage,
       link: "/international/graduates-admissions",
     },
     {
       key: 3,
       title: "Graduate Programs",
-      text: "Explore the master's, educational specialist and doctoral degree programs.",
+      text: `Explore the master's, educational
+       specialist and doctoral degree programs.`,
       imageURL: gradsProgramsImage,
       link: "/academic-catalog?academic-level=graduates&degree-type=major",
     },
@@ -100,9 +102,9 @@ const AdmissionsPage = () => {
         cardsArr={undergraduates}
         bgColor="neutral-100"
         title={"Undergraduate Admissions"}
-        text={
-          "The highest-achieving students are drawn to Delphis university for its transformative opportunities — their impact limited only by your ambition."
-        }
+        text={`The highest-achieving students are drawn to Delphis university
+           for its transformative opportunities — their impact limited only
+            by your ambition.`}
       />
       {/* <ImageNextToParagraphMoreInfo
         reverse={false}
@@ -123,9 +125,8 @@ const AdmissionsPage = () => {
         cardsArr={graduates}
         bgColor={"white"}
         title={"Graduate Admissions"}
-        text={
-          "Choose from graduate programs to launch your professional and academic career to the highest levels of achievement."
-        }
+        text={`Choose from graduate programs to launch your professional and
+           academic career to the highest levels of achievement.`}
       />
       {/* <ImageNextToParagraphMoreInfo
         reverse={true}
@@ -174,7 +175,11 @@ const AdmissionsPage = () => {
         textColor="white"
         classes={{ marginTop: "0" }}
         imageLink={distanceImage}
-        text={`Delphis University is committed to improving the world today and for future generations through outstanding education. Delphis Online brings access to our professors, programs and courses to a range of people around the world, including career changers, life-long learners, educators, and high school and college students.
+        text={`Delphis University is committed to improving the world today
+         and for future generations through outstanding education.
+          Delphis Online brings access to our professors, programs and courses
+           to a range of people around the world, including career changers,
+            life-long learners, educators, and high school and college students.
           `}
         title="Distance Education"
         buttonComponent={

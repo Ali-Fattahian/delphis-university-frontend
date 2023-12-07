@@ -9,7 +9,7 @@ const cardsArr = [
   {
     key: 1,
     title: "Veteran Suicide Awareness Focus of 2023 Operation Iron Ruck",
-    text: `UA and Auburn student veterans bring awareness to veteran suicide through Operation Iron Ruck`,
+    text: `UD and Auburn student veterans bring awareness to veteran suicide through Operation Iron Ruck`,
     tags: [
       {
         key: 1,
@@ -26,7 +26,7 @@ const cardsArr = [
   {
     key: 2,
     title: "Veteran Suicide Awareness Focus of 2023 Operation Iron Ruck",
-    text: `UA and Auburn student veterans bring awareness to veteran suicide through Operation Iron Ruck`,
+    text: `UD and Auburn student veterans bring awareness to veteran suicide through Operation Iron Ruck`,
     tags: [
       {
         key: 1,
@@ -43,7 +43,7 @@ const cardsArr = [
   {
     key: 3,
     title: "Veteran Suicide Awareness Focus of 2023 Operation Iron Ruck",
-    text: `UA and Auburn student veterans bring awareness to veteran suicide through Operation Iron Ruck`,
+    text: `UD and Auburn student veterans bring awareness to veteran suicide through Operation Iron Ruck`,
     tags: [
       {
         key: 1,
@@ -78,14 +78,14 @@ const NewsCenterPage = () => {
                 src={card.ImageURL}
                 alt={card.title}
               />
-              <div className="w-full overflow-y-hidden">
+              <div className="w-full overflow-y-hidden flex justify-start ">
                 {card.tags.map((tag) => (
-                  <a
-                    className="p-2 text-sm text-vgyellow hover:underline cursor-pointer w-full"
+                  <button
+                    className="p-2 text-sm text-vgyellow hover:underline cursor-pointer"
                     key={tag.key}
                   >
                     {tag.title}
-                  </a>
+                  </button>
                 ))}
               </div>
               <a

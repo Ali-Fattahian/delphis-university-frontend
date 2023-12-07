@@ -133,10 +133,10 @@ const CouncilOnCommunityPartnershipsPage = () => {
                 <h4 className="text-xl font-bold">Council Initiatives</h4>
               </div>
               <p className="text-xs">
-                The Council’s various committees oversee project funding,
+                The Council's various committees oversee project funding,
                 conduct an awards program, propose methods to integrate teaching
                 and research, and seek outside funding all with the goal of
-                fulfilling the Division of Community Affairs’ motto: “Engaging
+                fulfilling the Division of Community Affairs' motto: “Engaging
                 Communities and Changing Lives.”
               </p>
             </div>
@@ -147,7 +147,7 @@ const CouncilOnCommunityPartnershipsPage = () => {
               </div>
               <p className="text-xs">
                 The Council on Community-Based Partnerships will announce the
-                2023–2024 meeting schedule soon.
+                2023-2024 meeting schedule soon.
               </p>
             </div>
           </div>
